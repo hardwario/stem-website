@@ -4,6 +4,7 @@
 const sidebars = {
   docs: [
     'introduction',
+    'lora-1-wire-thermometer',
     /*'getting-started',
     {
       type: 'category',

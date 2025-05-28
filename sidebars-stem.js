@@ -6,7 +6,8 @@ const sidebars = {
     'introduction',
     'target-group-and-students-profile',
     'expected-results-and-evaluation-method',
-    'lesson-review'
+    'lesson-review',
+    'didactic-tools-and-environmental-demands',
     /*{
       type: 'category',
       label: 'Thingsboard',
