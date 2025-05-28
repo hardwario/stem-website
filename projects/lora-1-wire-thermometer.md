@@ -43,6 +43,9 @@ The LoRa Climate Monitor sends a LoRa packet when:
 
 ## Reading the Data
 
+
+
+
 The data are encoded in the LoRa message. You need to extract the right bits to get the values back. This is explained in the [README.md](https://github.com/bigclownlabs/bcf-lora-climate-monitor/blob/master/README.md#buffer) file. You can also use the `decode.py`python [script in the repository](https://github.com/bigclownlabs/bcf-lora-climate-monitor).
 
 You can pass the received HEX string as a parameter for the `decode.py`:
