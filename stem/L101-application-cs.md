@@ -1,5 +1,5 @@
 ---
-slug: what-is-iot-application
+slug: what-is-iot-application-cs
 title: Projekty
 ---
 import Image from '@theme/IdealImage';
