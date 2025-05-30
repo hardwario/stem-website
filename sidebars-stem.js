@@ -47,6 +47,24 @@ const sidebars = {
 
     {
       type: 'category',
+      label: 'L103: IoT tlačítko',
+      link: {
+        type: 'doc',
+        id: 'L103-iot-push-button-cs',
+      },
+      collapsed: true,
+      items: [
+        'L103-introduction-cs',
+        'L103-theory-cs',
+        'L103-experiment-cs',
+        'L103-application-cs',
+        'L103-presentation-cs',
+        'L103-assessment-cs'
+      ],
+    },
+
+    {
+      type: 'category',
       label: 'L105: IoT Air Quality Monitor',
       link: {
         type: 'doc',

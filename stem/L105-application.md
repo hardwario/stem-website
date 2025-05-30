@@ -4,7 +4,7 @@ title: Application
 ---
 import Image from '@theme/IdealImage';
 
-**Time allocation**: 2H Module: 15 mins. 4H Module: 45 mins. 8H Module: 3 x 45 mins.
+**Time allocation**: 2H Module: 15 mins. 4H Module: 45 mins. 8H Module: 3 x 45 mins.  
 **Keywords**: #HARDWARIO #Project #Team_work #Ideation #Brainstorming
 
 You will work in teams under the supervision of a lecturer on your own projects related to the topic of the lesson. Projects are commissioned in order to build on experiments and to discover new applications and expand your knowledge and skills.
