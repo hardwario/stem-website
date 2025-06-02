@@ -21,7 +21,7 @@ const sidebars = {
         'L101-introduction-cs',
         'L101-theory-cs',
         'L101-experiment-cs',
-        'L101-application-cs',
+        'L101-projects-cs',
         'L101-presentation-cs',
         'L101-assessment-cs'
       ],
@@ -39,7 +39,7 @@ const sidebars = {
         'L102-introduction-cs',
         'L102-theory-cs',
         'L102-experiment-cs',
-        'L102-application-cs',
+        'L102-projects-cs',
         'L102-presentation-cs',
         'L102-assessment-cs'
       ],
@@ -57,7 +57,7 @@ const sidebars = {
         'L103-introduction-cs',
         'L103-theory-cs',
         'L103-experiment-cs',
-        'L103-application-cs',
+        'L103-projects-cs',
         'L103-presentation-cs',
         'L103-assessment-cs'
       ],
@@ -75,7 +75,7 @@ const sidebars = {
         'L104-introduction-cs',
         'L104-theory-cs',
         'L104-experiment-cs',
-        'L104-application-cs',
+        'L104-projects-cs',
         'L104-presentation-cs',
         'L104-assessment-cs'
       ],
@@ -93,9 +93,27 @@ const sidebars = {
         'L105-introduction',
         'L105-theory',
         'L105-experiment',
-        'L105-application',
+        'L105-projects',
         'L105-presentation',
         'L105-assessment'
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'L106: IoT monitor vibrací',
+      link: {
+        type: 'doc',
+        id: 'L106-iot-vibration-monitor-cs',
+      },
+      collapsed: true,
+      items: [
+        'L106-introduction-cs',
+        'L106-theory-cs',
+        'L106-experiment-cs',
+        'L106-projects-cs',
+        'L106-presentation-cs',
+        'L106-assessment-cs'
       ],
     },
 

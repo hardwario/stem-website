@@ -1,6 +1,6 @@
 ---
 slug: iot-indoor-air-quality-monitor-application
-title: Application
+title: Projects
 ---
 import Image from '@theme/IdealImage';
 
