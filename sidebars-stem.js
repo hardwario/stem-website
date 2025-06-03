@@ -50,16 +50,16 @@ const sidebars = {
       label: 'L103: IoT tlačítko',
       link: {
         type: 'doc',
-        id: 'L103-iot-push-button-cs',
+        id: 'L103/L103-iot-push-button-cs',
       },
       collapsed: true,
       items: [
-        'L103-introduction-cs',
-        'L103-theory-cs',
-        'L103-experiment-cs',
-        'L103-projects-cs',
-        'L103-presentation-cs',
-        'L103-assessment-cs'
+        'L103/L103-introduction-cs',
+        'L103/L103-theory-cs',
+        'L103/L103-experiment-cs',
+        'L103/L103-projects-cs',
+        'L103/L103-presentation-cs',
+        'L103/L103-assessment-cs'
       ],
     },
 
