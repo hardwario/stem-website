@@ -116,6 +116,19 @@ const sidebars = {
         'L106/L106-assessment-cs'
       ],
     },
+     {
+      type: 'category',
+      label: 'L107: IoT light monitor',
+      link: {
+        type: 'doc',
+        id: 'L107/L107-iot-light-monitor-cs',
+      },
+      collapsed: true,
+      items: [
+        'L107/L107-introduction-cs'
+       
+      ],
+    },
 
     {
       type: 'category',
