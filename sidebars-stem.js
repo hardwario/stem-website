@@ -104,16 +104,16 @@ const sidebars = {
       label: 'L106: IoT monitor vibrací',
       link: {
         type: 'doc',
-        id: 'L106-iot-vibration-monitor-cs',
+        id: 'L106/L106-iot-vibration-monitor-cs',
       },
       collapsed: true,
       items: [
-        'L106-introduction-cs',
-        'L106-theory-cs',
-        'L106-experiment-cs',
-        'L106-projects-cs',
-        'L106-presentation-cs',
-        'L106-assessment-cs'
+        'L106/L106-introduction-cs',
+        'L106/L106-theory-cs',
+        'L106/L106-experiment-cs',
+        'L106/L106-projects-cs',
+        'L106/L106-presentation-cs',
+        'L106/L106-assessment-cs'
       ],
     },
 
@@ -122,16 +122,16 @@ const sidebars = {
       label: 'L109: IoT Soil Monitor',
       link: {
         type: 'doc',
-        id: 'L109-iot-soil-monitor',
+        id: 'L109/L109-iot-soil-monitor',
       },
       collapsed: true,
       items: [
-        'L109-introduction',
-        'L109-theory',
-        'L109-experiment',
-        'L109-projects',
-        'L109-presentation',
-        'L109-assessment'
+        'L109/L109-introduction',
+        'L109/L109-theory',
+        'L109/L109-experiment',
+        'L109/L109-projects',
+        'L109/L109-presentation',
+        'L109/L109-assessment'
       ],
     }
     /*{
