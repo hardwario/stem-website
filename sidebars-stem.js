@@ -68,16 +68,16 @@ const sidebars = {
       label: 'L104: IoT teploměr a vlhkoměr',
       link: {
         type: 'doc',
-        id: 'L104-iot-temperature-and-humidity-monitor-cs',
+        id: 'L104/L104-iot-temperature-and-humidity-monitor-cs',
       },
       collapsed: true,
       items: [
-        'L104-introduction-cs',
-        'L104-theory-cs',
-        'L104-experiment-cs',
-        'L104-projects-cs',
-        'L104-presentation-cs',
-        'L104-assessment-cs'
+        'L104/L104-introduction-cs',
+        'L104/L104-theory-cs',
+        'L104/L104-experiment-cs',
+        'L104/L104-projects-cs',
+        'L104/L104-presentation-cs',
+        'L104/L104-assessment-cs'
       ],
     },
 
@@ -86,16 +86,16 @@ const sidebars = {
       label: 'L105: IoT Air Quality Monitor',
       link: {
         type: 'doc',
-        id: 'L105-iot-indoor-air-quality-monitor',
+        id: 'L105/L105-iot-indoor-air-quality-monitor',
       },
       collapsed: true,
       items: [
-        'L105-introduction',
-        'L105-theory',
-        'L105-experiment',
-        'L105-projects',
-        'L105-presentation',
-        'L105-assessment'
+        'L105/L105-introduction',
+        'L105/L105-theory',
+        'L105/L105-experiment',
+        'L105/L105-projects',
+        'L105/L105-presentation',
+        'L105/L105-assessment'
       ],
     },
 
