@@ -14,16 +14,16 @@ const sidebars = {
       label: 'L101: Co je IoT',
       link: {
         type: 'doc',
-        id: 'L101-what-is-iot-cs',
+        id: 'L101/L101-what-is-iot-cs',
       },
       collapsed: true,
       items: [
-        'L101-introduction-cs',
-        'L101-theory-cs',
-        'L101-experiment-cs',
-        'L101-projects-cs',
-        'L101-presentation-cs',
-        'L101-assessment-cs'
+        'L101/L101-introduction-cs',
+        'L101/L101-theory-cs',
+        'L101/L101-experiment-cs',
+        'L101/L101-projects-cs',
+        'L101/L101-presentation-cs',
+        'L101/L101-assessment-cs'
       ],
     },
 

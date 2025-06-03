@@ -4,7 +4,7 @@ title: Teorie
 ---
 import Image from '@theme/IdealImage';
 
-**Časová dotace**: 10 min.  
+**Časová dotace**: 10 min.
 
 ## Co to je STEM
 
@@ -26,8 +26,8 @@ A také to je fenomén, bublina, hrozba a příležitost. Příležitost udělat
 
 ### Ukázky
 
-* Riziko nesprávné interpretace dat: https://youtu.be/nwPtcqcqz00
-* Riziko nabourání se do soukromí: https://youtu.be/_CQA3X-qNgA
+* [**Riziko nesprávné interpretace dat**](https://youtu.be/nwPtcqcqz00)
+* [**Riziko nabourání se do soukromí**](https://youtu.be/_CQA3X-qNgA)
 
 ## V čem IoT pomáhá a jak nás ohrožuje
 
@@ -70,7 +70,7 @@ Jiným pohledem můžeme za THINGS označit komplexnější zařízení:
 
 Společnými znaky THINGS ale vždy jsou:
 
-* Jde o fyzické zařízení 
+* Jde o fyzické zařízení
 * Je vybavené elektronikou
 * Je vybavené síťovou konektivitou
 * Je jednoznačně identifikovatelné
@@ -79,18 +79,18 @@ Společnými znaky THINGS ale vždy jsou:
 
 Nezbytnou podmínkou internetu věcí je, že jsou zařízení připojená k internetu. V mnoha případech je ale výhodnější zařízení připojit k internetu skrze nějaký centrální prvek - Hub. V takovém případě komunikují zařízení neinternetovým protokolem mezi sebou a s Hubem a k internetu je připojen pouze Hub.
 
-Na trhu existuje mnoho centrálních Hubů, mezi ty nejpopulárnější v oblasti open-source hnutí patří Huby postavené na Raspberry Pi, nebo v Česku vyvíjený router Turris.  
+Na trhu existuje mnoho centrálních Hubů, mezi ty nejpopulárnější v oblasti open-source hnutí patří Huby postavené na Raspberry Pi, nebo v Česku vyvíjený router Turris.
 
 ### Ostatní IoT hardware
 
-Na vzestupu jsou hlasoví asistenti jako Google Assistant, Amazon Alexa, Microsoft Cortana nebo Siri od společnosti Apple. Fyzická zařízení, ve kterých asistenti běží, začínají být důležitou součástí IoT řešení, zejména v domácnostech. 
+Na vzestupu jsou hlasoví asistenti jako Google Assistant, Amazon Alexa, Microsoft Cortana nebo Siri od společnosti Apple. Fyzická zařízení, ve kterých asistenti běží, začínají být důležitou součástí IoT řešení, zejména v domácnostech.
 
 ## IoT software
 
 ### Firmware
 
-**Důležité!**  
-Firmware je software pro řízení nějakého vestavěného (embedded) systému. Díky firmware se zařízení chová tak, jak chceme. Například každých 15 min. měří úroveň CO2 a každou hodinu odešle naměřené vzorky do cloudu. 
+**Důležité!**
+Firmware je software pro řízení nějakého vestavěného (embedded) systému. Díky firmware se zařízení chová tak, jak chceme. Například každých 15 min. měří úroveň CO2 a každou hodinu odešle naměřené vzorky do cloudu.
 
 Důležitou vlastností firmware je řízení spotřeby zařízení, což je kritická záležitost zejména u bateriově napájených produktů. I proto se doporučuje psát firmware v úsporných programovacích jazycích (např. C), aby samotné výpočetní operace netrvaly příliš dlouho a neubíraly potřebnou energii.
 
@@ -102,29 +102,36 @@ Přidaná hodnota internetu věcí netkví v IoT zařízeních, ale v analýzác
 
 ### IoT aplikace
 
-Nabídka aplikací pro IoT je obrovská a dynamicky se rozšiřující. Velcí hráči provozující IoT platformy nabízejí vlastní řešení (např. Microsoft a jeho IoT Central), ale existuje mnoho vynikajících IoT aplikací vyvíjených menšími společnostmi, jako např. IFTTT, Ubidots, Blynk atd. Drtivá většina aplikací jsou v desktopové i mobilní variantě pro chytré telefony. 
+Nabídka aplikací pro IoT je obrovská a dynamicky se rozšiřující. Velcí hráči provozující IoT platformy nabízejí vlastní řešení (např. Microsoft a jeho IoT Central), ale existuje mnoho vynikajících IoT aplikací vyvíjených menšími společnostmi, jako např. IFTTT, Ubidots, Blynk atd. Drtivá většina aplikací jsou v desktopové i mobilní variantě pro chytré telefony.
 
 ## IoT konektivita
 
 ### Přenosové protokoly
 
-Protokol je v informatice konvence nebo standard, podle kterého probíhá elektronická komunikace a přenos dat mezi dvěma koncovými body (realizované nejčastěji počítači). Jednodušeji řečeno je to jazyk, kterým rozumí všechny prvky nějakého komunikačního systému. 
+Protokol je v informatice konvence nebo standard, podle kterého probíhá elektronická komunikace a přenos dat mezi dvěma koncovými body (realizované nejčastěji počítači). Jednodušeji řečeno je to jazyk, kterým rozumí všechny prvky nějakého komunikačního systému.
 
-V rámci internetu se používá mnoho protokolů, mezi hlavní patří rodina přenosových protokolů TCP/IP (IP, TCP, UDP ad.). Všeobecně nejznámějšími jsou aplikační protokoly jako např. HTTPS nebo IMAP. 
+V rámci internetu se používá mnoho protokolů, mezi hlavní patří rodina přenosových protokolů TCP/IP (IP, TCP, UDP ad.). Všeobecně nejznámějšími jsou aplikační protokoly jako např. HTTPS nebo IMAP.
 
 Pro komunikaci v IoT se používá celá řada protokolů, my se ale zaměříme na protokol MQTT, který se stal standardem, je podporován téměř všemi IoT hráči a je používán v naší stavebnici HARDWARIO TOWER.
 
 ### MQTT
 
-**Důležité!**  
+:::tip
+
 MQTT (z anglického Message Queuing Telemetry Transport) je ISO standardizovaný protokol postavený na publish-subscribe (publikuj-odebírej) principu. A jak může vypadat do systému publikovaná zpráva? Skládá se z tzv. topiku (Topic) a vlastního obsahu, např.:
 
-Topik: `mujdum/prizemi/vypinace/vypinac1`
-Obsah: `1`
+:::
+
+* Topic: `mujdum/prizemi/vypinace/vypinac1`
+* Obsah: `1`
 
 Zpráva tedy říká, že vypínač jedna ze skupiny vypínačů v přízemí mého domu je ve stavu 1, což bývá nejčastěji ZAPNUTO.
 
+:::info
+
 Pokud se k této zprávě přihlásí konkrétní žárovka, pak bude svítit do doby, než dorazí zpráva mujdum/prizemi/vypinace/vypinac1 0, nebo když se rozbije :)
+
+:::
 
 Prvky MQTT systému komunikují se serverem, který se často nazývá brokerem. Je to vlastně pošťák, který doručuje zprávy z publikujích zařízení k těm, které se přihlásily k jejich odběru. My používáme open-source [Mosquitto broker](https://mosquitto.org/).
 
@@ -132,15 +139,15 @@ Prvky MQTT systému komunikují se serverem, který se často nazývá brokerem.
 
 Už víme jakým jazykem spolu IoT zařízení komunikují a kdo komunikaci řídí. Zprávy se ale musí mezi IoT zařízeními nějak přenášet, a to bezdrátově nebo drátově. Bezdrátové systémy si pro zjednodušení výuky rozdělíme na lokální (dosah v řádech metrů) a globální (dosah v řádech kilometrů).
 
-#### Lokální bezdrátové přenosy 
+#### Lokální bezdrátové přenosy
 
-Ve světě IoT se pro lokální bezdrátové přenosy používají všeobecně známé standardy, např. Wi-Fi nebo Bluetooth. Existují rovněž speciální bezdrátové technologie jako [ZigBee](https://cs.wikipedia.org/wiki/ZigBee) nebo [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave), které mají vlastní komunikační protokoly. Důležitým aspektem pro bezdrátové přenosy je volba frekvenčního pásma. Ta ovlivňuje kvalitu přenosu - dosah, spolehlivost a spotřebu. 
+Ve světě IoT se pro lokální bezdrátové přenosy používají všeobecně známé standardy, např. Wi-Fi nebo Bluetooth. Existují rovněž speciální bezdrátové technologie jako [ZigBee](https://cs.wikipedia.org/wiki/ZigBee) nebo [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave), které mají vlastní komunikační protokoly. Důležitým aspektem pro bezdrátové přenosy je volba frekvenčního pásma. Ta ovlivňuje kvalitu přenosu - dosah, spolehlivost a spotřebu.
 
 Pro IoT zařízení, které většinou nepřenášejí velká data, se nejvíce hodí bezdrátové přenosy v tzv. Sub-GHz pásmu. V tomto pásmu jsou pro tyto účely vyhrazené bezlicenční frekvence, pro EU např. 868 MHz. Ve srovnání s Wi-Fi (provozované na frekvencích 2.4 a 5 GHz) má Sub-GHz téměř dvojnásobně vyšší dosah, vyšší spolehlivost (díky nižší frekvenci a méně zařízením používajícím toto pásmo) a výrazně nižšími nároky na výkon, tzn. s nižší spotřebou. Hodí se tedy pro zařízení běžící na baterie, jako například stavebnici HARDWARIO TOWER.
 
 #### Globální bezdrátové přenosy
 
-Globální přenosové systémy se používají zejména pro mobilní objekty nebo zařízení instalovaná v místech bez připojení k internetu. 
+Globální přenosové systémy se používají zejména pro mobilní objekty nebo zařízení instalovaná v místech bez připojení k internetu.
 
 V současnosti nejvíce používanými systémy pro globální bezdrátové přenosy jsou technologie mobilních operátorů, tedy 2G (GPRS, EDGE), 3G a 4G (LTE) sítě. IoT zařízení jsou vybavena SIM kartou a připojují se k internetu skrze zvolenou mobilní síť. Nevýhodou těchto technologií je náročnost na energii, nehodí se tedy pro bateriově napájená zařízení. Naštěstí se začaly budovat nové IoT sítě souhrnně označované jako LPWAN.
 
