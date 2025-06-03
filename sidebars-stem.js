@@ -32,16 +32,16 @@ const sidebars = {
       label: 'L102: IoT stavebnice HARDWARIO TOWER',
       link: {
         type: 'doc',
-        id: 'L102-hardwario-tower-iot-kit-cs',
+        id: 'L102/L102-hardwario-tower-iot-kit-cs',
       },
       collapsed: true,
       items: [
-        'L102-introduction-cs',
-        'L102-theory-cs',
-        'L102-experiment-cs',
-        'L102-projects-cs',
-        'L102-presentation-cs',
-        'L102-assessment-cs'
+        'L102/L102-introduction-cs',
+        'L102/L102-theory-cs',
+        'L102/L102-experiment-cs',
+        'L102/L102-projects-cs',
+        'L102/L102-presentation-cs',
+        'L102/L102-assessment-cs'
       ],
     },
 
