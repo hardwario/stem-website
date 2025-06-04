@@ -125,7 +125,8 @@ const sidebars = {
       },
       collapsed: true,
       items: [
-        'L107/L107-introduction-cs'
+        'L107/L107-introduction-cs',
+        'L107/L107-theory-cs',
        
       ],
     },
