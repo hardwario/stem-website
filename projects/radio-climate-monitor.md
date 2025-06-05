@@ -13,7 +13,7 @@ This document will guide you through the **Radio Climate Monitor** project. You 
 ## Block Concept
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-climate-monitor/_projects_radio-climate-monitor_block-diagram.svg')}/>
+    <Image img={require('./img/radio-climate-monitor/_projects_radio-climate-monitor_block-diagram.webp')}/>
   </div>
 </div>
 

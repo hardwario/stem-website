@@ -10,6 +10,7 @@ const sidebars = {
     'projects-overview',
     'push-the-button',
     'radio-climate-monitor',
+    'radio-co2-monitor',
 
 
     /*'getting-started',
