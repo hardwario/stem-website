@@ -116,9 +116,9 @@ const sidebars = {
         'L106/L106-assessment-cs'
       ],
     },
-     {
+    {
       type: 'category',
-      label: 'L107: IoT light monitor',
+      label: 'L107: IoT osvětlení',
       link: {
         type: 'doc',
         id: 'L107/L107-iot-light-monitor-cs',
@@ -127,7 +127,29 @@ const sidebars = {
       items: [
         'L107/L107-introduction-cs',
         'L107/L107-theory-cs',
-       
+        'L107/L107-experiment-cs',
+        'L107/L107-projects-cs',
+        'L107/L107-presentation-cs',
+        'L107/L107-assessment-cs'
+
+      ],
+    },
+    {
+      type: 'category',
+      label: 'L108: IoT čítač impulzů',
+      link: {
+        type: 'doc',
+        id: 'L108/L108-iot-pulse-monitor-cs',
+      },
+      collapsed: true,
+      items: [
+        'L108/L108-introduction-cs',
+        'L108/L108-theory-cs',
+        'L108/L108-experiment-cs',
+        'L108/L108-projects-cs',
+        'L108/L108-presentation-cs',
+        'L108/L108-assessment-cs'
+
       ],
     },
 
