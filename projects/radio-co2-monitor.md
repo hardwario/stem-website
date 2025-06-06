@@ -15,7 +15,7 @@ This document will guide you through the **Radio CO2 Monitor** project. You will
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_block-diagram.webp')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_block-diagram.webp')}/>
   </div>
 </div>
 
@@ -127,7 +127,7 @@ It will look like this:
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_node-red-gw-controls.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_node-red-gw-controls.webp')}/>
   </div>
 </div>
 
@@ -139,7 +139,7 @@ This snippet provides control buttons for gateway/radio commands. These commands
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_node-red-gw-debug.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_node-red-gw-debug.webp')}/>
   </div>
 </div>
 
@@ -153,7 +153,7 @@ In the **debug** tab, you will be able to see all the MQTT messages.
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_node-red-gw-list.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_node-red-gw-list.webp')}/>
   </div>
 </div>
 
@@ -175,7 +175,7 @@ Follow these steps in **Node-RED**:
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_node-red-gw-pair-start.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_node-red-gw-pair-start.webp')}/>
   </div>
 </div>
 
@@ -185,7 +185,7 @@ Follow these steps in **Node-RED**:
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_node-red-gw-pair-stop.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_node-red-gw-pair-stop.webp')}/>
   </div>
 </div>
 
@@ -208,7 +208,7 @@ Start breathing on the temperature sensor on the **Temperature Tag** to invoke a
 You should then see similar messages:
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_radio-test.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_radio-test.webp')}/>
   </div>
 </div>
 :::success
@@ -229,7 +229,7 @@ If you are using BigClown raspi version you should be fine, but still check that
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_integration-nodered-1.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_integration-nodered-1.webp')}/>
   </div>
 </div>
 
@@ -246,7 +246,7 @@ It will look like this:
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_integration-nodered-2.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_integration-nodered-2.webp')}/>
   </div>
 </div>
 
@@ -256,7 +256,7 @@ Configure MQTT node to connect it on you broker. It will propably connect on loc
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_integration-nodered-3.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_integration-nodered-3.webp')}/>
   </div>
 </div>
 
@@ -266,7 +266,7 @@ Configure MQTT node to connect it on you broker. It will propably connect on loc
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_integration-blynk-4.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_integration-blynk-4.webp')}/>
   </div>
 </div>
 
@@ -274,7 +274,7 @@ Configure MQTT node to connect it on you broker. It will propably connect on loc
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_integration-blynk-5.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_integration-blynk-5.webp')}/>
   </div>
 </div>
 
@@ -282,7 +282,7 @@ Configure MQTT node to connect it on you broker. It will propably connect on loc
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_integration-blynk-6.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_integration-blynk-6.webp')}/>
   </div>
 </div>
 
@@ -290,7 +290,7 @@ Configure MQTT node to connect it on you broker. It will propably connect on loc
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_integration-blynk-7.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_integration-blynk-7.webp')}/>
   </div>
 </div>
 
@@ -306,7 +306,7 @@ Click the settings wheel and you should see settings for your project. We need t
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/radio-co2-monitor/_projects_radio-co2-monitor_integration-blynk-8.png')}/>
+    <Image img={require('./img/radio-co2-monitor/radio-co2-monitor_integration-blynk-8.webp')}/>
   </div>
 </div>
 

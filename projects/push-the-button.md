@@ -14,7 +14,7 @@ In this tutorial you create a simple project with a button, that sends you push 
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_button-garage.jpg')}/>
+    <Image img={require('./img/push-the-button/push-the-button_button-garage.webp')}/>
   </div>
 </div>
 
@@ -30,7 +30,7 @@ Put all three modules together to build the **Push Button Kit**. Note the orient
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_mini-battery-module-orientation.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_mini-battery-module-orientation.webp')}/>
   </div>
 </div>
 
@@ -51,7 +51,7 @@ In this step you run the **Playground** application that manages Radio Dongle, P
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_playground-logo.png')}/>
+    <Image img={require('./img/push-the-button/logo.webp')}/>
   </div>
 </div>
 
@@ -59,7 +59,7 @@ In this step you run the **Playground** application that manages Radio Dongle, P
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_connect-usb-dongle.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_connect-usb-dongle.webp')}/>
   </div>
 </div>
 
@@ -73,7 +73,7 @@ If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_playground-devices-connect.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_playground-devices-connect.webp')}/>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_playground-devices-connected.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_playground-devices-connected.webp')}/>
   </div>
 </div>
 
@@ -89,7 +89,7 @@ If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_node-red-flow.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_node-red-flow.webp')}/>
   </div>
 </div>
 
@@ -111,7 +111,7 @@ Now download the **Blynk** app from [**App Store**](https://itunes.apple.com/us/
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_blynk-copy.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_blynk-copy.webp')}/>
   </div>
 </div>
 
@@ -119,16 +119,16 @@ Now download the **Blynk** app from [**App Store**](https://itunes.apple.com/us/
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_blynk-qr-code-push.button-kit.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_blynk-qr-code-push-button-kit.webp')}/>
   </div>
 </div>
-### Steo 4: You will see this imported **project** with a single **Notification Widget**
+### Step 4: You will see this imported **project** with a single **Notification Widget**
 
 Click on the **Settings icon**.
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_blynk-config.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_blynk-config.webp')}/>
   </div>
 </div>
 
@@ -136,7 +136,7 @@ Click on the **Settings icon**.
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_blynk-token.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_blynk-token.webp')}/>
   </div>
 </div>
 
@@ -144,7 +144,7 @@ Click on the **Settings icon**.
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_blynk-play.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_blynk-play.webp')}/>
   </div>
 </div>
 
@@ -160,7 +160,7 @@ The final step is to connect Node-RED and Blynk together, so you can get the not
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_node-red-token.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_node-red-token.webp')}/>
   </div>
 </div>
 
@@ -170,7 +170,7 @@ The time has come to **PUSH THE BUTTON**
 
 <div class="container">
   <div class="row">
-    <Image img={require('./img/push-the-button/_projects_push-the-button_push-the-button.png')}/>
+    <Image img={require('./img/push-the-button/push-the-button_push-the-button.webp')}/>
   </div>
 </div>
 

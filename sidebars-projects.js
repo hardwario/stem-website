@@ -11,6 +11,11 @@ const sidebars = {
     'push-the-button',
     'radio-climate-monitor',
     'radio-co2-monitor',
+    'radio-door-sensor',
+    'radio-flood-detector',
+    'radio-lcd-thermostat',
+    'radio-motion-detector',
+
 
 
     /*'getting-started',
