@@ -15,6 +15,10 @@ const sidebars = {
     'radio-flood-detector',
     'radio-lcd-thermostat',
     'radio-motion-detector',
+    'radio-push-button',
+    'radio-smart-led-strip',
+    'radio-soil-sensor',
+    'radio-voc-sensor',
 
 
 
