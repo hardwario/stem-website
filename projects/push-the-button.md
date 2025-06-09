@@ -21,7 +21,7 @@ In this tutorial you create a simple project with a button, that sends you push 
 
 ## Build Hardware
 
-You will need the [Push Button Kit](https://shop.bigclown.com/push-button-kit) and [Radio Dongle](https://shop.bigclown.com/radio-dongle).
+You will need the [Push Button Kit](https://www.hardwario.store/p/push-set) and [Radio Dongle](https://www.hardwario.store/p/radio-dongle).
 
 ### Step 1: Assembly
 
@@ -46,7 +46,7 @@ The red LED on the Core Module will light up for 2 seconds when the batteries ar
 
 In this step you run the **Playground** application that manages Radio Dongle, Push Button and thanks to the **Node-RED** connects everything together.
 
-### Step 1: Download and run the latest [**BigClown Playground**](https://github.com/bigclownlabs/bch-playground/releases/latest)
+### Step 1: Download and run the latest [**Hardwario Playground**](https://github.com/bigclownlabs/bch-playground/releases/latest)
 
 
 <div class="container">
@@ -55,7 +55,7 @@ In this step you run the **Playground** application that manages Radio Dongle, P
   </div>
 </div>
 
-### **Step 2:** Connect [Radio Dongle](https://shop.bigclown.com/radio-dongle) to your computer
+### **Step 2:** Connect [Radio Dongle](https://www.hardwario.store/p/radio-dongle) to your computer
 
 <div class="container">
   <div class="row">
@@ -67,7 +67,7 @@ In this step you run the **Playground** application that manages Radio Dongle, P
 
 :::info
 
-If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](https://www.bigclown.com/doc/projects/push-the-button/#troubleshooting) chapter.
+If you cannot see Radio Dongle in the devices, please see the [Troubleshooting](https://docs.hardwario.com/tower/firmware-sdk/how-to/how-to-push-button/) chapter.
 
 :::
 
@@ -101,11 +101,11 @@ In case you don't see the flow, you can copy the text below and paste it into th
 
 ## Blynk Mobile App Set-Up
 
-In this step you configure **Blynk** application on your phone so you can get notifications from the **BigClown Playground**.
+In this step you configure **Blynk** application on your phone so you can get notifications from the **Hardwario Playground**.
 
 ### Step 1: Download Blynk
 
-Now download the **Blynk** app from [**App Store**](https://itunes.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481?mt=8) or [**Google Play**](https://play.google.com/store/apps/details?id=cc.blynk&hl=en). Create an account and log-in.
+Now download the **Blynk** app from [**App Store**](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [**Google Play**](https://play.google.com/store/apps/details?id=cloud.blynk&pcampaignid=web_share). Create an account and log-in.
 
 ### Step 2: Click on the **QR icon**
 
@@ -178,11 +178,11 @@ The time has come to **PUSH THE BUTTON**
 
 The goal of this **Push Button Project** is to show the basics in a few simple steps. Now you can learn more by browsing the **documentation** or by visiting the **links below**.
 
-* Check out other BigClown [**projects**](projects-overview.md).
-* Take a look at the [**Module Overview**](../basics/module-overview.md).
-* Learn about [**MQTT**](../interfaces/mqtt-protocol.md) and [**BigClown MQTT topics**](../interfaces/mqtt-topics.md) to control LEDs and relays.
-* Try other [**integrations**](../integrations/grafana-for-visualization.md) with **Grafana**, **Blynk**, **IFTTT**, **Ubidots** and others.
-* Use your [**Raspberry PI**](../tutorials/raspberry-pi-installation.md) or other [**single board computer \(SBC\)**](../tutorials/custom-setup-on-raspberry-pi.md#setup-on-original-raspbian) as a server.
-* [**Flash other firmware**](https://www.bigclown.com/doc/projects/radio-door-sensor/#flash-door-sensor-firmware.en.md) or [**write your own firmware**](../firmware/basic-overview.md) for the **Core Module**.
-* Check the [**Core Module pinouts**](../hardware/header-pinout.md) and add your own buttons, relays and sensors.
+* Check out other Hardwario [**projects**](projects-overview.md).
+* Take a look at the [**Module Overview**](https://docs.hardwario.com/chester/extension-modules/chester-z1/#module-overview).
+* Learn about [**MQTT**](https://docs.hardwario.com/fiber/mqtt-broker/) and [**Hardwario MQTT topics**](../interfaces/mqtt-topics.md) to control LEDs and relays.
+* Try other [**integrations**](https://docs.hardwario.com/tower/category/platform-integrations/) with **Grafana**, **Blynk**, **IFTTT**, **Ubidots** and others.
+* Use your [**Raspberry PI**](https://docs.hardwario.com/tower/server-raspberry-pi/) or other 
+* [**Flash other firmware**](https://docs.hardwario.com/tower/firmware-development/hardwario-extension-tutorial/#flash-firmware) or [**write your own firmware**](https://docs.hardwario.com/chester/category/firmware-sdk/) for the **Core Module**.
+* Check the [**Core Module pinouts**](https://docs.hardwario.com/tower/hardware-modules/header-pinout/#core-module-pinout) and add your own buttons, relays and sensors.
 

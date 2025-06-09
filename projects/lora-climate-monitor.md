@@ -12,14 +12,14 @@ You can use community The Things Network to receive the data.
 
 ## What You Will Need
 
-* [Core Module](https://shop.bigclown.com/core-module)
-* [LoRa Module](https://shop.bigclown.com/lora-module)
-* [Mini Battery Module](https://shop.bigclown.com/mini-battery-module)
-* [Climate Module](https://shop.bigclown.com/climate-module)
+* [Core Module](https://www.hardwario.store/p/core-module)
+* [LoRa Module](https://www.hardwario.store/p/lora-module)
+* [Mini Battery Module](https://www.hardwario.store/p/mini-battery-module)
+* [Climate Module](https://www.hardwario.store/p/climate-module)
 
 ## Firmware Upload
 
-### Step 1: Download the latest [**BigClown Playground**](https://github.com/bigclownlabs/bch-playground/releases/latest)
+### Step 1: Download the latest [**Hardwario Playground**](https://github.com/bigclownlabs/bch-playground/releases/latest)
 
 ### Step 2: Connect the Core Module to your computer.
 
@@ -29,7 +29,7 @@ You can use community The Things Network to receive the data.
 
 ## LoRa Configuration
 
-For configuring the LoRa keys please follow [LoRa AT Commands Configuration](../tutorials/lora-at-commands-configuration.md) tutorial.
+For configuring the LoRa keys please follow [LoRa AT Commands Configuration](https://docs.hardwario.com/tower/radio-communication/lora-at-commands/) tutorial.
 
 ## Transmitting the data
 

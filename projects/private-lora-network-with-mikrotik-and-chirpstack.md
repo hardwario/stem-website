@@ -39,7 +39,7 @@ LoRa is disabled by default. Enable it in LoRa menu and press "E" to enable it. 
 
 In this part you install **ChirpStack Gateway Bridge, ChirpStack Network Server, ChirpStack Application Server** to your Linux server. Your Mikrotik wAP LR9 will then later connect to this server and will forward LoRa packets there.
 
-For Debian you can follow [Debian/Ubuntu install tutorial](https://www.chirpstack.io/guides/debian-ubuntu/), otherwise see this [generic installation page](https://www.chirpstack.io/install/install/).
+For Debian you can follow [Debian/Ubuntu install tutorial](https://www.chirpstack.io/guides/debian-ubuntu/), otherwise see this [generic installation page](https://www.chirpstack.io/docs/chirpstack/downloads.html).
 
 :::info
 
@@ -79,7 +79,7 @@ Then follow [these steps in ChirpStack tutorial](https://www.chirpstack.io/guide
 
 ## Useful links & Tutorials
 
-[HARDWARIO Kit LoRa AT commands configuration](../tutorials/lora-at-commands-configuration.md)
+[HARDWARIO Kit LoRa AT commands configuration](https://docs.hardwario.com/tower/radio-communication/lora-at-commands/)
 
 [HARDWARIO LoRa Tester with LCD & GPS](https://www.hackster.io/160709/lora-tester-with-lcd-gps-open-configurable-low-power-4a5b61), more information also in our e-shop.
 

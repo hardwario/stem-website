@@ -30,29 +30,40 @@ It can be equiped with magnet for easy attach enclosure and works for many years
   </div>
 </div>
 
+## Project Intro Video
 
+<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+  <iframe
+  src="https://www.youtube.com/embed/cvO_tXcAvZ8?si=0UJ3TTTpmu1JjB67" title="YouTube video player"
+    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    referrerPolicy="strict-origin-when-cross-origin"
+  />
+</div>
 
 
 
 
 ## Requirements
 
-* [**Radio Dongle**](https://shop.bigclown.com/radio-dongle)
-* [**Core Module**](https://shop.bigclown.com/core-module)
-* [**Battery Module**](https://shop.bigclown.com/battery-module)
-* [**Sensor Module**](https://shop.bigclown.com/sensor-module)
+* [**Radio Dongle**](https://www.hardwario.store/p/radio-dongle)
+* [**Core Module**](https://www.hardwario.store/p/core-module)
+* [**Battery Module**](https://www.hardwario.store/p/battery-module)
+* [**Sensor Module**](https://www.hardwario.store/p/sensor-module)
 * **Magnetic Switch** \(for screw SA-201-A, self-adhesive SA-203\)
 * You will need **Windows**, **Linux** or **macOS** computer.
 
 :::info
 
-You can also connect Radio Dongle to the Raspberry Pi or other single board computer. Please see [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md) document.
+You can also connect Radio Dongle to the Raspberry Pi or other single board computer. Please see [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/) document.
 
 :::
 
-## Download BigClown Playground
+## Download Hardwario Playground
 
-Download the latest [BigClown Playground](https://github.com/bigclownlabs/bch-playground/releases) for your operating system. After download run the Playground application.
+Download the latest [Hardwario Playground](https://github.com/bigclownlabs/bch-playground/releases) for your operating system. After download run the Playground application.
 
 
 <div class="container">
@@ -62,7 +73,7 @@ Download the latest [BigClown Playground](https://github.com/bigclownlabs/bch-pl
 </div>
 
 
-Now we need to make sure that modules use the latest firmware. You need to flash your [**Radio Dongle**](https://shop.bigclown.com/radio-dongle) and the remote node [**Core Module**](https://shop.bigclown.com/core-module).
+Now we need to make sure that modules use the latest firmware. You need to flash your [**Radio Dongle**](https://www.hardwario.store/p/radio-dongle) and the remote node [**Core Module**](https://www.hardwario.store/p/core-module).
 
 ## Flash Door Sensor firmware
 
@@ -88,7 +99,7 @@ Disconnect **Door Sensor** from your computer. Disconnect the batteries and keep
 
 ### Step 1: Connect
 
-Connect **just** the [Radio Dongle](https://shop.bigclown.com/radio-dongle) to the USB of your computer.
+Connect **just** the [Radio Dongle](https://www.hardwario.store/p/radio-dongle) to the USB of your computer.
 
 ### Step 2: Flash
 
@@ -102,7 +113,7 @@ In Playground go to **Firmware tab**, select the firmware `bigclownlabs/bcf-gate
 
 ### Step 3: Keep connected
 
-Keep [**Radio Dongle**](https://shop.bigclown.com/radio-dongle) connected to your computer.
+Keep [**Radio Dongle**](https://www.hardwario.store/p/core-module) connected to your computer.
 
 ## Start the gateway
 

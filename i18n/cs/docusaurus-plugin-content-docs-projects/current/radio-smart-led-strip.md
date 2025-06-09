@@ -19,38 +19,38 @@ This document will guide you through the **Radio Smart LED Strip** project. You 
 
 ### Requirements <a id="requirements"></a>
 
-* Either **BigClown Radio Power Controller Kit**, or individual components:
-  * 1x **BigClown Cover Module**
-  * 1x **BigClown Core Module**
-  * 1x **BigClown Power Module**
+* Either **Hardwario Radio Power Controller Kit**, or individual components:
+  * 1x **Hardwario Cover Module**
+  * 1x **Hardwario Core Module**
+  * 1x **Hardwario Power Module**
   * 1x AC/DC ADAPTER 5V/3A \(or higher current rating\)
   * 1x 3D printed enclosure BCE301
 * Other components:
-  * 1x **BigClown Radio Dongle** \(not included in the kit\)
+  * 1x **Hardwario Radio Dongle** \(not included in the kit\)
   * 1x RGB or RGBW Digital LED strip \(not included in the kit\)
   * Micro USB cable \(not included in the kit\)
 * One of these options:
-  * **BigClown Playground** installed \(recommended\)
+  * **Hardwario Playground** installed \(recommended\)
 
-    You can find more information in the [**Quick Start Guide**](../basics/quick-start-guide.md) document.
+    You can find more information in the [**Quick Start Guide**](https://docs.hardwario.com/tower/firmware-development/firmware-quick-start/) document.
 
-  * **Raspberry Pi** with the **BigClown Raspbian** distribution
+  * **Raspberry Pi** with the **Hardwario Raspbian** distribution
 
-    You can find more information in the document [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md).
+    You can find more information in the document [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/).
 
-  * **BigClown Firmware Tool** installed
+  * **Hardwario Firmware Tool** installed
 
-    You can find more information in the document [**Toolchain Setup**](../firmware/toolchain-setup.md).
+    You can find more information in the document [**Toolchain Setup**](https://docs.hardwario.com/chester/firmware-sdk/installation-on-macos/#install-toolchain).
 
 ### Firmware Upload <a id="firmware-upload"></a>
 
-In this procedure we will use the **BigClown Playground** to upload firmware to the **Core Module**.
+In this procedure we will use the **Hardwario Playground** to upload firmware to the **Core Module**.
 
 ### Step 1: Connect the Micro USB cable to the **Core Module** and your computer
 
 ### Step 2: Flash firmware
 
-Run the BigClown Playground. In the Firmware tab choose and upload the `bcf-radio-power-controller-` firmware to the **Core Module**:
+Run the Hardwario Playground. In the Firmware tab choose and upload the `bcf-radio-power-controller-` firmware to the **Core Module**:
 
 If your LED strip is **144 LEDs RGBW**:
 
@@ -130,7 +130,7 @@ Make sure the **Power Module** does not have power adapter inserted.
 
 :::danger
 
-If you are using the new **BigClown Playground**, then use the **Functions** tab instead of using [**http://localhost:1880/**](http://localhost:1880/). Also the pairing process is now done in **Devices** tab. For communication test use the **Messages** tab.
+If you are using the new **Hardwario Playground**, then use the **Functions** tab instead of using [**http://localhost:1880/**](http://localhost:1880/). Also the pairing process is now done in **Devices** tab. For communication test use the **Messages** tab.
 
 :::
 
@@ -180,7 +180,7 @@ In the **debug** tab, you will be able to see all the MQTT messages.
 
 :::success
 
-At this point, you've got working **Node-RED**, **MQTT**, **BigClown Radio Dongle**and **BigClown Gateway**.
+At this point, you've got working **Node-RED**, **MQTT**, **Hardwario Radio Dongle**and **Hardwario Gateway**.
 
 :::
 
@@ -250,7 +250,7 @@ Firstly we need to configure our **Node-RED** app.
 
 ### **Step 1: Blynk nodes**
 
-If you are using BigClown raspi version you should be fine, but still check that **Blynk** nodes are installed. \(You can view them on the left side menu in **Node-RED**\). Otherwise you will need to install **Node-RED** package `node-red-contrib-blynk-ws`.
+If you are using Hardwario raspi version you should be fine, but still check that **Blynk** nodes are installed. \(You can view them on the left side menu in **Node-RED**\). Otherwise you will need to install **Node-RED** package `node-red-contrib-blynk-ws`.
 
 <div class="container">
   <div class="row">
@@ -329,6 +329,6 @@ Click the settings wheel and you should see settings for your project. We need t
 
 ### Related Documents <a id="related-documents"></a>
 
-* [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md)
-* [**Toolchain Setup**](../firmware/toolchain-setup.md)
-* [**Toolchain Guide**](../firmware/toolchain-guide.md)
+* [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/)
+* [**Toolchain Setup**](https://docs.hardwario.com/chester/firmware-sdk/installation-on-macos/#install-toolchain)
+* [**Toolchain Guide**](https://docs.hardwario.com/chester/firmware-sdk/installation-on-macos/#install-toolchain)

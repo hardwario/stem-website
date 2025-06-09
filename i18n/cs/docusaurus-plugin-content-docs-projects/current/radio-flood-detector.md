@@ -23,34 +23,34 @@ This document will guide you through the **Radio Flood Detector** project. You w
 
 ## Requirements
 
-* Either **BigClown Radio Flood Detector Kit**, or individual components:
-  * 1x **BigClown LD-81**
-  * 1x **BigClown Sensor Module**
-  * 1x **BigClown Core Module**
-  * 1x **BigClown Mini Battery Module**
-  * 1x **BigClown Radio Dongle**s
+* Either **Hardwario Radio Flood Detector Kit**, or individual components:
+  * 1x **Hardwario LD-81**
+  * 1x **Hardwario Sensor Module**
+  * 1x **Hardwario Core Module**
+  * 1x **Hardwario Mini Battery Module**
+  * 1x **Hardwario Radio Dongle**s
 * One of these options:
-  * **BigClown Playground** installed \(recommended\)
+  * **Hardwario Playground** installed \(recommended\)
 
-    You can find more information in the [**Quick Start Guide**](../basics/quick-start-guide.md) document.
+    You can find more information in the [**Quick Start Guide**](https://docs.hardwario.com/tower/firmware-development/firmware-quick-start/) document.
 
-  * **Raspberry Pi** with the **BigClown Raspbian** distribution
+  * **Raspberry Pi** with the **Hardwario Raspbian** distribution
 
-    You can find more information in the document [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md).
+    You can find more information in the document [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/).
 
-  * **BigClown Firmware Tool** installed
+  * **Hardwario Firmware Tool** installed
 
-    You can find more information in the document [**Toolchain Setup**](../firmware/toolchain-setup.md).
+    You can find more information in the document [**Toolchain Setup**](https://docs.hardwario.com/chester/firmware-sdk/installation-on-macos/#install-toolchain).
 
 ## Firmware Upload
 
-In this procedure we will use the **BigClown Playground** to upload firmware to the **Core Module**.
+In this procedure we will use the **Hardwario Playground** to upload firmware to the **Core Module**.
 
 ### Step 1: Connect the Micro USB cable to the **Core Module** and your computer
 
 ### Step 2: Flash firmware
 
-Run the BigClown Playground. In the Firmware tab choose and upload the `bcf-radio-flood-detector` firmware to the **Core Module**:
+Run the Hardwario Playground. In the Firmware tab choose and upload the `bcf-radio-flood-detector` firmware to the **Core Module**:
 
 :::warning
 
@@ -77,7 +77,7 @@ Step 1: Start with the **Mini Battery Module**
 
 :::danger
 
-If you are using the new **BigClown Playground**, then use the **Functions** tab instead of using [**http://localhost:1880/**](http://localhost:1880/). Also the pairing process is now done in **Devices** tab. For communication test use the **Messages** tab.
+If you are using the new **Hardwario Playground**, then use the **Functions** tab instead of using [**http://localhost:1880/**](http://localhost:1880/). Also the pairing process is now done in **Devices** tab. For communication test use the **Messages** tab.
 
 :::
 
@@ -132,7 +132,7 @@ In the **debug** tab, you will be able to see all the MQTT messages.
 
 :::success
 
-At this point, you've got working **Node-RED**, **MQTT**, **BigClown Radio Dongle** and **BigClown Gateway**.
+At this point, you've got working **Node-RED**, **MQTT**, **Hardwario Radio Dongle** and **Hardwario Gateway**.
 
 :::
 
@@ -194,7 +194,7 @@ Optionally put the assembly into the appropriate enclosure, if you have one.
 
 :::info
 
-You can find more information about the enclosures in the document [**Enclosures**](../basics/enclosures.md).
+You can find more information about the enclosures in the document [**Enclosures**](https://docs.hardwario.com/chester/hardware-description/enclosures/).
 
 :::
 
@@ -402,7 +402,7 @@ At this point, you should get a push notification when you connect flood sensor 
 
 ### Related Documents <a id="related-documents"></a>
 
-* [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md)
-* [**Toolchain Setup**](../firmware/toolchain-setup.md)
-* [**Toolchain Guide**](../firmware/toolchain-guide.md)
+* [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/)
+* [**Toolchain Setup**](https://docs.hardwario.com/chester/firmware-sdk/installation-on-macos/#install-toolchain)
+* [**Toolchain Guide**](https://docs.hardwario.com/chester/firmware-sdk/installation-on-macos/#install-toolchain)
 

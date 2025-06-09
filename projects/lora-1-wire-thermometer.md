@@ -12,15 +12,15 @@ You can use community The Things Network to receive the data.
 
 ## What You Will Need
 
-* [Core Module](https://shop.bigclown.com/core-module)
-* [LoRa Module](https://shop.bigclown.com/lora-module)
-* [Mini Battery Module](https://shop.bigclown.com/mini-battery-module)
-* [Sensor Module](https://shop.bigclown.com/sensor-module)
-* [DS18B20 Temperature Sensor](https://shop.bigclown.com/ds18b20-temperature-sensor/)
+* [Core Module](https://www.hardwario.store/p/core-module)
+* [LoRa Module](https://www.hardwario.store/p/lora-module)
+* [Mini Battery Module](https://www.hardwario.store/p/mini-battery-module)
+* [Sensor Module](https://www.hardwario.store/p/sensor-module)
+* [DS18B20 Temperature Sensor](https://www.hardwario.store/p/temperature-sensor-ds18b20-2m)
 
 ## Firmware Upload
 
-### Step 1: Download the latest [**BigClown Playground**](https://github.com/bigclownlabs/bch-playground/releases/latest)
+### Step 1: Download the latest [**Hardwario Playground**](https://github.com/bigclownlabs/bch-playground/releases/latest)
 
 ### Step 2: Connect the Core Module to your computer.
 
@@ -30,7 +30,7 @@ You can use community The Things Network to receive the data.
 
 ## LoRa Configuration
 
-For configuring the LoRa keys please follow [LoRa AT Commands Configuration](https://www.bigclown.com/doc/tutorials/lora-at-commands-configuration/) tutorial.
+For configuring the LoRa keys please follow [LoRa AT Commands Configuration](https://docs.hardwario.com/tower/radio-communication/lora-at-commands/#lora-configuration) tutorial.
 
 ## Transmitting the data
 

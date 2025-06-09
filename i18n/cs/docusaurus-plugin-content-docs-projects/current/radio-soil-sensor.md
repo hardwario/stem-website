@@ -28,15 +28,15 @@ This document will guide you through the **Radio Soil Sensor** project. You will
 
 ## Requirements
 
-* Either **BigClown Radio Soil Sensor Kit**, or individual components:
-  * 1x **BigClown** [**Soil Moisture Sensor**](https://shop.bigclown.com/soil-moisture-sensor)
-  * 1x **BigClown** [**Sensor Module**](https://shop.bigclown.com/sensor-module)
-  * 1x **BigClown** [**Core Module**](https://shop.bigclown.com/core-module)
-  * 1x **BigClown** [**Battery Module**](https://shop.bigclown.com/battery-module)
-  * 1x **BigClown** [**Radio Dongle**](https://shop.bigclown.com/radio-dongle)
-* You will need **Raspberry Pi** with the **BigClown Raspbian** distribution installed. Please see [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md) document.
+* Either **Hardwario Radio Soil Sensor Kit**, or individual components:
+  * 1x **Hardwario** [**Soil Moisture Sensor**](https://shop.bigclown.com/soil-moisture-sensor)
+  * 1x **Hardwario** [**Sensor Module**](https://shop.bigclown.com/sensor-module)
+  * 1x **Hardwario** [**Core Module**](https://shop.bigclown.com/core-module)
+  * 1x **Hardwario** [**Battery Module**](https://shop.bigclown.com/battery-module)
+  * 1x **Hardwario** [**Radio Dongle**](https://shop.bigclown.com/radio-dongle)
+* You will need **Raspberry Pi** with the **Hardwario Raspbian** distribution installed. Please see [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/) document.
 
-Measured data will be saved and visualized in Grafana on [**Raspberry Pi**](https://shop.bigclown.com/raspberry-pi-3-set). It is also possible to use your computer. Just follow [**Quick Start Guide**](../basics/quick-start-guide.md) document.
+Measured data will be saved and visualized in Grafana on [**Raspberry Pi**](https://shop.bigclown.com/raspberry-pi-3-set). It is also possible to use your computer. Just follow [**Quick Start Guide**](https://docs.hardwario.com/tower/firmware-development/firmware-quick-start/) document.
 
 ## Connecting to Raspberry Pi
 
@@ -46,7 +46,7 @@ Please follow the [**Raspberry Pi Login**](../tutorials/raspberry-pi-login.md) d
 
 ## Firmware Upload
 
-In this procedure we will use the **BigClown Firmware Tool** to upload firmware to the **Core Module**. You will connect and flash firmware with **Raspberry Pi**
+In this procedure we will use the **Hardwario Firmware Tool** to upload firmware to the **Core Module**. You will connect and flash firmware with **Raspberry Pi**
 
 Now it's time to write firmware to the **Core Module**.
 
@@ -69,7 +69,7 @@ For differences of flashing older **Core Module 1** and newer **Core Module 2** 
 
 :::
 
-Run the BigClown Playground. In the Firmware tab choose and upload the `bcf-radio-soil-sensor` firmware to the **Core Module**:
+Run the Hardwario Playground. In the Firmware tab choose and upload the `bcf-radio-soil-sensor` firmware to the **Core Module**:
 
 ### Step 3: Remove the Micro USB cable from the **Core Module** and **Raspberry Pi**
 
@@ -177,7 +177,7 @@ Optionally put the assembly into the appropriate enclosure, if you have one.
 
 :::info
 
-You can find more information about the enclosures in the document [**Enclosures**](../basics/enclosures.md).
+You can find more information about the enclosures in the document [**Enclosures**](https://docs.hardwario.com/chester/hardware-description/enclosures/).
 
 :::
 
@@ -280,5 +280,5 @@ Now click on the **Save** button in the **Grafana** so all your configuration st
 
 ### Related Documents <a id="related-documents"></a>
 
-* [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md)
+* [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/)
 * [**Raspberry Pi Login**](../tutorials/raspberry-pi-login.md)

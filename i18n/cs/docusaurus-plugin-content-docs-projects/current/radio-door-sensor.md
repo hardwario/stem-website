@@ -46,13 +46,13 @@ It can be equiped with magnet for easy attach enclosure and works for many years
 
 :::info
 
-You can also connect Radio Dongle to the Raspberry Pi or other single board computer. Please see [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md) document.
+You can also connect Radio Dongle to the Raspberry Pi or other single board computer. Please see [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/) document.
 
 :::
 
-## Download BigClown Playground
+## Download Hardwario Playground
 
-Download the latest [BigClown Playground](https://github.com/bigclownlabs/bch-playground/releases) for your operating system. After download run the Playground application.
+Download the latest [Hardwario Playground](https://github.com/bigclownlabs/bch-playground/releases) for your operating system. After download run the Playground application.
 
 
 <div class="container">

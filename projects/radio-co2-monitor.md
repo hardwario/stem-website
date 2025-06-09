@@ -21,34 +21,34 @@ This document will guide you through the **Radio CO2 Monitor** project. You will
 
 ## Requirements
 
-* Either **BigClown Radio CO2 Monitor Kit**, or individual components:
-  * 1x **BigClown Core Module**
-  * 1x **BigClown Temperature Tag**
-  * 1x **BigClown Humidity Tag**
-  * 1x **BigClown Barometer Tag**
-  * 1x **BigClown CO2 Module**
-  * 1x **BigClown Battery Module**
-  * 1x **BigClown Radio Dongle**
+* Either **Hardwario Radio CO2 Monitor Kit**, or individual components:
+  * 1x **Hardwario Core Module**
+  * 1x **Hardwario Temperature Tag**
+  * 1x **Hardwario Humidity Tag**
+  * 1x **Hardwario Barometer Tag**
+  * 1x **Hardwario CO2 Module**
+  * 1x **Hardwario Battery Module**
+  * 1x **Hardwario Radio Dongle**
 * One of these options:
-  * **BigClown Playground** installed \(recommended\)
+  * **Hardwario Playground** installed \(recommended\)
 
-    You can find more information in the [**Quick Start Guide**](../basics/quick-start-guide.md) document.
+    You can find more information in the [**Quick Start Guide**](https://docs.hardwario.com/tower/firmware-development/firmware-quick-start/) document.
 
-  * **Raspberry Pi** with the **BigClown Raspbian** distribution
+  * **Raspberry Pi** with the **Hardwario Raspbian** distribution
 
-    You can find more information in the document [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md).
+    You can find more information in the document [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/).
 
-  * **BigClown Firmware Tool** installed
+  * **Hardwario Firmware Tool** installed
 
-    You can find more information in the document [**Toolchain Setup**](../firmware/toolchain-setup.md).
+    You can find more information in the document [**Toolchain Setup**](https://docs.hardwario.com/chester/firmware-sdk/installation-on-macos/#install-toolchain).
 
 ## Firmware Upload
 
-In this procedure we will use the **BigClown Playground** to upload firmware to the **Core Module**.
+In this procedure we will use the **Hardwario Playground** to upload firmware to the **Core Module**.
 
 ### Step 1: Connect the Micro USB cable to the **Core Module** and your computer.
 
-### Step 2: Run the BigClown Playground
+### Step 2: Run the Hardwario Playground
 
 In the Firmware tab choose and upload the `bcf-radio-co2-monitor` firmware to the **Core Module**:
 
@@ -106,7 +106,7 @@ Make sure the **Battery Module** does not have batteries inserted.
 
 :::danger
 
-If you are using the new **BigClown Playground**, then use the **Functions** tab instead of using [**http://localhost:1880/**](http://localhost:1880/). Also the pairing process is now done in **Devices** tab. For communication test use the **Messages** tab.
+If you are using the new **Hardwario Playground**, then use the **Functions** tab instead of using [**http://localhost:1880/**](http://localhost:1880/). Also the pairing process is now done in **Devices** tab. For communication test use the **Messages** tab.
 
 :::
 
@@ -159,7 +159,7 @@ In the **debug** tab, you will be able to see all the MQTT messages.
 
 :::success
 
-At this point, you've got working **Node-RED**, **MQTT**, **BigClown Radio Dongle**and **BigClown Gateway**.
+At this point, you've got working **Node-RED**, **MQTT**, **Hardwario Radio Dongle**and **Hardwario Gateway**.
 
 :::
 
@@ -225,7 +225,7 @@ Firstly we need to configure our **Node-RED** app.
 
 ### Step 1: Blynk nodes
 
-If you are using BigClown raspi version you should be fine, but still check that **Blynk** nodes are installed. \(You can view them on the left side menu in **Node-RED**\). Otherwise you will need to install **Node-RED** package `node-red-contrib-blynk-ws`.
+If you are using Hardwario raspi version you should be fine, but still check that **Blynk** nodes are installed. \(You can view them on the left side menu in **Node-RED**\). Otherwise you will need to install **Node-RED** package `node-red-contrib-blynk-ws`.
 
 <div class="container">
   <div class="row">
@@ -260,7 +260,7 @@ Configure MQTT node to connect it on you broker. It will propably connect on loc
   </div>
 </div>
 
-### Step 5: Now download the **Blynk** app from [**App Store**](https://itunes.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481?mt=8) or [**Google Play**](https://play.google.com/store/apps/details?id=cc.blynk&hl=en)
+### Step 5: Now download the **Blynk** app from [**App Store**](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [**Google Play**](https://play.google.com/store/apps/details?id=cloud.blynk&pcampaignid=web_share). Create an account and log-in.
 
 ### Step 6: After installing, you should create account, login and you should see something like that
 
@@ -316,7 +316,7 @@ Now deploy your **Node-RED** app and hit play button in your **Blynk** project a
 
 ### Related Documents <a id="related-documents"></a>
 
-* [**Raspberry Pi Installation**](../tutorials/raspberry-pi-installation.md)
-* [**Toolchain Setup**](../firmware/toolchain-setup.md)
-* [**Toolchain Guide**](../firmware/toolchain-guide.md)
+* [**Raspberry Pi Installation**](https://docs.hardwario.com/tower/server-raspberry-pi/)
+* [**Toolchain Setup**](https://docs.hardwario.com/chester/firmware-sdk/installation-on-macos/#install-toolchain)
+* [**Toolchain Guide**](https://docs.hardwario.com/ember/chirpstack-v4-installation/#add-chirpstack-repository)
 
