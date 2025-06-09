@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.L101: Co je IoT": {
+    "message": "L101: Co je IoT",
+    "description": "The label for category L101: Co je IoT in sidebar docs"
+  },
+  "sidebar.docs.category.L102: IoT stavebnice HARDWARIO TOWER": {
+    "message": "L102: IoT stavebnice HARDWARIO TOWER",
+    "description": "The label for category L102: IoT stavebnice HARDWARIO TOWER in sidebar docs"
+  },
+  "sidebar.docs.category.L103: IoT tlačítko": {
+    "message": "L103: IoT tlačítko",
+    "description": "The label for category L103: IoT tlačítko in sidebar docs"
+  },
+  "sidebar.docs.category.L104: IoT teploměr a vlhkoměr": {
+    "message": "L104: IoT teploměr a vlhkoměr",
+    "description": "The label for category L104: IoT teploměr a vlhkoměr in sidebar docs"
+  },
+  "sidebar.docs.category.L105: IoT Air Quality Monitor": {
+    "message": "L105: IoT Air Quality Monitor",
+    "description": "The label for category L105: IoT Air Quality Monitor in sidebar docs"
+  },
+  "sidebar.docs.category.L106: IoT monitor vibrací": {
+    "message": "L106: IoT monitor vibrací",
+    "description": "The label for category L106: IoT monitor vibrací in sidebar docs"
+  },
+  "sidebar.docs.category.L107: IoT osvětlení": {
+    "message": "L107: IoT osvětlení",
+    "description": "The label for category L107: IoT osvětlení in sidebar docs"
+  },
+  "sidebar.docs.category.L108: IoT čítač impulzů": {
+    "message": "L108: IoT čítač impulzů",
+    "description": "The label for category L108: IoT čítač impulzů in sidebar docs"
+  },
+  "sidebar.docs.category.L109: IoT Soil Monitor": {
+    "message": "L109: IoT Soil Monitor",
+    "description": "The label for category L109: IoT Soil Monitor in sidebar docs"
+  },
+  "sidebar.docs.doc.L110: IoT Alarm": {
+    "message": "L110: IoT Alarm",
+    "description": "The label for the doc item L110: IoT Alarm in sidebar docs, linking to the doc L110-iot-alarm-cs"
+  },
+  "sidebar.docs.doc.L111: IoT termostat": {
+    "message": "L111: IoT termostat",
+    "description": "The label for the doc item L111: IoT termostat in sidebar docs, linking to the doc L111-iot-thermostat-cs"
+  },
+  "sidebar.docs.doc.L112: IoT ovladač": {
+    "message": "L112: IoT ovladač",
+    "description": "The label for the doc item L112: IoT ovladač in sidebar docs, linking to the doc L112-iot-controller-cs"
+  },
+  "sidebar.docs.doc.L113: IoT displej": {
+    "message": "L113: IoT displej",
+    "description": "The label for the doc item L113: IoT displej in sidebar docs, linking to the doc L113-iot-display-cs"
+  },
+  "sidebar.docs.doc.L114: IoT GPS lokátor": {
+    "message": "L114: IoT GPS lokátor",
+    "description": "The label for the doc item L114: IoT GPS lokátor in sidebar docs, linking to the doc L114-iot-gps-locator-cs"
+  }
+}

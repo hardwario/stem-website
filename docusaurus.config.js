@@ -16,7 +16,15 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'cs'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      cs: {
+        label: 'Čeština',
+      },
+    },
   },
 
   presets: [
@@ -82,6 +90,10 @@ const config = {
             label: 'PROJECTS',
             position: 'left',
             activeBaseRegex: `/projects/`,
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             href: 'https://github.com/hardwario/stem-website',
