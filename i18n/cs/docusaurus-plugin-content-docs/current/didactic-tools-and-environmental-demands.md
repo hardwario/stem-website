@@ -1,29 +1,30 @@
 ---
 slug: didactic-tools-and-environmental-demands
-title: Didactic Tools and Environmental Demands
+title: Didaktické pomůcky a nároky na prostředí
 ---
 import Image from '@theme/IdealImage';
 
-# Didactic Tools and Environmental Demands
+# Didaktické pomůcky a nároky na prostředí
 
-## Classroom equipment
+## Vybavení učebny (pro prezenční formu)
 
-* Equipment enabling different classroom arrangement according to individual phases:
-  * REALISE: Classic classroom layout
-  * EXPERIMENT and APPLY: Lecturer workplace and 3 teams for teams with proportional representation of students
-  * REFLECT: An arrangement in a circle or classic classroom arrangement
-* Projector or large format TV
+* Vybavení umožňující různé uspořádání učebny podle jednotlivých fází:
+  * REALISE: klasické uspořádání učebny
+  * EXPERIMENT a APPLY: pracoviště lektora a 3 pracoviště pro týmy s poměrným zastoupením studentů 
+  * REFLECT: uspořádání do kruhu případně klasické uspořádání učebny
+* Dataprojektor nebo velkoformátová TV
 * Flipchart
-* HW equipment:
-  * A computer connected to the Internet (at least one for the lecturer, preferably separate computers for the lecturer and 3 groups)
-  * Smartphone connected to the internet (mins. one for lecturer, better separate phones for lecturer and 3 groups)
-  * HARDWARIO IoT Kit Sets:
-    * Start Set
-    * Control Set
-* SW equipment:
-  * www browser, we recommend Chrome
-  * HARDWARIO Playground
+* HW vybavení:
+  * Počítač připojený na internet (min. jeden pro lektora, lépe samostatné počítače pro lektora a 3 skupiny)
+  * Chytrý telefon připojený na internet (min. jeden pro lektora, lépe samostatné telefony pro lektora a 3 skupiny)
+  * IoT stavebnice HARDWARIO TOWER - minimální rozsah:
+    * TOWER Starter (min. jeden pro lektora, lépe samostatné kity pro lektora a 3 skupiny)
+    * TOWER Control s LED páskem (min. jeden pro lektora)
+    * TOWER Radio Dongle (min. jeden pro lektora, lépe samostatné dongle pro lektora a 3 skupiny)
+* SW vybavení:
+  * www prohlížeč, doporučujeme Chrome
+  * [HARDWARIO Playground](https://github.com/hardwario/hardwario-playground/releases)
 
-## Didactic tools
+## Didaktické prostředky
 
-* Basic stationery (papers, post-its, markers)
+* Základní psací a kancelářské potřeby (papíry, post-it, fixy)
