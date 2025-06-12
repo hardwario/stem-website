@@ -1,11 +1,11 @@
 ---
 slug: iot-push-button-presentation
-title: Prezentace
+title: Presentation
 ---
 import Image from '@theme/IdealImage';
 
-**Časová dotace**: 5 min.
+**Time allowance**: 5 min.
 
-Studenti prezentují své nápady a projekty ostatním studentům. 
+Students present their ideas and projects to other students.
 
-Diskutují a navrhují, kde se dá IoT tlačítko nasadit tak, aby vzniklo něco smysluplného.
+They discuss and suggest where IoT building blocks can be deployed to create something meaningful.

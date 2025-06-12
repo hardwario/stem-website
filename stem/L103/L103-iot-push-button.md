@@ -1,7 +1,7 @@
 ---
 slug: iot-push-button
-title: 'L103: IoT tlačítko'
+title: 'L103: IoT button'
 ---
 import Image from '@theme/IdealImage';
 
-Postavíme si jednoduché tlačítko a budeme s ním posílat notifikace do aplikace Playground
+We will build a simple button and use it to send notifications to the Playground app.

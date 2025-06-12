@@ -1,13 +1,13 @@
 ---
 slug: iot-push-button-introduction
-title: Úvod
+title: Introduction
 ---
 import Image from '@theme/IdealImage';
 
-Cílem lekce **Notifikační IoT tlačítko** je v rámci jedné vyučovací hodiny představit nekonečné možnosti uplatnění IoT tlačítka v řadě domácích i průmyslových projektech.
+The aim of the **Notification IoT Button** lesson is to introduce the endless possibilities of using IoT buttons in a range of domestic and industrial projects within a single lesson.
 
-## Co budete v rámci lekce potřebovat?
+## What will you need for the lesson?
 
-* Počítač s nainstalovanou aplikací [HARDWARIO Playground](https://github.com/hardwario/hardwario-playground/releases)
-* Projektor nebo větší monitor
-* [Sadu Start](https://www.hardwario.store/cz/p/start-set) IoT stavebnice HARDWARIO TOWER
+* Computer with the application installed [HARDWARIO Playground](https://github.com/hardwario/hardwario-playground/releases)
+* Projector or larger monitor
+* [Sadu Start](https://www.hardwario.store/cz/p/start-set) HARDWARIO TOWER IoT kit

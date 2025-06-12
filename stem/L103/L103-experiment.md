@@ -4,7 +4,7 @@ title: Experiment
 ---
 import Image from '@theme/IdealImage';
 
-**Časová dotace**: 10 min. 
+**Time allowance**: 10 min.
 
 ## Posíláme stisky IoT tlačítka
 

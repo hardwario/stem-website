@@ -4,11 +4,11 @@ title: Teorie
 ---
 import Image from '@theme/IdealImage';
 
-**Časová dotace**: 10 min.
+**Time allowance**: 10 min.
 
-## Význam a funkce IoT tlačítka
+## Meaning and function of the IoT button
 
-Tlačítko je jedním z nejzákladnějších a nejvíce používaných zařízení doma, ve škole i v práci. Provází nás po celý den - od zaklapnutí budíku až po vypnutí televize dálkovým ovladačem. Přeměna tlačítka na IoT zařízení přináší mnoho výhod:
+Buttons are one of the most basic and widely used devices at home, at school, and at work. They accompany us throughout the day—from turning off the alarm clock to turning off the TV with the remote control. Converting buttons into IoT devices brings many advantages:
 
 * Přidává ke stlačení tlačítka časovou značku
 * Umožnuje stlačení tlačítka odkudkoliv
@@ -18,20 +18,21 @@ Tlačítko je jedním z nejzákladnějších a nejvíce používaných zařízen
 
 IoT tlačítko se uplatňuje v mnoha oborech a životních situacích:
 
-### Domácnost
+### Home
 
-* Chytrý domovní zvonek - např. ve svém chytrém telefonu vidíme, že někdo zvoní u nás doma
-* Automatické objednání často nakupovaného zboží - např. tlačítko u prášku na praní
-* Přivolání člena domácnosti - např. svolání k večeři
-* Ovládání zařízení - např. vzdálené ovládání dveří, brány nebo garážových vrat
+* Smart doorbell – e.g. on your smartphone you can see that someone is ringing at your home
+* Automatic ordering of frequently purchased goods – e.g. a button near laundry detergent
+* Summoning a household member – e.g. calling for dinner
+* Device control – e.g. remote control of a door, gate, or garage door
 
-### Práce
+### Work
 
-* Hlášení stavu výroby - např. systém [ANDON](https://cs.wikipedia.org/wiki/Andon)
-* Nahlášení požadavku - např. přivolání údržby na pracoviště
-* Záznam operací - např. záznam nekvalitních výrobků
+* Reporting production status – e.g. the [ANDON](https://cs.wikipedia.org/wiki/Andon) system
+* Reporting a request – e.g. summoning maintenance to a workstation
+* Recording operations – e.g. logging defective products
 
-### Škola
 
-* Nahlášení požadavku - např. přivolání úklidu toalet
-* Ovládání zařízení - např. vzdálené ovládání dveří tělocvičny  
+### School
+
+* Reporting a request – e.g. summoning cleaning of toilets
+* Device control – e.g. remote control of the gym door 
