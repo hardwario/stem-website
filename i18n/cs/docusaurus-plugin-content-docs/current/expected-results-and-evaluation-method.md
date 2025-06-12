@@ -1,24 +1,24 @@
 ---
 slug: expected-results-and-evaluation-method
-title: Expected Results and Evaluation Method
+title: Předpokládané výsledky a způsob vyhodnocení
 ---
 
-## Students will be able to:
+## Student bude schopen:
 
-- Explain the concept of the Internet of Things
-- Use HARDWARIO IoT kit
-- Program in Node-RED
-- Create your own IoT project and present it
+* Vysvětlit pojem Internet věcí
+* Používat IoT stavebnici HARDWARIO
+* Programovat v prostředí Node-RED
+* Používat aplikaci pro chytré telefony Blynk
+* Vytvořit vlastní IoT projekt a odprezentovat ho
 
-## Students will know:
+## Student bude znát:
 
-- Benefits and risks of the Internet of Things
-- MQTT protocol for the Internet of Things
-- Transmission technologies for the Internet of Things
-- How to work with IoT HARDWARIO kit
+* Přínosy a rizika internetu věcí
+* MQTT protokol pro internet věcí
+* Přenosové technologie pro internet věcí 
+* Způsob práce s IoT stavebnicí HARDWARIO
 
-## Evaluation Method:
+## Způsob vyhodnocení:
 
-- Knowledge test (comparison of knowledge before and after the lesson)
-- 3-2-1 Assessment
-- Verbal evaluation of team projects by the whole group
+* 3-2-1 Assessment
+* Slovní hodnocení studenty

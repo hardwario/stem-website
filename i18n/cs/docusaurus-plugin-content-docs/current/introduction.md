@@ -1,18 +1,26 @@
 ---
 slug: /
-title: Annotation of HARDWARIO Active STEM Education
+title: Anotace HARDWARIO aktivní STEM výuky
+
 ---
 import Image from '@theme/IdealImage';
 
-Traditional education systems and pedagogies have, historically-speaking, been based upon passive, receptive learning, where educators depend upon the didactic method and direct instruction. The limitations of this passive approach have been exposed by the rapid technological advances of this century, particularly the internet, meaning that it is increasingly difficult to teach subjects in isolation: the classic teacher-textbook-test model simply cannot keep up with exponential information flows. With more and more everyday applications for the technology, learners need to be able to actively experiment with and apply new devices. Otherwise, we will not just have an education system in crisis but also an economy in crisis, due to the accelerating skills-deficit in STEM-related professions.
+Tradiční vzdělávací systémy a pedagogiky jsou historicky založeny na pasivním, receptivním učení, kdy jsou pedagogové závislí na didaktické metodě a přímé výuce. Omezení tohoto pasivního přístupu bylo odhaleno rychlým technologickým pokrokem tohoto století, zejména internetem. Je stále obtížnější učit předměty izolovaně, klasický model učitel-učebnice-test nedokáže držet krok s exponenciálním nárůstem informačních toků. Téměř každý den se objeví nové technologie, a proto musí být studenti schopni aktivně experimentovat a používat nová zařízení. 
 
-Numerous studies have been conducted on the need and benefits of teaching via the STEM approach. The results unambiguously favour this educational concept, whereby science, technology, engineering and mathematics are taught together to solve real problems. The importance of the STEM concept is demonstrated by the gradual development and implementation of national STEM education strategies. Many countries, led by the most advanced, are implementing their STEM strategies to maintain their competitiveness in a dynamically developing world of technology.
+Bylo provedeno mnoho studií na téma potřebnosti a přínosů výuky STEM přístupem. Výsledky jednoznačně preferují tento vzdělávací koncept, kdy přírodní vědy (Science), technika (Technology), technologie (Engineering) a matematika (Mathematics) jsou vyučovány společně při řešení reálných problémů. 
 
-It is also undisputed that the best way to learn STEM is active learning. In this way, students are actively involved in solving a real problem. They read, write, experiment and discuss. They perform analysis, synthesis and evaluation. They do things and think about what they do, metacognitively. In active learning lessons, the question is always what problems should students solve and what tools they should use. To this end, HARDWARIO provides a unique system of active STEM learning in which students work on IoT projects.
+## Aktivní STEM výuka
 
-IoT is one of today's growing phenomena. The advent of new technologies makes it possible to connect almost any physical device to the Internet, thus creating the possibility to control such a device and work with its data remotely. IoT is a multidisciplinary field in which not only STEM knowledge is applied, but also other fields such as economics and geography. This characteristic of IoT addresses one of the basic requirements of STEM learning, namely that the selected problems should be solved in a holistic fashion. Working on real IoT projects generates excellent content for active lessons, thus their attractiveness for students is enhanced by meaningful use of personal digital devices.
+Je rovněž nesporné, že nejlepším způsobem STEM výuky je aktivní učení. Při takovém způsobu výuky jsou studenti aktivně zapojení do řešení nějakého reálného problému. Čtou, píší, experimentují, diskutují a provádějí analýzy, syntézy a hodnocení. Dělají věci a přemýšlejí o tom, co dělají, a to metakognitivně. Otázkou vždy je, jaké problémy mají studenti při aktivní výuce řešit a jaké pomůcky mají při tom využívat. A zde přichází HARDWARIO se svým jedinečným systémem aktivní STEM výuky při kterém studenti pracují na projektech internetu věcí (IoT). 
 
-In cooperation with pedagogical experts from EDvisor Finland, HARDWARIO offers detailed STEM lessons using its research-based REALISE-EXPERIMENT-APPLY-REFLECT pedagogical framework.
+## Zapojení internetu věcí do aktivní STEM výuky
+
+IoT totiž patří mezi fenomény dnešní doby. Nástup nových technologií umožňuje připojení téměř jakéhokoliv fyzického zařízení k internetu a tím vzniká možnost takovéto zařízení vzdáleně ovládat a pracovat s jeho daty. Jedná se o multidisciplinární oblast, ve které se uplatňují nejen STEM znalosti, ale i z dalších oborů jako například z ekonomiky nebo geografie. Tímto dochází k naplnění jednoho ze základních požadavků STEM výuky, a to, že se mají zvolené problémy řešit uceleným, holistickým stylem. Práce na reálných IoT projektech vytváří excelentní obsah aktivních lekcí, jejichž atraktivita je pro studenty umocněna smysluplným používáním osobních digitálních zařízení. 
+
+## Pedagogický rámec aktivní STEM výuky s HARDWARIO
+
+Ve spolupráci s odborníky na pedagogiku z EDvisor Finland nabízí HARDWARIO detailně připravené lekce pro aktivní STEM výuku, které využívají na výzkumu založený pedagogický rámec REALISE-EXPERIMENT-APPLY-REFLECT. 
+
 
 <div class="container">
   <div class="row">
@@ -20,11 +28,10 @@ In cooperation with pedagogical experts from EDvisor Finland, HARDWARIO offers d
   </div>
 </div>
 
-Our pedagogical framework greatly facilitates the preparation, management and assessment of lesson content by constantly focusing upon its learning goals. The essential driver of HARDWARIO’s active STEM lessons is our Industrial IoT Kit, with which students can easily build IoT equipment for their projects. An equally important element of the HARDWARIO system is the technical and professional support of teachers in the form of detailed instructions, webinars, seminars and online chat.
+Náš pedagogický rámec velmi usnadňuje přípravu, vedení a hodnocení lekcí tím, že se nepřetržitě soustřeďuje na určené vzdělávací cíle. Zásadní hnací silou aktivních STEM lekcí HARDWARIO je naše průmyslová IoT stavebnice, pomocí které mohou studenti snadno vytvářet IoT zařízení pro své projekty. Neméně důležitým prvkem systému HARDWARIO je technická a odborná podpora učitelů ve formě podrobných návodů, webinářů, seminářů a online chatu.
 
-The lessons deal with topics related to the school environment or current student interests, e.g.:
+## Vzorové lekce aktivní STEM výuky HARDWARIO
 
-- Projects dealing with indoor climate quality in classrooms
-- Projects addressing environmental challenges such as climate change and/or waste - management
-- Projects related to student and teacher safety
+Naše lekce aktivní STEM výuky jsou postaveny na reálných projektech internetu věcí v domácnostech, školách i průmyslu. Nabízíme lekce v základní i pokročilé úrovni. Budeme potěšeni vaší zpětnou vazbou - kritikou i nápady pro vylepšení.
+
 

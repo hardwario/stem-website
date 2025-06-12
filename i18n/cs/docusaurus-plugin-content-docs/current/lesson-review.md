@@ -1,55 +1,57 @@
 ---
 slug: lesson-review
-title: Time Allocation
+title: Časové dotace lekcí
 ---
 
-**Our STEM lessons are prepared so that they can be implemented in one lesson**, so they have a time limit of 45 min. Each lesson can be extended by extending student experiments and projects.
+**Naše STEM lekce jsou připraveny tak, aby je bylo možné realizovat během jedné vyučovací hodiny**, mají tedy časovou dotaci **45 min**. Každou lekci lze prodloužit rozšířením experimentů a projektů studentů.
 
-## Introduction
 
-### Annotation
+## Úvod do lekce
 
-Welcome students and presentation of the lesson. Introduction to individual phases of the lesson according to the pedagogical framework. Mutual introduction of students and their expectations and needs.
+### Anotace
 
-**Time allocation:** 0 - 5 mins. 
+Přivítání studentů a představení průběhu lekce. Seznámení s jednotlivými fázemi lekce podle pedagogického rámce. Vzájemné představení studentů a zjištění jejich očekávání a potřeb. Vyplnění znalostního testu.
 
-## Realise - Theoretical Preparation
+**Časová dotace:** 0 - 5 min. 
 
-### Annotation
+## Realise - Teoretická příprava
 
-Theoretical preparation for experiments and individual work of students. The lecturer has the main role, students are informed about the aims of the teaching and theories related to the selected topic.
 
-**Time allocation:** 10 mins.
+### Anotace
 
-## Experiment - Practical Preparation
+Teoretická příprava pro experimenty a samostatnou práci studentů. Lektor má hlavní roli, studenti jsou informováni o cílech výuky a teoriích spjatých se zvoleným tématem.
 
-### Annotation
+**Časová dotace**: 10 min.
 
-Practical preparation for individual work of students. The lecturer leads experiments, students under his supervision work on sample IoT projects related to the topic of the lesson.
+## Experiment - Praktická příprava
 
-**Time allocation:** 10 mins.
+### Anotace
 
-## Apply - Students Projects
+Praktická příprava pro samostatnou práci studentů. Lektor vede experimenty, studenti pod jeho supervizí pracují na vzorových IoT projektech spjatých s tématem lekce.
 
-### Annotation
+**Časová dotace**: 10 min. 
 
-The teamwork of students on selected IoT projects. The lecturer is a mentor, it helps students with the choice of projects (considering the knowledge and skills of students and time allocation). Students in teams work on designing, creating and preparing presentations of IoT projects. In the case of a small amount of time, [the Ideation](https://en.wikipedia.org/wiki/Ideation_(creative_process)) method can be used at this stage.
+## Apply - Projekty studentů
 
-**Time allocation:** 10 mins.
+### Anotace
 
-## Reflect - Projects Presentations
+Týmová práce studentů na zvolených IoT projektech. Lektor je mentorem, pomáhá studentům s volbou projektů (zvažuje znalosti a schopnosti studentů a časovou dotaci). Studenti v týmech pracují na návrhu, tvorbě a přípravě prezentace IoT projektů. V případě malé časové dotace lze v této fázi použít metodu [Ideation](https://en.wikipedia.org/wiki/Ideation_(creative_process)).
 
-### Annotation
+**Časová dotace**: 10 min.
 
-Students present their IoT projects or ideas to others. The lecturer and other students critically evaluate the ideas presented and think about the importance of project outputs and lesson topics, including the importance of the Internet of Things in the real world. 
+## Reflect - Prezentace projektů
 
-**Time allocation:** 10 mins.
+### Anotace
 
-## Assessment and Conclusion Of Lesson
+Studenti prezentují své IoT projekty či nápady ostatním. Lektor a ostatní studenti kriticky hodnotí prezentované myšlenky a přemýšlejí na důležitostí výstupů projektů a témat lekce, včetně důležitosti internetu věcí v reálném světě.  
 
-### Annotation
+**Časová dotace**: 10 min.
 
-Verbal evaluation of the presented projects by the group. Recapitulation of the fulfilment of teaching objectives by the lecturer Knowledge test and 3-2-1 assessment.
+## Hodnocení a závěr lekce
 
-**Time allocation: All modules:** 0 - 5 mins.
+### Anotace
+
+Slovní hodnocení prezentovaných projektů skupinou. Rekapitulace splnění výukových cílů lektorem. Provedení znalostního testu a 3-2-1 assessmentu.
+
+**Časová dotace**: 0 - 5 min.
 

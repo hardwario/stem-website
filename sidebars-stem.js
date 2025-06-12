@@ -14,16 +14,16 @@ const sidebars = {
       label: 'L101: Co je IoT',
       link: {
         type: 'doc',
-        id: 'L101/L101-what-is-iot-cs',
+        id: 'L101/L101-what-is-iot',
       },
       collapsed: true,
       items: [
-        'L101/L101-introduction-cs',
-        'L101/L101-theory-cs',
-        'L101/L101-experiment-cs',
-        'L101/L101-projects-cs',
-        'L101/L101-presentation-cs',
-        'L101/L101-assessment-cs'
+        'L101/L101-introduction',
+        'L101/L101-theory',
+        'L101/L101-experiment',
+        'L101/L101-projects',
+        'L101/L101-presentation',
+        'L101/L101-assessment'
       ],
     },
 
@@ -32,16 +32,16 @@ const sidebars = {
       label: 'L102: IoT stavebnice HARDWARIO TOWER',
       link: {
         type: 'doc',
-        id: 'L102/L102-hardwario-tower-iot-kit-cs',
+        id: 'L102/L102-hardwario-tower-iot-kit',
       },
       collapsed: true,
       items: [
-        'L102/L102-introduction-cs',
-        'L102/L102-theory-cs',
-        'L102/L102-experiment-cs',
-        'L102/L102-projects-cs',
-        'L102/L102-presentation-cs',
-        'L102/L102-assessment-cs'
+        'L102/L102-introduction',
+        'L102/L102-theory',
+        'L102/L102-experiment',
+        'L102/L102-projects',
+        'L102/L102-presentation',
+        'L102/L102-assessment'
       ],
     },
 
@@ -50,16 +50,16 @@ const sidebars = {
       label: 'L103: IoT tlačítko',
       link: {
         type: 'doc',
-        id: 'L103/L103-iot-push-button-cs',
+        id: 'L103/L103-iot-push-button',
       },
       collapsed: true,
       items: [
-        'L103/L103-introduction-cs',
-        'L103/L103-theory-cs',
-        'L103/L103-experiment-cs',
-        'L103/L103-projects-cs',
-        'L103/L103-presentation-cs',
-        'L103/L103-assessment-cs'
+        'L103/L103-introduction',
+        'L103/L103-theory',
+        'L103/L103-experiment',
+        'L103/L103-projects',
+        'L103/L103-presentation',
+        'L103/L103-assessment'
       ],
     },
 
@@ -68,16 +68,16 @@ const sidebars = {
       label: 'L104: IoT teploměr a vlhkoměr',
       link: {
         type: 'doc',
-        id: 'L104/L104-iot-temperature-and-humidity-monitor-cs',
+        id: 'L104/L104-iot-temperature-and-humidity-monitor',
       },
       collapsed: true,
       items: [
-        'L104/L104-introduction-cs',
-        'L104/L104-theory-cs',
-        'L104/L104-experiment-cs',
-        'L104/L104-projects-cs',
-        'L104/L104-presentation-cs',
-        'L104/L104-assessment-cs'
+        'L104/L104-introduction',
+        'L104/L104-theory',
+        'L104/L104-experiment',
+        'L104/L104-projects',
+        'L104/L104-presentation',
+        'L104/L104-assessment'
       ],
     },
 
@@ -104,16 +104,16 @@ const sidebars = {
       label: 'L106: IoT monitor vibrací',
       link: {
         type: 'doc',
-        id: 'L106/L106-iot-vibration-monitor-cs',
+        id: 'L106/L106-iot-vibration-monitor',
       },
       collapsed: true,
       items: [
-        'L106/L106-introduction-cs',
-        'L106/L106-theory-cs',
-        'L106/L106-experiment-cs',
-        'L106/L106-projects-cs',
-        'L106/L106-presentation-cs',
-        'L106/L106-assessment-cs'
+        'L106/L106-introduction',
+        'L106/L106-theory',
+        'L106/L106-experiment',
+        'L106/L106-projects',
+        'L106/L106-presentation',
+        'L106/L106-assessment'
       ],
     },
     {
@@ -121,16 +121,16 @@ const sidebars = {
       label: 'L107: IoT osvětlení',
       link: {
         type: 'doc',
-        id: 'L107/L107-iot-light-monitor-cs',
+        id: 'L107/L107-iot-light-monitor',
       },
       collapsed: true,
       items: [
-        'L107/L107-introduction-cs',
-        'L107/L107-theory-cs',
-        'L107/L107-experiment-cs',
-        'L107/L107-projects-cs',
-        'L107/L107-presentation-cs',
-        'L107/L107-assessment-cs'
+        'L107/L107-introduction',
+        'L107/L107-theory',
+        'L107/L107-experiment',
+        'L107/L107-projects',
+        'L107/L107-presentation',
+        'L107/L107-assessment'
 
       ],
     },
@@ -139,16 +139,16 @@ const sidebars = {
       label: 'L108: IoT čítač impulzů',
       link: {
         type: 'doc',
-        id: 'L108/L108-iot-pulse-monitor-cs',
+        id: 'L108/L108-iot-pulse-monitor',
       },
       collapsed: true,
       items: [
-        'L108/L108-introduction-cs',
-        'L108/L108-theory-cs',
-        'L108/L108-experiment-cs',
-        'L108/L108-projects-cs',
-        'L108/L108-presentation-cs',
-        'L108/L108-assessment-cs'
+        'L108/L108-introduction',
+        'L108/L108-theory',
+        'L108/L108-experiment',
+        'L108/L108-projects',
+        'L108/L108-presentation',
+        'L108/L108-assessment'
 
       ],
     },
@@ -172,27 +172,27 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'L110-iot-alarm-cs',
+      id: 'L110-iot-alarm',
       label: 'L110: IoT Alarm',
     },
     {
       type: 'doc',
-      id: 'L111-iot-thermostat-cs',
+      id: 'L111-iot-thermostat',
       label: 'L111: IoT termostat',
     },
      {
       type: 'doc',
-      id: 'L112-iot-controller-cs',
+      id: 'L112-iot-controller',
       label: 'L112: IoT ovladač',
     },
     {
       type: 'doc',
-      id: 'L113-iot-display-cs',
+      id: 'L113-iot-display',
       label: 'L113: IoT displej',
     },
     {
       type: 'doc',
-      id: 'L114-iot-gps-locator-cs',
+      id: 'L114-iot-gps-locator',
       label: 'L114: IoT GPS lokátor',
     },
 

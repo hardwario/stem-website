@@ -1,18 +1,21 @@
 ---
 slug: target-group-and-students-profile
-title: Target Group and Student's Profile
+title: Cílová skupina a profil studenta
 ---
 
-## Target Group:
+## Cílovou skupinou jsou:
 
-- Secondary school students
+* studenti posledních 3 ročníků základních škol
+* studenti středních škol
 
-## Entry prerequisites
+**Doporučený počet studentů**: 9-15 pro seminář, až 30 pro webinář
 
-- **The recommended number of students:** 9-15
-- **Recommended age:** 12+
+## Vstupní předpoklady studentů
+
+**Doporučený věk studentů**: 12+
 
 ### Student:
 
-- Is actively interested in new technologies and social issues
-- Is able to control a computer and a smartphone
+* Má aktivní zájem o nové technologie a celospolečenská témata
+* Dokáže ovládat počítač a chytrý telefon
+* Má základy anglického jazyka
