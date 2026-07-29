@@ -11,4 +11,4 @@ Cílem lekce **IoT stavebnice HARDWARIO TOWER** je v rámci jedné vyučovací h
 * Počítač s nainstalovanou aplikací [HARDWARIO Playground](https://github.com/hardwario/hardwario-playground/releases)
 * Projektor nebo větší monitor
 * Sadu [Start IoT](https://www.hardwario.store/cz/p/start-set) stavebnice HARDWARIO TOWER
-* Volitelně [další sestavy](https://www.hardwario.store/cz/sets) IoT stavebnice HARDWARIO TOWER
+* Volitelně [další sestavy](https://www.hardwario.store/cz/tower) IoT stavebnice HARDWARIO TOWER
