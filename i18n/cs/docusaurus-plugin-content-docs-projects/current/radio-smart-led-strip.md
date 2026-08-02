@@ -24,7 +24,7 @@ Tento dokument vás provede projektem **Bezdrátový chytrý LED pásek**. Budet
   * 1x [**Cover Module**](https://www.hardwario.store/cz/p/cover-module)
   * 1x [**Core Module**](https://www.hardwario.store/cz/p/core-module)
   * 1x [**Power Module**](https://www.hardwario.store/cz/p/power-module)
-  * 1× [**AC/DC adaptér 5 V/4A**](https://www.hardwario.store/cz/p/ac-dc-adapter) (nebo vyšší proudový limit)
+  * 1× **AC/DC adaptér 5 V/4A** (nebo vyšší proudový limit)
   * 1× 3D tištěná krabička BCE301
   
 * Ostatní komponenty:

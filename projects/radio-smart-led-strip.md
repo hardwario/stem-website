@@ -24,7 +24,7 @@ This document will guide you through the **Radio Smart LED Strip** project. You 
   * 1x [Cover Module](https://www.hardwario.store/p/cover-module)
   * 1x [Core Module](https://www.hardwario.store/p/core-module)
   * 1x [Power Module](https://www.hardwario.store/p/power-module)
-  * 1x [AC/DC ADAPTER 5V/4A](https://www.hardwario.store/p/ac-dc-adapter) \(or higher current rating\)
+  * 1x AC/DC ADAPTER 5V/4A \(or higher current rating\)
   * 1x 3D printed enclosure BCE301
 
 * Other components:
