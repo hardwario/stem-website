@@ -257,6 +257,32 @@
 /cs/mini-course/lesson-6                             /cs/mini-course/lesson-5                               301
 /cs/mini-course/lesson-6/                            /cs/mini-course/lesson-5                               301
 
+# --- Search Console 404 drilldown (2026-08-05). The old -cs slug suffix
+# --- predates i18n; those pages now live under the /cs/ locale without it.
+# --- /cs/handbook/ and the Blynk academy page have no successor, so they go
+# --- to the nearest Czech index. Every target verified 200.
+/stem/lesson-106/iot-vibration-monitor-cs                  /cs/stem/lesson-106/iot-vibration-monitor                301
+/stem/lesson-106/iot-vibration-monitor-cs/                 /cs/stem/lesson-106/iot-vibration-monitor                301
+/stem/lesson-106/iot-vibration-monitor-introduction-cs     /cs/stem/lesson-106/iot-vibration-monitor-introduction   301
+/stem/lesson-106/iot-vibration-monitor-introduction-cs/    /cs/stem/lesson-106/iot-vibration-monitor-introduction   301
+/stem/lesson-107/iot-light-monitor-presentation-cs         /cs/stem/lesson-107/iot-light-monitor-presentation       301
+/stem/lesson-107/iot-light-monitor-presentation-cs/        /cs/stem/lesson-107/iot-light-monitor-presentation       301
+/stem/lesson-107/iot-light-monitor-theory-cs               /cs/stem/lesson-107/iot-light-monitor-theory             301
+/stem/lesson-107/iot-light-monitor-theory-cs/              /cs/stem/lesson-107/iot-light-monitor-theory             301
+/stem/lesson-108/iot-pulse-monitor-experiment-cs           /cs/stem/lesson-108/iot-pulse-monitor-experiment         301
+/stem/lesson-108/iot-pulse-monitor-experiment-cs/          /cs/stem/lesson-108/iot-pulse-monitor-experiment         301
+/stem/lesson-108/iot-pulse-monitor-introduction-cs         /cs/stem/lesson-108/iot-pulse-monitor-introduction       301
+/stem/lesson-108/iot-pulse-monitor-introduction-cs/        /cs/stem/lesson-108/iot-pulse-monitor-introduction       301
+/stem/lesson-108/iot-pulse-monitor-presentation-cs         /cs/stem/lesson-108/iot-pulse-monitor-presentation       301
+/stem/lesson-108/iot-pulse-monitor-presentation-cs/        /cs/stem/lesson-108/iot-pulse-monitor-presentation       301
+/stem/lesson-108/iot-pulse-monitor-theory-cs               /cs/stem/lesson-108/iot-pulse-monitor-theory             301
+/stem/lesson-108/iot-pulse-monitor-theory-cs/              /cs/stem/lesson-108/iot-pulse-monitor-theory             301
+/cs/handbook                                               /cs/                                                     301
+/cs/handbook/                                              /cs/                                                     301
+/cs/academy/jak-pripojit-blynk                             /cs/projects                                             301
+/cs/academy/jak-pripojit-blynk/                            /cs/projects                                             301
+
+
 # --- Dynamic rules (splats) — MUST stay after all static rules: wrangler counts
 # --- every rule after the first splat toward the 100-dynamic-rule limit and
 # --- fails the deploy beyond it; static rules also only win when listed first.
