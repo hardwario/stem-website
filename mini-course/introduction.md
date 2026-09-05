@@ -1,7 +1,8 @@
 ---
 slug: /
-title: Introduction
+title: TOWER Mini Course
 description: A hands-on HARDWARIO TOWER mini-course for students, teachers, and IoT enthusiasts, from first connection to a working application.
+sidebar_label: Introduction
 ---
 import Image from '@theme/IdealImage';
 

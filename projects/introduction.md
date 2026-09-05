@@ -1,7 +1,8 @@
 ---
 slug: /
-title: Introduction
+title: TOWER Projects and Tutorials
 description: Practical HARDWARIO TOWER projects and step-by-step IoT tutorials for students, educators, and makers.
+sidebar_label: Introduction
 ---
 import Image from '@theme/IdealImage';
 

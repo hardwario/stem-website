@@ -1,7 +1,8 @@
 ---
 slug: /
-title: Úvod
+title: Projekty a návody TOWER
 description: Praktické projekty HARDWARIO TOWER a návody krok za krokem pro studenty, pedagogy a kutily.
+sidebar_label: Úvod
 ---
 import Image from '@theme/IdealImage';
 

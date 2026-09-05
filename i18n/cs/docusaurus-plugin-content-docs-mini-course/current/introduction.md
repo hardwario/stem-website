@@ -1,7 +1,8 @@
 ---
 slug: /
-title: Úvod
+title: TOWER Mini kurz
 description: Praktický minikurz HARDWARIO TOWER pro studenty, učitele a zájemce o IoT, od prvního zapojení po funkční aplikaci.
+sidebar_label: Úvod
 ---
 import Image from '@theme/IdealImage';
 
