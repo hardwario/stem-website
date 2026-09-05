@@ -4,18 +4,17 @@ import type MetadataType from '@theme/DocItem/Metadata';
 import type { WrapperProps } from '@docusaurus/types';
 import Head from '@docusaurus/Head';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { useDoc, useSidebarBreadcrumbs } from '@docusaurus/plugin-content-docs/client';
+import { useDoc } from '@docusaurus/plugin-content-docs/client';
 
 type Props = WrapperProps<typeof MetadataType>;
 
 // Structured data for every docs page: a TechArticle (what the page is, in which
-// language, who publishes it) and a BreadcrumbList mirroring the sidebar path. Both
-// help search and AI answer engines cite the right page. The site-wide Organization
-// block lives in docusaurus.config.js headTags.
+// language, who publishes it) so search and AI answer engines cite the right page.
+// The theme already emits a BreadcrumbList on nested pages and the site-wide
+// Organization block lives in docusaurus.config.js headTags, so neither is repeated here.
 export default function MetadataWrapper(props: Props): React.JSX.Element {
   const { metadata, frontMatter } = useDoc();
   const { siteConfig, i18n } = useDocusaurusContext();
-  const breadcrumbs = useSidebarBreadcrumbs();
   const origin = siteConfig.url.replace(/\/$/, '');
   // Doc permalinks come without the trailing slash even with trailingSlash: true; the
   // served (and canonical) URL has it, so normalise here to match.
@@ -33,30 +32,16 @@ export default function MetadataWrapper(props: Props): React.JSX.Element {
     inLanguage: i18n.currentLocale,
     isPartOf: { '@type': 'WebSite', name: siteConfig.title, url: origin },
     publisher: { '@type': 'Organization', name: 'HARDWARIO', url: 'https://www.hardwario.com' },
-    ...(image ? { image: image.startsWith('http') ? image : origin + siteConfig.baseUrl.replace(/\/$/, '') + '/' + image.replace(/^\//, '') } : {}),
+    ...(image
+      ? { image: image.startsWith('http') ? image : origin + siteConfig.baseUrl.replace(/\/$/, '') + '/' + image.replace(/^\//, '') }
+      : {}),
   };
-
-  const crumbs = (breadcrumbs ?? []).filter((item) => item.href);
-  const list =
-    crumbs.length > 0
-      ? {
-          '@context': 'https://schema.org',
-          '@type': 'BreadcrumbList',
-          itemListElement: crumbs.map((item, i) => ({
-            '@type': 'ListItem',
-            position: i + 1,
-            name: item.label,
-            item: origin + withSlash(item.href as string),
-          })),
-        }
-      : null;
 
   return (
     <>
       <Metadata {...props} />
       <Head>
         <script type="application/ld+json">{JSON.stringify(article)}</script>
-        {list && <script type="application/ld+json">{JSON.stringify(list)}</script>}
       </Head>
     </>
   );
