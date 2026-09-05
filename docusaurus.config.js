@@ -11,6 +11,10 @@ const config = {
   tagline: 'STEM learning platform for schools',
   url: 'https://stem.hardwario.com',
   baseUrl: '/',
+  // Workers static assets serve `x/index.html` at `/x/` and 307 `/x` to it, so
+  // emit trailing-slash URLs everywhere (links, canonical, hreflang, sitemap)
+  // to avoid a redirect hop on every first navigation and sitemap entry.
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
 
