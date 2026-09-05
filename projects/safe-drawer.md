@@ -32,13 +32,13 @@ You only need a **box with a button** and a **Radio Dongle**. That's why the bas
 
 The box will report to your smartphone through the **Blynk IoT** app. 📱 You'll set up two things there: a **switch** to arm and disarm the detector, and a **push notification** that fires when someone opens the drawer.
 
-1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device — you'll need all three. You can also reuse a template from a previous project.
+1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device. You'll need all three. You can also reuse a template from a previous project.
 
-2. **Add a Datastream for the detector state.** On the template detail, open the **Datastreams** tab, click **Edit** in the top right, then **+ New Datastream** and choose **Virtual Pin**. Pick a free Pin and choose the **Integer** type with a range of **0 - 1** (0 = off, 1 = on). Note the Pin number — you'll need it in Node-RED. Click **Create**, then **Save** the template.
+2. **Add a Datastream for the detector state.** On the template detail, open the **Datastreams** tab, click **Edit** in the top right, then **+ New Datastream** and choose **Virtual Pin**. Pick a free Pin and choose the **Integer** type with a range of **0–1** (0 = off, 1 = on). Note the Pin number. You'll need it in Node-RED. Click **Create**, then **Save** the template.
 
-3. **Add a notification Event.** On the template, open the **Events** tab and add a new event (for example, name it `drawer` and give it the message you want to receive — be careful, Blynk doesn't handle accents and special characters 🤷). Turn on **Notifications** for that event so Blynk delivers the alert to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
+3. **Add a notification Event.** On the template, open the **Events** tab and add a new event (for example, name it `drawer` and give it the message you want to receive. Be careful, Blynk doesn't handle accents and special characters 🤷). Turn on **Notifications** for that event so Blynk delivers the alert to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
 
-4. If you don't have a device yet, **create a device** from your template — described in [the same guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/).
+4. If you don't have a device yet, **create a device** from your template, as described in [the same guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/).
 
 5. Download the **Blynk IoT app** on your phone from the [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk) and sign in with the same account. Make sure notifications are allowed for the app so the alert can pop up. 📱
 
@@ -103,7 +103,7 @@ node/x-axis-detector:0/accelerometer/-/event-count
 
 9. Set the node to fire the **Event** you created (the event code, e.g. `drawer`). This is what turns the drawer opening into the push notification. Confirm with the **Done** button.
 
-10. Now **connect this chain** — MQTT ➡️ Switch ➡️ Change ➡️ Blynk IoT log event. And let's move on.
+10. Now **connect this chain**: MQTT ➡️ Switch ➡️ Change ➡️ Blynk IoT log event. And let's move on.
 
 ## Set up the detector switch in Node-RED
 

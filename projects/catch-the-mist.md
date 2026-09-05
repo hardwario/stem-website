@@ -16,7 +16,7 @@ All you need is the box with button and the USB dongle in the basic HARDWARIO [S
 ##  Download new firmware
 
 1. If you haven't done it yet, put together the [Start set](https://www.hardwario.store/p/start-set/).
-2. Upload a special firmware to Core Module - **bcf-radio-x-axis-detector** (you will find it among other firmware in the Playground). Thanks to this firmware, the box will become sensitive to movement.👌
+2. Upload a special firmware to Core Module: **bcf-radio-x-axis-detector** (you will find it among other firmware in the Playground). Thanks to this firmware, the box will become sensitive to movement.👌
 
 3. Pair the Core Module with the USB Dongle. Right after pairing it, you will notice that your Core Module has changed Alias to **x-axis-detector**.
 
@@ -57,7 +57,7 @@ Name the node in the Label field, e.g. **Counter**.
 
 Confirm it the the **Done** button.
 
-5. Next to this node, place the last one - the **Text node** from the Dashboard section.
+5. Next to this node, place the last one: the **Text node** from the Dashboard section.
 
 
 

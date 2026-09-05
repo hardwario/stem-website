@@ -48,7 +48,7 @@ As part of the experiment, we will understand:
 
 ### Pairing the Sensor Kit with the Radio Dongle
 
-Open HARDWARIO Playground application - Tab **Devices**
+Open the HARDWARIO Playground application and go to the **Devices** tab
 
 <div class="container">
   <div class="row">
@@ -58,7 +58,7 @@ Open HARDWARIO Playground application - Tab **Devices**
 
 ### Display temperature and humidity data in graph
 
-Go to HARDWARIO Playground application - Tab **Functions**
+Go to the HARDWARIO Playground application and open the **Functions** tab
 
 Copy and Import this **Soil Sensor Flow**
 
@@ -86,7 +86,7 @@ Click on **Deploy**
   </div>
 </div>
 
-Open Tab **Dashboard** - you'll see gauges with Soil Temperature and Moisture.
+Open the **Dashboard** tab. You'll see gauges with Soil Temperature and Moisture.
 
 <div class="container">
   <div class="row">

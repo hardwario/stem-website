@@ -78,15 +78,15 @@ Potvrď tlačítkem **Done**.
 
 Detekce dorazí na tvůj smartphone přes appku **Blynk IoT**, kam zachycený pohyb přiletí jako push notifikace. A to je fakt super. 😎
 
-1. Pokud ještě žádný nemáš, založ si účet v [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). V [tomhle návodu](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) najdeš, jak si nastavit účet, šablonu zařízení (device template) a zařízení (device) — budeš potřebovat všechny tři. Můžeš taky využít šablonu z některého předchozího projektu.
+1. Pokud ještě žádný nemáš, založ si účet v [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). V [tomhle návodu](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) najdeš, jak si nastavit účet, šablonu zařízení (device template) a zařízení (device). Budeš potřebovat všechny tři. Můžeš taky využít šablonu z některého předchozího projektu.
 
-2. V Blynk IoT se push notifikace nepřidává na obrazovku telefonu jako widget — posílá se jako **Event** definovaný na tvé šabloně. V detailu šablony otevři záložku **Events** a přidej nový event (třeba ho pojmenuj `motion` a dej mu zprávu, kterou chceš dostávat, například _Jezisek je v obyvaku_). Pak pro tenhle event zapni **Notifications**, aby ti ho Blynk doručil na telefon. [Návod](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) tě nastavením šablony provede.
+2. V Blynk IoT se push notifikace nepřidává na obrazovku telefonu jako widget. Posílá se jako **Event** definovaný na tvé šabloně. V detailu šablony otevři záložku **Events** a přidej nový event (třeba ho pojmenuj `motion` a dej mu zprávu, kterou chceš dostávat, například _Jezisek je v obyvaku_). Pak pro tenhle event zapni **Notifications**, aby ti ho Blynk doručil na telefon. [Návod](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) tě nastavením šablony provede.
 
 3. Stáhni si do telefonu appku **Blynk IoT** z [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) nebo [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk) a přihlas se stejným účtem. Ujisti se, že má appka povolená upozornění, aby se zpráva mohla zobrazit. 📱
 
 ## Propoj mobil s krabičkou
 
-1. Vrať se k počítači. Na plochu Node-RED postav poslední node celého projektu — node ze sekce **Blynk IoT**, který umí spustit tvůj event (node **log event**). Patří hned za flow se switchem (mrkni na obrázek). 👀 <div class="container"> <div class="row"> <Image img={require('./img/christmas-detector/christmas-detector-13.webp')} alt="Uzel notify pro Blynk zvýrazněný na ploše, umístěný na konec flow detektoru"/> </div> </div>
+1. Vrať se k počítači. Na plochu Node-RED postav poslední node celého projektu: node ze sekce **Blynk IoT**, který umí spustit tvůj event (node **log event**). Patří hned za flow se switchem (mrkni na obrázek). 👀 <div class="container"> <div class="row"> <Image img={require('./img/christmas-detector/christmas-detector-13.webp')} alt="Uzel notify pro Blynk zvýrazněný na ploše, umístěný na konec flow detektoru"/> </div> </div>
 
 2. Rozklikni node dvojklikem. Vpravo uvidíš **malou tužtičku**. Klikni na ni a otevře se nové okno. Do pole **Url** zadej `blynk.cloud` a do polí **Auth Token** a **Template ID** zkopíruj hodnoty z detailu zařízení ve webové appce Blynk na počítači. Potvrď tlačítkem **Add**.
 

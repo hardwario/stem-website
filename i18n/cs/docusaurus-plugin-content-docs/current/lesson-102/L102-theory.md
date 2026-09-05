@@ -12,12 +12,12 @@ import Image from '@theme/IdealImage';
 
 ### Hlavní výhody stavebnice TOWER
 
-* Systém Plug&Make, díky kterému se prvky stavějí bez nutnosti pájení a drátování - [videonávod](https://www.youtube.com/watch?v=OCPPKXzCBg0)
+* Systém Plug&Make, díky kterému se prvky stavějí bez nutnosti pájení a drátování ([videonávod](https://www.youtube.com/watch?v=OCPPKXzCBg0))
 * Bezdrátové řešení s velmi nízkou spotřebou energie, díky čemuž je instalace snadná a jednotky vydrží běžet z baterií i několik let
-* Open-source přístup umožňující integrace s dalšími platformami - [github](https://github.com/hardwario)
-* Vzorový firmware  k okamžitému použití - [github](https://github.com/hardwario)
-* Široké portfolio modelů pouzder pro tisk na 3D tiskárnách, včetně dostupné služby 3D tisku - [store](https://www.hardwario.store/cz/enclosures)
-* Podrobné návody a technická podpora, které pomáhají zákazníkům při práci se stavebnicí - [dokumentace](https://docs.hardwario.com/tower/) a [fórum](https://forum.hardwario.com/)
+* Open-source přístup umožňující integrace s dalšími platformami: [github](https://github.com/hardwario)
+* Vzorový firmware  k okamžitému použití: [github](https://github.com/hardwario)
+* Široké portfolio modelů pouzder pro tisk na 3D tiskárnách, včetně dostupné služby 3D tisku ([store](https://www.hardwario.store/cz/enclosures))
+* Podrobné návody a technická podpora, které pomáhají zákazníkům při práci se stavebnicí ([dokumentace](https://docs.hardwario.com/tower/) a [fórum](https://forum.hardwario.com/))
 
 ### Komunikační možnosti
 
@@ -40,7 +40,7 @@ import Image from '@theme/IdealImage';
 
 V **HARDWARIO Playground** můžeš:
 
-* připojit svou krabičku - IoT sestavu k počítači,
+* připojit svou krabičku (IoT sestavu) k počítači,
 * upravovat a nastavovat funkce své sestavy,
 * nahrávat do sestavy firmware (pokud nevíš, co to je, mrkni [sem](https://docs.hardwario.com/tower/firmware-development/firmware-quick-start/))
 * nebo sledovat, co tvá sestava dělá v přehledných grafech a vizualizacích.

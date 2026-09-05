@@ -57,7 +57,7 @@ Jak už je uvedeno výše, sestava umí kromě zprávy o stisknutí tlačítka p
 V mnoha tutoriálech je prvním projektem Hello World! Společně zvládmene něco lepšího. Zprávy o teplotě zobrazíme v grafu!
 
 1. V Playgroundu si otevřete záložku **Functions**.
-2. Jde o vloženou aplikaci **Node-RED**. Existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování** - na plochu si přidáváte funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříte funkční aplikaci** (flow).
+2. Jde o vloženou aplikaci **Node-RED**. Existuje k ní skvělá dokumentace, podpora i obrovská komunita uživatelů. Funguje na principu **vizuálního programování**: na plochu si přidáváte funkční bloky, kterým říkáme **nody**, a jejich spojením **vytvoříte funkční aplikaci** (flow).
 3. Smažte dva nody, které máte na ploše.
 4. Začneme přidáním nodu **mqtt in**. Najdete jej vlevo v sekci **network**. Přetáhněte jej na plochu a dvakrát na něj klikněte.
 5. Otevře se vám nastavovací okno nodu, ve kterém potřebujeme vyplnit pole **topic**. To určí, jaké zprávy chceme v této flow přijímat.

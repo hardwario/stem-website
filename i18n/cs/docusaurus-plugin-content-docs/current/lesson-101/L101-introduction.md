@@ -4,7 +4,7 @@ title: Úvod
 ---
 import Image from '@theme/IdealImage';
 
-Cílem lekce **Co je to Internet věcí - IoT** je v rámci jedné vyučovací hodiny představit možnosti internetu věcí. V rámci lekce se studenti seznámí s populárními IoT technologiemi a udělají si základní představu o smyslu a reálném využití internetu věcí.
+Cílem lekce **Co je to Internet věcí (IoT)** je v rámci jedné vyučovací hodiny představit možnosti internetu věcí. V rámci lekce se studenti seznámí s populárními IoT technologiemi a udělají si základní představu o smyslu a reálném využití internetu věcí.
 
 ## Co budete v rámci lekce potřebovat?
 

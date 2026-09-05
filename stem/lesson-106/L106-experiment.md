@@ -69,8 +69,8 @@ Check out the detailed guide on [uploading firmware to the Core Module](https://
   </div>
 </div>
 
-* Switch to the **Messages** tab – if everything went correctly, you should see incoming messages from the device (**vibration-monitor**)
-* Switch to the **Dashboard** tab – if everything went correctly, you should see vibration levels over time
+* Switch to the **Messages** tab: if everything went correctly, you should see incoming messages from the device (**vibration-monitor**)
+* Switch to the **Dashboard** tab: if everything went correctly, you should see vibration levels over time
 
 <div class="container">
   <div class="row">

@@ -33,4 +33,4 @@ Náš pedagogický rámec velmi usnadňuje přípravu, vedení a hodnocení lekc
 
 ## Vzorové lekce aktivní STEM výuky HARDWARIO
 
-Naše lekce aktivní STEM výuky jsou postaveny na reálných projektech internetu věcí v domácnostech, školách i průmyslu. Nabízíme lekce v základní i pokročilé úrovni. Budeme potěšeni vaší zpětnou vazbou - kritikou i nápady pro vylepšení.
+Naše lekce aktivní STEM výuky jsou postaveny na reálných projektech internetu věcí v domácnostech, školách i průmyslu. Nabízíme lekce v základní i pokročilé úrovni. Budeme potěšeni vaší zpětnou vazbou, kritikou i nápady pro vylepšení.

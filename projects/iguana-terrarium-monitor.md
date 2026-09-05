@@ -53,7 +53,7 @@ In the new **Gauge node** set the **Range** to 0 to 100 and enter % in the **Val
 
 <div class="container"> <div class="row"> <Image img={require('./img/iguana-terrarium-monitor/iguana-terrarium-monitor-4.webp')} alt="Humidity MQTT node with its Gauge highlighted; edit dialog shows Label, percent value format, and range 0 to 100"/> </div> </div>
 
-8. Now we go to the light pointer. 💡 The procedure is exactly the same - one **MQTT node** and one **Gauge node**.
+8. Now we go to the light pointer. 💡 The procedure is exactly the same: one **MQTT node** and one **Gauge node**.
 
 9. Copy the following Topic into the **MQTT node**: node/climate-monitor:0/lux-meter/0:0/illuminance. In the **Gauge node**, set the time range to 0 to 10,000 and enter light unit lx (so-called lux) in the **Value format** line. As before, you can choose the name and color again.
 
@@ -79,13 +79,13 @@ Under the Gauge nodes for humidity, luminosity and pressure, add one **Chart nod
 For the **Y-axis** fill in the same ranges that you entered for the adjacent Gauges, i.e. for humidity 0 to 100, for temperature and luminance 0 to 10,000.
 
 <div class="container"> <div class="row"> <Image img={require('./img/iguana-terrarium-monitor/iguana-terrarium-monitor-7.webp')} alt="Edit chart node dialog with Label, X-axis interval, and Y-axis range highlighted, and three chart nodes in the flow"/> </div> </div>
-Done! Before you start measuring, add one more clever feature - a virtual guard.
+Done! Before you start measuring, add one more clever feature: a virtual guard.
 
 ## Add the ideal temperature indicator
 
 The virtual guard will alert you whenever the temperature in your lizard´s terrarium is not right. 🐍 You will need several nodes to build it.
 
-1. Above everything you've created, add a **Numeric node** from under the Dashboard section - 123 is written on it.
+1. Above everything you've created, add a **Numeric node** from under the Dashboard section (123 is written on it).
 Click on it and fill in the **Range** and ** Value format** lines just like for the first Gauge. If you can't remember, check out the screenshot below. Do not forget to name the node in the Label, e.g. Ideal temperature.
 
 <div class="container"> <div class="row"> <Image img={require('./img/iguana-terrarium-monitor/iguana-terrarium-monitor-8.webp')} alt="Numeric node on the canvas; edit dialog with Label, value format with degrees Celsius, and range 0 to 40 highlighted"/> </div> </div>

@@ -26,7 +26,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   const description = translate({
     id: 'homepage.metaDescription',
-    message: 'STEM learning platform for schools — hands-on IoT lessons and projects with HARDWARIO TOWER kits.',
+    message: 'STEM learning platform for schools: hands-on IoT lessons and projects with HARDWARIO TOWER kits.',
   });
   return (
     <Layout

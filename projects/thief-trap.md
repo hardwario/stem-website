@@ -38,11 +38,11 @@ If you already have the Start Set, you will only need the [**PIR Module**](https
 
 Your box connects to your smartphone thanks to the **Blynk IoT** app, where the alarm will arrive as a push notification. 📱
 
-1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device — you'll need all three. You can also reuse a template from a previous project.
+1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device. You'll need all three. You can also reuse a template from a previous project.
 
-2. In Blynk IoT, a push notification isn't placed on the phone screen like a widget — it's sent as an **Event** defined on your template. On the template detail, open the **Events** tab and add a new event (for example, name it `thief` and give it the message you want to receive, such as "Someone's in your room"). Then turn on **Notifications** for that event so Blynk delivers it to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
+2. In Blynk IoT, a push notification isn't placed on the phone screen like a widget. It's sent as an **Event** defined on your template. On the template detail, open the **Events** tab and add a new event (for example, name it `thief` and give it the message you want to receive, such as "Someone's in your room"). Then turn on **Notifications** for that event so Blynk delivers it to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
 
-3. You also want to arm and disarm the alarm from your phone so it doesn't bleep when you are home. 🔕 Add a **Datastream** on the same template (a virtual pin) and place a **switch** widget on it in the app — the switch sends `1` (armed) or `0` (disarmed). You'll read this value back in Node-RED in a moment.
+3. You also want to arm and disarm the alarm from your phone so it doesn't bleep when you are home. 🔕 Add a **Datastream** on the same template (a virtual pin) and place a **switch** widget on it in the app. The switch sends `1` (armed) or `0` (disarmed). You'll read this value back in Node-RED in a moment.
 
 4. Download the **Blynk IoT app** on your phone from the [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk) and sign in with the same account. Make sure notifications are allowed for the app so the alarm can pop up. 🚨
 
@@ -88,7 +88,7 @@ Confirm with the **Done** button.
 
 6. Double-click it to open it. On the right you'll see **a small pencil**. Click it and a new window opens. In the **Url** field enter `blynk.cloud`, and into the **Auth Token** and **Template ID** fields copy the values from the device detail in the Blynk IoT web app on your computer. Confirm with the **Add** button. (You'll reuse this same connection for every Blynk IoT node in this project.)
 
-7. Behind both the Dashboard switch and the Blynk IoT read node, place a javascript **Function node**. With it, the project remembers whether the alarm is currently armed — set either from your computer (Dashboard) or from your phone (Blynk IoT).
+7. Behind both the Dashboard switch and the Blynk IoT read node, place a javascript **Function node**. With it, the project remembers whether the alarm is currently armed, whether set from your computer (Dashboard) or from your phone (Blynk IoT).
 
 In the **Name** line, fill in the Notification setting status and copy the following code into the **Function** field:
 
@@ -108,7 +108,7 @@ if(msg.payload == "1") { flow.set("alarmOn", 1); } else { flow.set("alarmOn", 0)
 
 ## Program the main sensor
 
-1. The whole project works on the principle of a motion sensor – when an intruder or thief enters your room, the box notices it and activates the alarm.
+1. The whole project works on the principle of a motion sensor. When an intruder or thief enters your room, the box notices it and activates the alarm.
 
 By measuring the ambient temperature, the alarm can change its status to keep itself in a low power mode in order to not drain the batteries in the box too much.🔋
 

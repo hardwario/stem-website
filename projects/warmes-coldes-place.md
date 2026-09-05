@@ -41,15 +41,15 @@ Confirm with the **Done** button.
 
 ## Prepare the Blynk IoT app
 
-1. If you don't have one yet, create an account in the [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) app. See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to do it — it also covers how to create templates and datastreams. You'll need both.
+1. If you don't have one yet, create an account in the [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) app. See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to do it. It also covers how to create templates and datastreams. You'll need both.
 
 2. The second step is to create a device template. You'll find how in [the same guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). You can also reuse a template from previous projects if you have one.
 
-3. Now set up a new Datastream. On the template detail, click the **Datastreams** tab. In the top right, click **Edit**. A **+ New Datastream** button appears — click it, choose **Virtual Pin**, and a dialog opens:
+3. Now set up a new Datastream. On the template detail, click the **Datastreams** tab. In the top right, click **Edit**. A **+ New Datastream** button appears. Click it, choose **Virtual Pin**, and a dialog opens:
 
 ![HARDWARIO Add Blynk IoT datastream](./img/warmes-coldes-place/add-datastream-1.png)
 
-4. Set a name for the new Datastream and pick one of the free Pins. You'll measure temperature as a decimal number, so choose the **Double** type and set the unit to **Celsius**. Don't forget to set the temperature range you'll measure, for example **0 - 50**.
+4. Set a name for the new Datastream and pick one of the free Pins. You'll measure temperature as a decimal number, so choose the **Double** type and set the unit to **Celsius**. Don't forget to set the temperature range you'll measure, for example **0–50**.
 
 5. Create the Datastream by clicking **Create**.
 

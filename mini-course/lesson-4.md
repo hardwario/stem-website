@@ -29,10 +29,10 @@ The next lesson will be a game with an **LED strip**, which will bring light to 
 
 ## 4. Pair the Power Module
 
-The Power Module is unique in that it **does not have batteries** – it is powered directly from a power source.  
+The Power Module is unique in that it **does not have batteries**. It is powered directly from a power source.  
 
 1. In the **Devices** tab, click **Start pairing**.  
-2. Plug the Power Module into the power source – this puts it into pairing mode.  
+2. Plug the Power Module into the power source: this puts it into pairing mode.  
 3. After pairing, the Power Module appears as `power-controller:0`.
 
 <div class="container">
@@ -45,9 +45,9 @@ The Power Module is unique in that it **does not have batteries** – it is powe
 
 Programming in the flow again begins with a message that triggers something. There are several options:
 
-✅ **Button Module** – monitoring a button press  
-✅ **PIR Module** – monitoring orientation  
-✅ **Any module** – all of them have temperature, which you can change (a more patient option 😊)
+✅ **Button Module**: monitoring a button press  
+✅ **PIR Module**: monitoring orientation  
+✅ **Any module**: all of them have temperature, which you can change (a more patient option 😊)
 
 ## 6. What to Send to the Power Module
 

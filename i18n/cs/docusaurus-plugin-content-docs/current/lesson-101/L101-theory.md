@@ -33,11 +33,11 @@ A také to je fenomén, bublina, hrozba a příležitost. Příležitost udělat
 
 Internet věcí je tady pro to, aby nám pomáhal. Dnes se zejména dotýká těchto oblastí:
 
-* Bezpečnost - víme co se děje v našich objektech, kde se nachází naše děti, ...
-* Zdraví - regulujeme prostředí, ve kterém žijeme a pracujeme, rychleji a přesněji reagujeme na zdravotní stav, ...
-* Ekonomika - lépe plánujeme, optimalizujeme procesy, usnadňujeme si život, ...
-* Ekologie - šetříme zdroje i přírodu, ...
-* Zábava - objevujeme nové formy zábavy, ...
+* Bezpečnost: víme co se děje v našich objektech, kde se nachází naše děti, ...
+* Zdraví: regulujeme prostředí, ve kterém žijeme a pracujeme, rychleji a přesněji reagujeme na zdravotní stav, ...
+* Ekonomika: lépe plánujeme, optimalizujeme procesy, usnadňujeme si život, ...
+* Ekologie: šetříme zdroje i přírodu, ...
+* Zábava: objevujeme nové formy zábavy, ...
 
 Existují i rizika spojená s rozvojem IoT:
 
@@ -46,7 +46,7 @@ Existují i rizika spojená s rozvojem IoT:
 * Nesprávná interpretace dat
 * Zahlcení přemírou špatně strukturovaných informací
 
-IoT vlastně znamená, že věci okolo nás s námi mohou komunikovat - tedy posílat nám informace, případně si tyto informace vyměňovat samy. Již toto je ohromný posun kupředu, protože nám umožňuje výrazně zrychlit a zefektivnit mnoho činností, dělat informovaná a tedy lepší rozhodnutí, lépe plánovat svůj čas, zvládnout spoustu aktivit na dálku, aniž bychom museli složitě cestovat, nebo zajišťovat jejich ovládání prostřednictvím jiné osoby.
+IoT vlastně znamená, že věci okolo nás s námi mohou komunikovat, tedy posílat nám informace, případně si tyto informace vyměňovat samy. Již toto je ohromný posun kupředu, protože nám umožňuje výrazně zrychlit a zefektivnit mnoho činností, dělat informovaná a tedy lepší rozhodnutí, lépe plánovat svůj čas, zvládnout spoustu aktivit na dálku, aniž bychom museli složitě cestovat, nebo zajišťovat jejich ovládání prostřednictvím jiné osoby.
 
 Prostě v IoT máme v rukou nástroj s ohromným potenciálem zlepšit naše životy.
 
@@ -77,7 +77,7 @@ Společnými znaky THINGS ale vždy jsou:
 
 ### Centrální IoT zařízení
 
-Nezbytnou podmínkou internetu věcí je, že jsou zařízení připojená k internetu. V mnoha případech je ale výhodnější zařízení připojit k internetu skrze nějaký centrální prvek - Hub. V takovém případě komunikují zařízení neinternetovým protokolem mezi sebou a s Hubem a k internetu je připojen pouze Hub.
+Nezbytnou podmínkou internetu věcí je, že jsou zařízení připojená k internetu. V mnoha případech je ale výhodnější zařízení připojit k internetu skrze nějaký centrální prvek, tzv. Hub. V takovém případě komunikují zařízení neinternetovým protokolem mezi sebou a s Hubem a k internetu je připojen pouze Hub.
 
 Na trhu existuje mnoho centrálních Hubů, mezi ty nejpopulárnější v oblasti open-source hnutí patří Huby postavené na Raspberry Pi, nebo v Česku vyvíjený router Turris.
 
@@ -142,7 +142,7 @@ Už víme jakým jazykem spolu IoT zařízení komunikují a kdo komunikaci ří
 
 #### Lokální bezdrátové přenosy
 
-Ve světě IoT se pro lokální bezdrátové přenosy používají všeobecně známé standardy, např. Wi-Fi nebo Bluetooth. Existují rovněž speciální bezdrátové technologie jako [ZigBee](https://cs.wikipedia.org/wiki/ZigBee) nebo [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave), které mají vlastní komunikační protokoly. Důležitým aspektem pro bezdrátové přenosy je volba frekvenčního pásma. Ta ovlivňuje kvalitu přenosu - dosah, spolehlivost a spotřebu.
+Ve světě IoT se pro lokální bezdrátové přenosy používají všeobecně známé standardy, např. Wi-Fi nebo Bluetooth. Existují rovněž speciální bezdrátové technologie jako [ZigBee](https://cs.wikipedia.org/wiki/ZigBee) nebo [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave), které mají vlastní komunikační protokoly. Důležitým aspektem pro bezdrátové přenosy je volba frekvenčního pásma. Ta ovlivňuje kvalitu přenosu: dosah, spolehlivost a spotřebu.
 
 Pro IoT zařízení, které většinou nepřenášejí velká data, se nejvíce hodí bezdrátové přenosy v tzv. Sub-GHz pásmu. V tomto pásmu jsou pro tyto účely vyhrazené bezlicenční frekvence, pro EU např. 868 MHz. Ve srovnání s Wi-Fi (provozované na frekvencích 2.4 a 5 GHz) má Sub-GHz téměř dvojnásobně vyšší dosah, vyšší spolehlivost (díky nižší frekvenci a méně zařízením používajícím toto pásmo) a výrazně nižšími nároky na výkon, tzn. s nižší spotřebou. Hodí se tedy pro zařízení běžící na baterie, jako například stavebnici HARDWARIO TOWER.
 

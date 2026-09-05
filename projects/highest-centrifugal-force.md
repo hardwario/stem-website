@@ -6,7 +6,7 @@ import Image from '@theme/IdealImage';
 
 ## Introduction
 
-Do you remember the spintop? You might have had a wooden or plastic one, but we bet it wasn't a smart one. Now you can finally make one – it will register your centrifugal force. Measure it against your friends to see who is centrifugally the strongest one! 💪
+Do you remember the spintop? You might have had a wooden or plastic one, but we bet it wasn't a smart one. Now you can finally make one that registers your centrifugal force. Measure it against your friends to see who is centrifugally the strongest one! 💪
 
 In this project, you will learn **to measure the fast spinning of the box**.  👈
 
@@ -16,7 +16,7 @@ All you need is the **box with button** and the **USB dongle** in the basic HARD
 ## Download new firmware
 
 1. If you haven't done it yet, put together the Start Set.
-2. Upload new firmware to Core Module - **bcf radio spinning game** (you will find it among other firmware in the Playground). Thanks to this firmware, the box will become sensitive to rotation. 👌
+2. Upload new firmware to Core Module: **bcf radio spinning game** (you will find it among other firmware in the Playground). Thanks to this firmware, the box will become sensitive to rotation. 👌
 
 
 

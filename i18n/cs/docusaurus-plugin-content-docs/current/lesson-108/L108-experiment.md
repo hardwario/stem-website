@@ -59,7 +59,7 @@ V rámci experimentu budeme přenášet počet impulzů pomocí **LED** nebo **m
 2. Otevřete aplikaci **Playground** a běžte na záložku **Devices**.
 3. Vyberte svůj Radio Dongle ze seznamu USB zařízení a klikněte na **Connect**.
 4. Klikněte na **Start pairing**.
-5. Vložte do sady Sensor baterie – úspěšné spárování se projeví zobrazením zařízení s názvem `wireless-pulse-counter:0`.
+5. Vložte do sady Sensor baterie: úspěšné spárování se projeví zobrazením zařízení s názvem `wireless-pulse-counter:0`.
 
 ---
 
@@ -78,8 +78,8 @@ V rámci experimentu budeme přenášet počet impulzů pomocí **LED** nebo **m
   </div>
 </div>
 
-3. Přepněte se na záložku **Messages** – pokud vše proběhlo správně, uvidíte příchozí zprávy ze sady Sensor.
-4. Přepněte se na záložku **Dashboard** – zobrazí se graf s počtem impulzů.
+3. Přepněte se na záložku **Messages**: pokud vše proběhlo správně, uvidíte příchozí zprávy ze sady Sensor.
+4. Přepněte se na záložku **Dashboard**: zobrazí se graf s počtem impulzů.
 
 :::info
 

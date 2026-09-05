@@ -23,7 +23,7 @@ Budeš potřebovat jen **krabičku s tlačítkem** a **USB dongle**. Vystačíš
 
 ![MQTT input node](./img/im-ok-button/image4.png)
 
-4. Uvnitř nodu nastavíš klíčovou funkci – a tou je stisknutí tlačítka. Na node dvakrát klikni a **do pole Topic zkopíruj tenhle řádek**:
+4. Uvnitř nodu nastavíš klíčovou funkci: a tou je stisknutí tlačítka. Na node dvakrát klikni a **do pole Topic zkopíruj tenhle řádek**:
 
 ```
 node/push-button:0/push-button/-/event-count
@@ -91,7 +91,7 @@ Pokud jej ještě nemáš, založ si zařízení z vytvořené šablony. Jak na 
 ![HARDWARIO Add Blynk IoT automation](./img/im-ok-button/add-automation-2.png)
 
 
-3. Nastavení automatizace probíhá jednoduše nastavením Kdy se má automatizace spustit - sekce **When** a co se má následně stát - sekce **Do this**. 
+3. Nastavení automatizace je jednoduché: v sekci **When** se nastaví, kdy se má automatizace spustit, a v sekci **Do this**, co se má následně stát. 
 
 4. Nejprve nastav sekci **When**. Vyber tvé zařízení a **vytvořený Datastream**. Objeví se ti třetí selector, ten nech nastavený na **Is Any**. 
 

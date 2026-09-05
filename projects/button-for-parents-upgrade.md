@@ -7,7 +7,7 @@ import Image from '@theme/IdealImage';
 ## Introduction
 
 
-Do you already have a basic version of the button that enables your mom to call you for dinner? Congratulations. 👍 With this enhancement, you can move the project even further forward - the message changes according to the time of day. You can even respond to it.
+Do you already have a basic version of the button that enables your mom to call you for dinner? Congratulations. 👍 With this enhancement, you can move the project even further forward: the message changes according to the time of day. You can even respond to it.
 
 Under this project, you will learn how to **set up a different message for different times of day**, send a special notification **by holding the button** and program a simple **response** option. 👌
 

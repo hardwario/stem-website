@@ -113,7 +113,7 @@ V rámci experimentu pochopíme:
 
 * Vytvořte si **Google účet**
 * Vytvořte novou Google tabulku, např. přes [sheets.new](https://docs.google.com/spreadsheets/d/1QeiJCh4L6f6cXWA7HfXrqGrWJPnjWcaemCiTn-Mbf9M/edit?gid=0#gid=0)
-* Přejmenujte aktuální list z **List1** na **Data** – na tento název budeme v kódu odkazovat
+* Přejmenujte aktuální list z **List1** na **Data**: na tento název budeme v kódu odkazovat
 * Můžete také upravit první řádek tak, aby popisoval, jaké hodnoty se nacházejí ve sloupcích – data budou přicházet v tomto pořadí: **CO₂, Teplota, Vlhkost, TVOC**
 * V záložce **Nástroje** vyberte možnost **Editor skriptů**
 * Vložte níže uvedený **skript** a uložte ho pomocí **Ctrl + S**

@@ -15,16 +15,16 @@ The course is designed to guide participants from the connection of the very fir
 
 Throughout the course, you will go through five lessons that combine theory, practical demonstrations, and hands-on experiments:
 
-* Getting Started with TOWER – environment installation, firmware upload, sensor connection.  
-* Measuring and Visualizing Data – working with temperature, humidity, light, and other sensors.  
-* Conditional Reactions – logic nodes, input responses, automation.  
-* Controlling Outputs – LED strips, color effects, and interactive elements.  
+* Getting Started with TOWER: environment installation, firmware upload, sensor connection.  
+* Measuring and Visualizing Data: working with temperature, humidity, light, and other sensors.  
+* Conditional Reactions: logic nodes, input responses, automation.  
+* Controlling Outputs: LED strips, color effects, and interactive elements.  
 
 ## What You Need
 
 * A computer with **Windows 10 or newer**, **macOS 15 or newer**, or a **Linux desktop** (Ubuntu 24.04 / Fedora 42 or newer is supported), one free USB port, and permission to install software and USB drivers.
-* **HARDWARIO Playground** — a free download; Lesson 1 walks you through the installation.
-* The HARDWARIO TOWER hardware used across the lessons: **Radio Dongle, Core Module, Battery Module, Mini Battery Module, PIR Module, Climate Module, Button Module, LCD Module, Power Module, Cover Module**, a USB cable, an LED strip, a DC adapter, and the 3D-printed enclosures — plus **six AAA batteries** (four for the Battery Module, two for the Mini Battery Module).
+* **HARDWARIO Playground**: a free download; Lesson 1 walks you through the installation.
+* The HARDWARIO TOWER hardware used across the lessons: **Radio Dongle, Core Module, Battery Module, Mini Battery Module, PIR Module, Climate Module, Button Module, LCD Module, Power Module, Cover Module**, a USB cable, an LED strip, a DC adapter, and the 3D-printed enclosures, plus **six AAA batteries** (four for the Battery Module, two for the Mini Battery Module).
 * Internet access for the downloads. **No accounts or cloud services are needed.**
 
 ## Course Benefits

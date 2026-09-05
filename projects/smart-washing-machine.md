@@ -10,12 +10,12 @@ Raise the IQ of your family washing machine. 🤖 Using the IoT box, programme a
 
 In this project, you will learn to set up the box so that it recognizes when the washing machine is finished and sends a notification to the mobile. 📱 👈
 
-All you need is the box with the button and the USB dongle. You will be all set with the basic HARDWARIO kit - the [Start Set](https://www.hardwario.store/p/start-set/).
+All you need is the box with the button and the USB dongle. You will be all set with the basic HARDWARIO kit, the [Start Set](https://www.hardwario.store/p/start-set/).
 
 
 ## Download new firmware
 
-1. Upload new firmware to the Core Module - **bcf-radio-washing-machine-monitor** (you will find it among other firmware in the Playground). Thanks to this firmware, the box will be more sensitive 1to vibrations of the washing machine. 🔃
+1. Upload new firmware to the Core Module: **bcf-radio-washing-machine-monitor** (you will find it among other firmware in the Playground). Thanks to this firmware, the box will be more sensitive 1to vibrations of the washing machine. 🔃
 
 **Our tip:** If you don’t know how to download the firmware or what it is, [you will find out here](https://docs.hardwario.com/tower/firmware-development/hardwario-extension-tutorial/#flash-firmware).
 
@@ -67,11 +67,11 @@ Confirm it with the **Done** button.
 
 ## Prepare the Blynk IoT app
 
-1. If you don’t have one yet, create an account in the [Blynk IoT](https://blynk.io) app. See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to do it — it also covers how to create templates and datastreams. You’ll need both.
+1. If you don’t have one yet, create an account in the [Blynk IoT](https://blynk.io) app. See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to do it. It also covers how to create templates and datastreams. You’ll need both.
 
 2. The second step is to create a device template. You’ll find how to do it [in the same guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). You can also reuse a template from previous projects if you have one.
 
-3. Now set up a new Datastream. On the template detail, click the **Datastreams** tab. In the top right, click **Edit**. A **+ New Datastream** button appears — click it, choose **Virtual Pin**, and a dialog opens:
+3. Now set up a new Datastream. On the template detail, click the **Datastreams** tab. In the top right, click **Edit**. A **+ New Datastream** button appears. Click it, choose **Virtual Pin**, and a dialog opens:
 
 ![HARDWARIO Add Blynk IoT datastream](./img/smart-washing-machine/add-datastream-1.png)
 
@@ -97,11 +97,11 @@ If you don’t have one yet, create a device from the template you made. We desc
 
 ![HARDWARIO Add Blynk IoT automation](./img/smart-washing-machine/add-automation-2.png)
 
-3. Setting up the automation is simple: you set when the automation should run — the **When** section — and what should happen next — the **Do this** section.
+3. Setting up the automation is simple. In the **When** section you set when the automation should run, and in the **Do this** section what should happen next.
 
 4. First, set up the **When** section. Choose your device and the **Datastream you created**. A third selector appears; leave it set to **Is Any**.
 
-5. In the **Do This** section, click **Send app notification** and set the recipient. To keep it simple, set yourself. Into the **Subject** and **Message** fields, drag the **Trigger value** item with your mouse — it’s the variable that holds the text of your message.
+5. In the **Do This** section, click **Send app notification** and set the recipient. To keep it simple, set yourself. Into the **Subject** and **Message** fields, drag the **Trigger value** item with your mouse. It’s the variable that holds the text of your message.
 
 6. Finally, don’t forget to set the **automation name**. In the **Limit period** select, you can limit how soon the next notification can arrive after one is sent.
 

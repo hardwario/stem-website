@@ -32,7 +32,7 @@ Následující lekce bude hra s **LED páskem**, která přinese do této část
 Power Module je výjimečný tím, že **nemá baterie** – je napájený přímo ze zdroje.  
 
 1. V záložce **Devices** klikněte na **Start pairing**.  
-2. Připojte Power Module do zdroje – tím se dostane do párovacího režimu.  
+2. Připojte Power Module do zdroje: tím se dostane do párovacího režimu.  
 3. Po spárování se Power Module hlásí jako `power-controller:0`
 
 <div class="container">
@@ -46,9 +46,9 @@ Power Module je výjimečný tím, že **nemá baterie** – je napájený pří
 
 Programování ve flow opět začněte zprávou, která vám něco pošle. Možností je více:
 
-✅ **Button Module** – sledování stisku  
-✅ **PIR Module** – sledování orientace  
-✅ **Libovolný modul** – všechny mají teplotu (trpělivější varianta 😊)
+✅ **Button Module**: sledování stisku  
+✅ **PIR Module**: sledování orientace  
+✅ **Libovolný modul**: všechny mají teplotu (trpělivější varianta 😊)
 
 
 ## 6. Co poslat do Power Module

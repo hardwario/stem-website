@@ -4,7 +4,7 @@ title: Introduction
 ---
 import Image from '@theme/IdealImage';
 
-The goal of the **IoT Vibration Monitor** lesson is to introduce students to one of the most common Industry 4.0 projects — predictive maintenance using vibration monitoring.
+The goal of the **IoT Vibration Monitor** lesson is to introduce students to one of the most common Industry 4.0 projects: predictive maintenance using vibration monitoring.
 
 ## What will you need for the lesson?
 

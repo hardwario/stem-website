@@ -18,7 +18,7 @@ Zdroj: https://en.wikipedia.org/wiki/Humidity#Relative_humidity
 
 ## Effect of Humidity on Health
 
-Air humidity in an apartment or house has a direct and significant impact on the quality of our living environment and, above all, on our health. Experts recommend that the **ideal indoor humidity** should range between **40% and 60%**, depending on the type of room and how it is used—for example, in bathrooms or kitchens, higher humidity levels are expected..
+Air humidity in an apartment or house has a direct and significant impact on the quality of our living environment and, above all, on our health. Experts recommend that the **ideal indoor humidity** should range between **40% and 60%**, depending on the type of room and how it is used. In bathrooms or kitchens, for example, higher humidity levels are expected.
 
 Zdroj: https://www.ceskestavby.cz/clanky/jaka-ma-byt-idealni-vlhkost-vzduchu-v-byte-a-jak-ji-docilime-27083.html
 

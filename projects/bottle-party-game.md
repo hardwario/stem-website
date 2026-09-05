@@ -14,7 +14,7 @@ You will need **the box with the button** and the **USB dongle**. All you need i
 
 1. Start Set put together and pair.
 2. In the Playground, click on the **Functions tab** where the programming desktop is located.
-3. Let’s make it happen. 🤞 Place the **MQTT** node from the Input section in the desktop. Double click on the node and set the key feature - clicking the button. **Copy the following line into the Topic field**:
+3. Let’s make it happen. 🤞 Place the **MQTT** node from the Input section in the desktop. Double click on the node and set the key feature: clicking the button. **Copy the following line into the Topic field**:
 
 node/x-axis-detector:0/accelerometer/-/event-count
 

@@ -14,8 +14,8 @@ A major trend today is the effort to minimize the consumption of electricity, ga
 
 Electric current can be measured using two basic methods:
 
-1. **Direct Measurement** – using an [ammeter](https://en.wikipedia.org/wiki/Ammeter), which measures the magnitude of electric current in a circuit.
-2. **Indirect Measurement** – the electric current is not measured directly, but instead another physical quantity is measured, from which the current and consumption values can be calculated.
+1. **Direct Measurement**: using an [ammeter](https://en.wikipedia.org/wiki/Ammeter), which measures the magnitude of electric current in a circuit.
+2. **Indirect Measurement**: the electric current is not measured directly, but instead another physical quantity is measured, from which the current and consumption values can be calculated.
 
 ### Options for Indirect Measurement of Electric Current:
 
@@ -29,8 +29,8 @@ One of the ways to monitor consumption online is by connecting to **electricity/
 
 ### The most commonly used sensors for pulse monitoring are:
 
-* **LED sensor** – detects LED pulses on the meter, which blink to indicate consumption
-* **Magnetic sensor** – detects pulses generated with each rotation of a magnet placed on the unit dial
+* **LED sensor**: detects LED pulses on the meter, which blink to indicate consumption
+* **Magnetic sensor**: detects pulses generated with each rotation of a magnet placed on the unit dial
 
 <div class="container">
   <div class="row">

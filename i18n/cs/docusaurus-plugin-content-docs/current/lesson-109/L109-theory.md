@@ -14,10 +14,10 @@ Sucho je obtížné definovat, protože jeho význam se liší v závislosti na 
 
 Sucha se dělí na čtyři typy:
 
-* **Meteorologické** – záporná odchylka srážek od normálu za určité období
-* **Zemědělské** – půdní sucho, tedy nedostatek vlhkosti pro plodiny 
-* **Hydrologické** – významný pokles hladin povrchových nebo podzemních vod
-* **Socioekonomické** – dopady sucha na kvalitu života a hospodářství
+* **Meteorologické**: záporná odchylka srážek od normálu za určité období
+* **Zemědělské**: půdní sucho, tedy nedostatek vlhkosti pro plodiny 
+* **Hydrologické**: významný pokles hladin povrchových nebo podzemních vod
+* **Socioekonomické**: dopady sucha na kvalitu života a hospodářství
 
 Na druhou stranu i příliš vysoká vlhkost půdy může způsobovat problémy. Například podmáčená půda komplikuje zemědělské práce při setí nebo sklizni. Proto je důležité půdu sledovat – především její vlhkost. Díky IoT monitoringu můžeme například přesněji zavlažovat, zvýšit výnosy a zároveň šetřit vodou.
 
@@ -28,7 +28,7 @@ Dostupnost vody pro rostliny je určena tzv. vodním potenciálem půdy. Přesn�
 Hodnota vodního potenciálu se obvykle udává jako záporný tlak. Například:
 
 0 MPa – plná vodní kapacita, všechny póry jsou zaplněné vodou, rostlina má problém s příjmem kyslíku
--0,005 až -0,015 MPa - polní vodní kapacita, voda je v kapilárních pórech, rostlina má dostatek vody i vzduchu
+-0,005 až -0,015 MPa: polní vodní kapacita, voda je v kapilárních pórech, rostlina má dostatek vody i vzduchu
 -1,5 MPa – bod vadnutí, kdy transpirace převyšuje příjem vody a rostlina vadne
 
 ### Jak se půda monitoruje

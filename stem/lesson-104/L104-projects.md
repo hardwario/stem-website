@@ -42,7 +42,7 @@ Students try out additional projects related to the lesson topic, or participate
   >
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <div>
-        <strong>HARDWARIO Non-Invasive Monitoring - Climate Monitor</strong>
+        <strong>HARDWARIO Non-Invasive Monitoring – Climate Monitor</strong>
         <br />
         <small>Hackster.io</small>
       </div>

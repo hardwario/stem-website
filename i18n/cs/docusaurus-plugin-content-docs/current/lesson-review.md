@@ -12,7 +12,7 @@ title: Časové dotace lekcí
 
 Přivítání studentů a představení průběhu lekce. Seznámení s jednotlivými fázemi lekce podle pedagogického rámce. Vzájemné představení studentů a zjištění jejich očekávání a potřeb. Vyplnění znalostního testu.
 
-**Časová dotace:** 0 - 5 min. 
+**Časová dotace:** 0–5 min. 
 
 ## Teoretická příprava
 
@@ -53,5 +53,5 @@ Studenti prezentují své IoT projekty či nápady ostatním. Lektor a ostatní 
 
 Slovní hodnocení prezentovaných projektů skupinou. Rekapitulace splnění výukových cílů lektorem. Provedení znalostního testu a 3-2-1 assessmentu.
 
-**Časová dotace**: 0 - 5 min.
+**Časová dotace**: 0–5 min.
 

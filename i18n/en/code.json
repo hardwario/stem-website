@@ -299,7 +299,7 @@
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}",
+    "message": "{authorName} ({nPosts})",
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
@@ -346,13 +346,13 @@
     "message": "STEM learning platform for schools"
   },
   "homepage.metaDescription": {
-    "message": "STEM learning platform for schools — hands-on IoT lessons and projects with HARDWARIO TOWER kits."
+    "message": "STEM learning platform for schools: hands-on IoT lessons and projects with HARDWARIO TOWER kits."
   },
   "TOWER Mini Course": {
     "message": "TOWER Mini Course"
   },
-  "Discover the Internet of Things with the HARDWARIO TOWER. We’ll guide you through programming and communication protocols—with solder-free, low-voltage assembly.": {
-    "message": "Discover the Internet of Things with the HARDWARIO TOWER. We’ll guide you through programming and communication protocols—with solder-free, low-voltage assembly."
+  "Discover the Internet of Things with the HARDWARIO TOWER. We’ll guide you through programming and communication protocols, with solder-free, low-voltage assembly.": {
+    "message": "Discover the Internet of Things with the HARDWARIO TOWER. We’ll guide you through programming and communication protocols, with solder-free, low-voltage assembly."
   },
   "STEM Learning Platform": {
     "message": "STEM Learning Platform"

@@ -27,8 +27,8 @@ Node-RED je vizuální prostředí pro „tokové“ programování, často v ob
 - Skládá se z **uzlů** (nodes), které vstupují, zpracovávají zprávy a vystupují.
 - Uzly se spojují do **toků** (flows).
 - Zpráva (message) má většinou dvě důležité části:
-  - `topic` – téma, kategorie/kanál zprávy
-  - `payload` – obsah zprávy, např. číslo, text, **JSON** objekt
+  - `topic`: téma, kategorie/kanál zprávy
+  - `payload`: obsah zprávy, např. číslo, text, **JSON** objekt
 - Uzly jako **Switch**, **Change**, **Function**, **Debug** umožňují zprávu měnit, filtrovat, reagovat.
 - Playground využívá **Node-RED** pro vizuální skládání toků, testování a interakci se zařízeními.
 
@@ -41,8 +41,8 @@ Node-RED je vizuální prostředí pro „tokové“ programování, často v ob
 - **Broker** je server, který všechny zprávy zprostředkovává.
 - Důležité vlastnosti:
   - hierarchie topiců (např. `home/pokoj1/teplota`)
-  - možné úrovně QoS (Quality of Service) – např. „doručeno alespoň jednou“, „doručeno přesně jednou“
-  - retenční zprávy (retained messages) – poslední zpráva může být uložena a noví odběratelé ji dostanou hned při přihlášení
+  - možné úrovně QoS (Quality of Service): např. „doručeno alespoň jednou“, „doručeno přesně jednou“
+  - retenční zprávy (retained messages): poslední zpráva může být uložena a noví odběratelé ji dostanou hned při přihlášení
 - Bezpečnost: ověřování, šifrování komunikace, pečlivé spravování klíčů / tokenů.
 
 ## 4. Jak vše do sebe zapadá – architektura
@@ -52,8 +52,8 @@ Níže je zjednodušené schéma, jak tok zprávy ve vašich projektech funguje:
 - Modul senzor měří, odešle data do **HARDWARIO Playground**.
 - Aplikace **HARDWARIO Playground** rádiem přijatou zprávu z **Radio Dongle** publikuje přes **MQTT** protokol.
 - **Node-RED** zprávu z **MQTT** zpracuje: může filtrovat, reagovat, či opět předat dál přes **MQTT**.
-- Broker distribuuje zprávy těm, kdo o ně mají zájem – aplikacím, výstupním modulům, dashboardům.
-- Výstupy reagují – LED, upozornění aj.
+- Broker distribuuje zprávy těm, kdo o ně mají zájem: aplikacím, výstupním modulům, dashboardům.
+- Výstupy reagují: LED, upozornění aj.
 
 ## 5. Závěrečný projekt
 
@@ -72,16 +72,16 @@ Vyzkoušejte si následující projekt:
 
 ## 6. Dobré zásady a na co si dát pozor
 
-- Pečlivě pojmenovávejte topic(y) – přehlednost se hodí.
-- Neposílejte data zbytečně často – šetříte síť a zdroje zařízení.
+- Pečlivě pojmenovávejte topic(y): přehlednost se hodí.
+- Neposílejte data zbytečně často: šetříte síť a zdroje zařízení.
 - Zabezpečení: hesla / tokeny / klíče nesdílejte. Používejte silné.
-- Sledujte, co se děje při výpadku nebo chybě – co když senzor nepřijde, **MQTT broker** je nedostupný.
+- Sledujte, co se děje při výpadku nebo chybě: co když senzor nepřijde, **MQTT broker** je nedostupný.
 
 ## 7. Reflexe a sdílení
 
 - Co bylo pro vás nejtěžší? Co naopak nejjednodušší?
 - Která část by vás zajímala do hloubky více (např. fungování **MQTT**, bezpečnost, databáze...)?
-- Sdílejte svůj projekt nebo tok zpráv s ostatními – vysvětlete, jak jste to udělali.
+- Sdílejte svůj projekt nebo tok zpráv s ostatními: vysvětlete, jak jste to udělali.
 
 ## Shrnutí ✅
 

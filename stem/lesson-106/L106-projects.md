@@ -42,7 +42,7 @@ Students try out additional projects related to the given topic, or participate 
   >
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <div>
-        <strong>HARDWARIO Non-Invasive monitoring - Rotation Monitor</strong>
+        <strong>HARDWARIO Non-Invasive monitoring – Rotation Monitor</strong>
         <br />
         <small>Hackster.io</small>
       </div>

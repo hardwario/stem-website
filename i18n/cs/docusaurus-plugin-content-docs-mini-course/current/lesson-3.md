@@ -78,7 +78,7 @@ Aby bylo možné vytisknout text, použijte v sekci **Dashboard** uzel **Text**.
 Funguje to?  
 Po otočení **PIR Module** byste měli na dashboardu vidět, jak se text mění z:
 
-- **„Jsem v klidu“** → při orientaci 1–5  
+- **„Jsem v klidu“** → při orientaci 1: 5  
 - **„Bacha spadnu“** → při orientaci 6  
 
 Pokud máte z předchozí lekce také **Gauge**, uvidíte zároveň aktuální otočení **PIR mModule**.

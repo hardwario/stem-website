@@ -45,7 +45,7 @@ Confirm with the **Done** button.
 
 6. Behind the switch node, place a **Change node** from the same Function section. <div class="container"> <div class="row"> <Image img={require('./img/christmas-detector/christmas-detector-6.webp')} alt="Change node highlighted in the palette, with a set msg.payload node placed after the switch node"/> </div> </div>
 
-7. In the node, you set the message that you want to pop up when our bearded friend (or Baby Jesus) brings their presents. 🎅 👼 For example: _Santa/Baby Jesus is in the living room_. **Our tip**: If you also want to set notifications for your mobile, do not use accent marks (čárky) or hooks (háčky) — Blynk doesn't display diacritics. <div class="container"> <div class="row"> <Image img={require('./img/christmas-detector/christmas-detector-7.webp')} alt="Edit change node dialog with a rule setting flow.detectorActive to msg.payload"/> </div> </div>
+7. In the node, you set the message that you want to pop up when our bearded friend (or Baby Jesus) brings their presents. 🎅 👼 For example: _Santa/Baby Jesus is in the living room_. **Our tip**: If you also want to set notifications for your mobile, do not use accent marks (čárky) or hooks (háčky), because Blynk doesn't display diacritics. <div class="container"> <div class="row"> <Image img={require('./img/christmas-detector/christmas-detector-7.webp')} alt="Edit change node dialog with a rule setting flow.detectorActive to msg.payload"/> </div> </div>
 
 Confirm with the **Done** button.
 
@@ -67,15 +67,15 @@ Confirm with the **Done** button.
 
 The detection will reach your smartphone through the **Blynk IoT** app, where the caught movement arrives as a push notification. And that´s pretty cool. 😎
 
-1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device — you'll need all three. You can also reuse a template from a previous project.
+1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device. You'll need all three. You can also reuse a template from a previous project.
 
-2. In Blynk IoT, a push notification isn't placed on the phone screen like a widget — it's sent as an **Event** defined on your template. On the template detail, open the **Events** tab and add a new event (for example, name it `motion` and give it the message you want to receive, such as _Santa is in the living room_). Then turn on **Notifications** for that event so Blynk delivers it to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
+2. In Blynk IoT, a push notification isn't placed on the phone screen like a widget. It's sent as an **Event** defined on your template. On the template detail, open the **Events** tab and add a new event (for example, name it `motion` and give it the message you want to receive, such as _Santa is in the living room_). Then turn on **Notifications** for that event so Blynk delivers it to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
 
 3. Download the **Blynk IoT app** on your phone from the [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk) and sign in with the same account. Make sure notifications are allowed for the app so the message can pop up. 📱
 
 ## Connect your mobile with the box
 
-1. Go back to your computer. On the Node-RED canvas, place the last node for the whole project — a node from the **Blynk IoT** section that can trigger your event (the **log event** node). It should be placed directly behind the flow with the switch (see screenshot). 👀 <div class="container"> <div class="row"> <Image img={require('./img/christmas-detector/christmas-detector-13.webp')} alt="Blynk notify node highlighted on the canvas, placed at the end of the detector flow"/> </div> </div>
+1. Go back to your computer. On the Node-RED canvas, place the last node for the whole project: a node from the **Blynk IoT** section that can trigger your event (the **log event** node). It should be placed directly behind the flow with the switch (see screenshot). 👀 <div class="container"> <div class="row"> <Image img={require('./img/christmas-detector/christmas-detector-13.webp')} alt="Blynk notify node highlighted on the canvas, placed at the end of the detector flow"/> </div> </div>
 
 2. Double-click the node to open it. On the right you'll see **a small pencil**. Click it and a new window opens. In the **Url** field enter `blynk.cloud`, and into the **Auth Token** and **Template ID** fields copy the values from the device detail in the Blynk web app on your computer. Confirm with the **Add** button.
 

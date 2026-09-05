@@ -99,7 +99,7 @@ Download the [HARDWARIO Playground](https://github.com/hardwario/hardwario-playg
 
 * Paste the copied flow from the clipboard into the provided field and select **Import**
 * Confirm the changes by clicking **Deploy**
-* Switch to the **Dashboard** tab – if everything worked correctly, you should see two sections in the menu: **Charts** and **Gauges**, displaying temperature and humidity as gauges and graphs.
+* Switch to the **Dashboard** tab: if everything worked correctly, you should see two sections in the menu: **Charts** and **Gauges**, displaying temperature and humidity as gauges and graphs.
 
 <div class="container">
   <div class="row">

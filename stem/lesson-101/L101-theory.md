@@ -32,11 +32,11 @@ It is also a phenomenon, a bubble, a threat and an opportunity. An opportunity t
 
 The Internet of Things is here to help us. Today, it particularly affects the following areas:
 
-* Security - we know what's going on in our buildings, where our children are, ...
-* Health - we regulate the environment in which we live and work, we react faster and more accurately to health conditions, ...
-* Economy - we plan better, optimize processes, make our lives easier, ...
-* Ecology - we save resources and nature, ...
-* Entertainment - we discover new forms of entertainment, ...
+* Security: we know what's going on in our buildings, where our children are, ...
+* Health: we regulate the environment in which we live and work, we react faster and more accurately to health conditions, ...
+* Economy: we plan better, optimize processes, make our lives easier, ...
+* Ecology: we save resources and nature, ...
+* Entertainment: we discover new forms of entertainment, ...
 
 There are also risks associated with the development of IoT:
 
@@ -45,7 +45,7 @@ There are also risks associated with the development of IoT:
 * Misinterpretation of data
 * Overwhelm by an overload of poorly structured information
 
-IoT actually means that things around us can communicate with us - that is, send us information, or exchange this information themselves. This is already a huge step forward, as it allows us to significantly speed up and streamline many activities, make informed and therefore better decisions, plan our time better, manage many activities remotely without having to travel or arrange for another person to control them.
+IoT actually means that things around us can communicate with us, that is, send us information or exchange this information themselves. This is already a huge step forward, as it allows us to significantly speed up and streamline many activities, make informed and therefore better decisions, plan our time better, manage many activities remotely without having to travel or arrange for another person to control them.
 
 Quite simply, in IoT we have a tool in our hands with enormous potential to improve our lives.
 
@@ -76,7 +76,7 @@ But the common features of THINGS are always:
 
 ### Central IoT device
 
-A prerequisite for IoT is that devices are connected to the Internet. In many cases, however, it is more convenient to connect devices to the Internet through some central element - the Hub. In this case, the devices communicate via a non-internet protocol with each other and with the Hub, and only the Hub is connected to the Internet.
+A prerequisite for IoT is that devices are connected to the Internet. In many cases, however, it is more convenient to connect devices to the Internet through some central element, the Hub. In this case, the devices communicate via a non-internet protocol with each other and with the Hub, and only the Hub is connected to the Internet.
 
 There are many central Hubs on the market, among the most popular ones in the open-source movement are Hubs built on Raspberry Pi, or the Turris router developed in the Czech Republic.
 
@@ -140,7 +140,7 @@ We already know what language IoT devices use to communicate with each other and
 
 #### Local wireless transmissions
 
-In the IoT world, commonly known standards such as Wi-Fi or Bluetooth are used for local wireless transmissions. There are also special wireless technologies such as [ZigBee](https://en.wikipedia.org/wiki/Zigbee) or [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave) that have their own communication protocols. An important aspect for wireless transmissions is the choice of frequency band. This affects the quality of the transmission - range, reliability and power consumption.
+In the IoT world, commonly known standards such as Wi-Fi or Bluetooth are used for local wireless transmissions. There are also special wireless technologies such as [ZigBee](https://en.wikipedia.org/wiki/Zigbee) or [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave) that have their own communication protocols. An important aspect for wireless transmissions is the choice of frequency band. This affects the quality of the transmission: range, reliability and power consumption.
 
 For IoT devices, which usually do not transmit large data, wireless transmissions in the so-called Sub-GHz band are most suitable. In this band, unlicensed frequencies are reserved for this purpose, e.g. 868 MHz for the EU. Compared to Wi-Fi (operating at 2.4 and 5 GHz), Sub-GHz has almost twice the range, higher reliability (due to lower frequency and fewer devices using this band) and significantly lower power requirements, i.e. lower power consumption. It is therefore suitable for battery-powered devices such as the HARDWARIO TOWER kit.
 

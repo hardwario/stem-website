@@ -51,9 +51,9 @@ Drž si cylindr, jedeme dál. 🎩
 
 Teplotní upozornění ti dorazí do telefonu skrz aplikaci **Blynk IoT** jako push notifikace. A přesně tohle dělá z krabičky chytrou věc. 😎
 
-1. Pokud ještě žádný nemáš, založ si účet v [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). Jak si nastavit účet, šablonu zařízení (device template) a zařízení (device) se dozvíš v [tomhle návodu](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) — budeš potřebovat všechny tři. Klidně můžeš použít i šablonu z předchozího projektu.
+1. Pokud ještě žádný nemáš, založ si účet v [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). Jak si nastavit účet, šablonu zařízení (device template) a zařízení (device) se dozvíš v [tomhle návodu](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). Budeš potřebovat všechny tři. Klidně můžeš použít i šablonu z předchozího projektu.
 
-2. V Blynk IoT se upozornění na obrazovku telefonu neumisťuje jako widget — posílá se jako **Event** (událost) definovaný na tvé šabloně. V detailu šablony otevři záložku **Events** a přidej nový event (pojmenuj ho například `kennel_temp` a dej mu zprávu, kterou chceš dostávat, třeba _It is too cold in the kennel_). Pak pro tenhle event zapni **Notifications**, aby ti ho Blynk doručil do telefonu. [Návod](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) tě nastavením šablony provede.
+2. V Blynk IoT se upozornění na obrazovku telefonu neumisťuje jako widget. Posílá se jako **Event** (událost) definovaný na tvé šabloně. V detailu šablony otevři záložku **Events** a přidej nový event (pojmenuj ho například `kennel_temp` a dej mu zprávu, kterou chceš dostávat, třeba _It is too cold in the kennel_). Pak pro tenhle event zapni **Notifications**, aby ti ho Blynk doručil do telefonu. [Návod](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) tě nastavením šablony provede.
 
 3. Stáhni si do telefonu aplikaci **Blynk IoT** z [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) nebo [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk) a přihlas se stejným účtem. Ujisti se, že má aplikace povolené notifikace, aby se upozornění mohlo objevit. 📱 Nejdřív ale musíš vylepšit svůj Node-RED, jinak to nic dělat nebude.
 
@@ -151,4 +151,4 @@ Uvnitř nastav **měrnou jednotku** (°C), **teplotní rozmezí** ( −15 a 40) 
   </div>
 </div>
 
-3. A hlavně dostaneš na mobil **notifikaci**, kdyby bylo rafíkovi moc hic nebo velká kosa — takže můžeš boudu čekovat odkudkoli a kdykoli. 🕵️ Šťastný pes = dobrý pes! 🐕
+3. A hlavně dostaneš na mobil **notifikaci**, kdyby bylo rafíkovi moc hic nebo velká kosa, takže můžeš boudu čekovat odkudkoli a kdykoli. 🕵️ Šťastný pes = dobrý pes! 🐕

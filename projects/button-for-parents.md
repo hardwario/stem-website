@@ -23,7 +23,7 @@ You will need the **box with a button** and the **USB dongle**. So you will be f
 ![Get it started in Node-RED](./img/button-for-parents/image3.png "Rozjeď to v Node-RED")
 
 
-4. In the node, you will set up the key feature - clicking on the button. Click on the node twice and **copy this link into the Topic field**:
+4. In the node, you will set up the key feature: clicking on the button. Click on the node twice and **copy this link into the Topic field**:
 
 ```
 node/push-button:0/push-button/-/event-count
@@ -33,7 +33,7 @@ node/push-button:0/push-button/-/event-count
 
 Confirm it with the **Done** button.
 
-**Tip:** Do you see the **Messages** tab in the Playground? Here you see all actions, line by line. Click on the box - and ta-dah, the same thing appeared:
+**Tip:** Do you see the **Messages** tab in the Playground? Here you see all actions, line by line. Click on the box, and ta-dah, the same thing appeared:
 ```
 node/push-button:0/push-button/-/event-count
 ```
@@ -67,9 +67,9 @@ Try it out. **Connect both nodes** by dragging the mouse from one cell to the ot
 
 Your box with the button will be connected with a smartphone thanks to the **Blynk IoT** app, where the button press will arrive as a push notification. And that´s pretty cool. 😎
 
-1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device — you'll need all three. You can also reuse a template from a previous project.
+1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device. You'll need all three. You can also reuse a template from a previous project.
 
-2. In Blynk IoT, a push notification isn't placed on the phone screen like a widget — it's sent as an **Event** defined on your template. On the template detail, open the **Events** tab and add a new event (for example, name it `button` and give it the message you want to receive). Then turn on **Notifications** for that event so Blynk delivers it to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
+2. In Blynk IoT, a push notification isn't placed on the phone screen like a widget. It's sent as an **Event** defined on your template. On the template detail, open the **Events** tab and add a new event (for example, name it `button` and give it the message you want to receive). Then turn on **Notifications** for that event so Blynk delivers it to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
 
 3. Download the **Blynk IoT app** on your phone from the [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk) and sign in with the same account. Make sure notifications are allowed for the app so the message can pop up. 📱
 

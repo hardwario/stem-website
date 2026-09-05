@@ -26,5 +26,5 @@ Our pedagogical framework greatly facilitates the preparation, management and as
 The lessons deal with topics related to the school environment or current student interests, e.g.:
 
 - Projects dealing with indoor climate quality in classrooms
-- Projects addressing environmental challenges such as climate change and/or waste - management
+- Projects addressing environmental challenges such as climate change and/or waste management
 - Projects related to student and teacher safety

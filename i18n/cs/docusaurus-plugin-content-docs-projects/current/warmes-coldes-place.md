@@ -49,7 +49,7 @@ Potvrď tlačítkem **Done**.
 
 ![HARDWARIO Add Blynk IoT datastream](./img/warmes-coldes-place/add-datastream-1.png)
 
-4. Nastav název pro nový Datastream a vyber jeden z volných Pinů. Teplotu budeš měřit jako desetinné číslo, proto zvol typ **Double** a jednotku (unit) nastav na **Celsius**. Nezapomeň nastavit rozpětí teplot, které budeš měřit, například **0 - 50**.
+4. Nastav název pro nový Datastream a vyber jeden z volných Pinů. Teplotu budeš měřit jako desetinné číslo, proto zvol typ **Double** a jednotku (unit) nastav na **Celsius**. Nezapomeň nastavit rozpětí teplot, které budeš měřit, například **0–50**.
 
 5. Datastream vytvoříš kliknutím na **Create**. 
 

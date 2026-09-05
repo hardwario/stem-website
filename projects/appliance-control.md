@@ -45,22 +45,22 @@ If you already have a **Radio Dongle** from another kit, you can skip this step.
 
 ## Test the Communication
 
-As mentioned earlier, the device can send more than just button press messages – it also sends data about temperature and orientation. Try the following to see what messages your device sends:
+As mentioned earlier, the device can send more than just button press messages. It also sends data about temperature and orientation. Try the following to see what messages your device sends:
 
 1. Open the Messages tab in Playground.
 2. You’ll see a list of messages your button has sent through the Radio Dongle to your computer.
 3. Press the button a few times and watch the press count increase.
-4. Blow warm air onto the device – the temperature will rise and appear in the messages.
+4. Blow warm air onto the device: the temperature will rise and appear in the messages.
 5. The last type of message is the orientation of the device. It works like a die (dice), try rotating it to find when positions 1, 2, 3...6 appear.
 
 ![Node-RED](./img/appliance-control/image3.png " Node-RED")
 
 ## Your First Project
 
-In many tutorials, the first project is “Hello World!” Let’s do something more exciting – we’ll display temperature data on a graph!
+In many tutorials, the first project is “Hello World!” Let’s do something more exciting: we’ll display temperature data on a graph!
 
 1. Open the **Functions** tab in Playground.
-2. This is an embedded **Node-RED** app. There’s great documentation, support, and a large user community. It’s based on **visual programming** – drag and drop functional blocks (called **nodes**) onto the workspace and connect them to create a working application (a flow).
+2. This is an embedded **Node-RED** app. There’s great documentation, support, and a large user community. It’s based on **visual programming**: drag and drop functional blocks (called **nodes**) onto the workspace and connect them to create a working application (a flow).
 3. Delete the two default nodes from the workspace.
 4. Add a **mqtt in** node from the **network** section on the left. Drag it to the workspace and double-click it.
 5. A configuration window will open. You need to fill in the **Topic** field, which determines what messages this flow will receive.
@@ -70,6 +70,6 @@ In many tutorials, the first project is “Hello World!” Let’s do something 
 9. Double-click the Gauge node to configure it. In the ***Range*** section, change the **max** value to **50**, then click **Done**.
 10. Connect both nodes. Simply click and drag from the gray square of one node to the other.
 11. Click **Deploy** in the top-right corner to launch the application. Then switch to the **Dashboard** tab in Playground.
-12. Blow on the device to trigger an immediate temperature update – you’ll see the current temperature in the graph.
+12. Blow on the device to trigger an immediate temperature update, and you’ll see the current temperature in the graph.
 
-**Tip for your next experiment:** Try displaying the device’s orientation and button press count on the dashboard too – the possibilities in Playground are endless!s
+**Tip for your next experiment:** Try displaying the device’s orientation and button press count on the dashboard too. The possibilities in Playground are endless!

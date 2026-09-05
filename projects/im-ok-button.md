@@ -20,7 +20,7 @@ You will need the **box with the button** and the **USB dongle**. You can do wit
 
       ![MQTT input node](./img/im-ok-button/image4.png)
 
-4. Inside the node you will set up a key feature - which is pressing a button. Double-click on the node and **copy this line into the Topic field**:
+4. Inside the node you will set up a key feature, which is pressing a button. Double-click on the node and **copy this line into the Topic field**:
 
 
 ```
@@ -51,11 +51,11 @@ Confirm it with the **Done** button and link both nodes by dragging the mouse fr
 
 ## Prepare the Blynk IoT app
 
-The push notification is delivered through the **Blynk IoT** app. If you don't have one yet, create an account and a device template — see [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to do it, including creating templates and devices. You can also reuse a template from a previous project.
+The push notification is delivered through the **Blynk IoT** app. If you don't have one yet, create an account and a device template. See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to do it, including creating templates and devices. You can also reuse a template from a previous project.
 
 1. In Blynk IoT, push notifications are sent as an **Event** on the template. Open your template, go to the **Events** tab, and add a new Event (for example, name it `im_ok`). Turn on **Notifications** for that Event so the parents' phone receives a push message when it is triggered.
 
-2. Borrow a smartphone from your mom or dad and make it yet a bit smarter. 🤓 They need the **Blynk IoT app** on their phone — from the [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk) — signed in with your account, so the notification lands on their device.
+2. Borrow a smartphone from your mom or dad and make it yet a bit smarter. 🤓 They need the **Blynk IoT app** on their phone (from the [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk)), signed in with your account, so the notification lands on their device.
 
 ## Connect the mobile with the box
 

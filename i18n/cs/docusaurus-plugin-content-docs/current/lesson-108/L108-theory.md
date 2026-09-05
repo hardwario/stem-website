@@ -15,8 +15,8 @@ Trendem dnešní doby je snaha co nejvíce snížit spotřebu elektrické energi
 
 Elektrický proud lze měřit pomocí dvou základních metod:
 
-1. **Přímé měření** – [ampérmetrem](https://cs.wikipedia.org/wiki/Amp%C3%A9rmetr), který měří velikost elektrického proudu v obvodu.
-2. **Nepřímé měření** – neměří se přímo elektrický proud, ale jiná fyzikální veličina, díky které lze hodnotu proudu a spotřeby dopočítat.
+1. **Přímé měření**: [ampérmetrem](https://cs.wikipedia.org/wiki/Amp%C3%A9rmetr), který měří velikost elektrického proudu v obvodu.
+2. **Nepřímé měření**: neměří se přímo elektrický proud, ale jiná fyzikální veličina, díky které lze hodnotu proudu a spotřeby dopočítat.
 
 ### Možnosti nepřímého měření elektrického proudu:
 - Proudový [transformátor](https://cs.wikipedia.org/wiki/Transform%C3%A1tor)  
@@ -30,8 +30,8 @@ Jedním ze způsobů online monitoringu spotřeby je **napojení na elektroměry
 
 ### Pro monitoring impulzů se nejčastěji používají tyto senzory:
 
-- **LED senzor** – snímá impulzy LED na měřidle, které blikáním indikují spotřebu  
-- **Magnetický senzor** – snímá impulzy, které vznikají každým otočením magnetu umístěného na jednotkovém ciferníku
+- **LED senzor**: snímá impulzy LED na měřidle, které blikáním indikují spotřebu  
+- **Magnetický senzor**: snímá impulzy, které vznikají každým otočením magnetu umístěného na jednotkovém ciferníku
 
 
 <div class="container">

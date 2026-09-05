@@ -21,7 +21,7 @@ You can download Playground from the [Download](https://docs.hardwario.com/tower
 
 :::
 
-After successful installation and launch, the main Playground window will open. In the **Devices** tab you will see a list of connected devices. If everything is set up correctly, your HARDWARIO device will appear here. At the beginning, however, the list may be empty — in that case, check whether the device is properly connected via USB and whether all the necessary drivers are installed.
+After successful installation and launch, the main Playground window will open. In the **Devices** tab you will see a list of connected devices. If everything is set up correctly, your HARDWARIO device will appear here. At the beginning, however, the list may be empty. In that case, check whether the device is properly connected via USB and whether all the necessary drivers are installed.
 
 ## 2. Radio Dongle
 
@@ -91,4 +91,4 @@ Rotate the PIR Module on its side. In the **Messages** section, you should see a
 
 ## 7. Summary
 
-✅ The module is connected, the environment is ready — you can start measuring.  
+✅ The module is connected, the environment is ready. You can start measuring.  

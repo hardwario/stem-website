@@ -22,7 +22,7 @@ Budeš potřebovat krabičku s **tlačítkem** a **USB dongle**. Proto si vysta�
 
 **Pokud program otevíráš poprvé:** tenhle node máš na ploše přednastavený jako **node/#**. Druhou, tmavězelenou, bublinu můžeš smazat.
 
-4. Uvnitř nodu nastavíš klíčovou funkci – a tou je klikání na tlačítko. Na node dvakrát klikni a **do pole Topic zkopíruj tenhle řádek**:
+4. Uvnitř nodu nastavíš klíčovou funkci: a tou je klikání na tlačítko. Na node dvakrát klikni a **do pole Topic zkopíruj tenhle řádek**:
 
 ```
 node/push-button:0/push-button/-/event-count
@@ -100,7 +100,7 @@ Pokud jej ještě nemáš, založ si zařízení z vytvořené šablony.
 ![Node-RED](./img/button-for-parents/add-automation-2.png "Node-RED")
 
 
-3. Nastavení automatizace probíhá jednoduše nastavením Kdy se má automatizace spustit - sekce **When** a co se má následně stát - sekce **Do this**. 
+3. Nastavení automatizace je jednoduché: v sekci **When** se nastaví, kdy se má automatizace spustit, a v sekci **Do this**, co se má následně stát. 
 
 4. Nejprve nastav sekci **When**. Vyber tvé zařízení a **vytvořený Datastream**. Objeví se ti třetí selector, ten nech nastavený na **Is Any**. 
 

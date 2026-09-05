@@ -34,7 +34,7 @@ Krabička se ti bude hlásit na mobil přes appku **Blynk IoT**. 📱 Nastavíš
 
 1. Pokud ho ještě nemáš, vytvoř si účet v [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). V [tomhle návodu](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) najdeš, jak si založit účet, šablonu zařízení (device template) a zařízení (device) – budeš potřebovat všechny tři. Můžeš taky využít šablonu z některého předchozího projektu.
 
-2. **Přidej Datastream pro stav detektoru.** V detailu šablony otevři záložku **Datastreams**, vpravo nahoře klikni na **Edit**, pak na **+ New Datastream** a zvol **Virtual Pin**. Vyber volný Pin a zvol typ **Integer** s rozsahem **0 - 1** (0 = vypnuto, 1 = zapnuto). Zapamatuj si číslo Pinu – budeš ho potřebovat v Node-RED. Klikni na **Create** a šablonu ulož přes **Save**.
+2. **Přidej Datastream pro stav detektoru.** V detailu šablony otevři záložku **Datastreams**, vpravo nahoře klikni na **Edit**, pak na **+ New Datastream** a zvol **Virtual Pin**. Vyber volný Pin a zvol typ **Integer** s rozsahem **0–1** (0 = vypnuto, 1 = zapnuto). Zapamatuj si číslo Pinu, budeš ho potřebovat v Node-RED. Klikni na **Create** a šablonu ulož přes **Save**.
 
 3. **Přidej notifikační Event.** V šabloně otevři záložku **Events** a přidej nový event (třeba ho pojmenuj `drawer` a dej mu zprávu, kterou chceš dostávat – pozor, Blynk neumí čárky, háčky ani speciální znaky 🤷). Pro tenhle event zapni **Notifications**, aby ti Blynk doručil upozornění na mobil. [Návod](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) tě nastavením šablony provede.
 
@@ -103,7 +103,7 @@ node/x-axis-detector:0/accelerometer/-/event-count
 
 9. Nastav node tak, aby spouštěl **Event**, který jsi vytvořil (kód eventu, např. `drawer`). Tohle z otevření šuplíku udělá push notifikaci. Potvrď tlačítkem **Done**.
 
-10. Teď tenhle řetězec **pospojuj** – MQTT ➡️ Switch ➡️ Change ➡️ Blynk IoT log event. A jdeme dál.
+10. Teď tenhle řetězec **pospojuj**: MQTT ➡️ Switch ➡️ Change ➡️ Blynk IoT log event. A jdeme dál.
 
 ## Nastav v Node-RED detektor přepínače
 

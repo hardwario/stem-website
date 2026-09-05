@@ -21,7 +21,7 @@ import Image from '@theme/IdealImage';
     * Start Set
     * Control Set
 * Softwarové vybavení:
-  * Webový prohlížeč – doporučujeme Google Chrome
+  * Webový prohlížeč: doporučujeme Google Chrome
   * HARDWARIO Playground
 
 ## Didaktické nástroje

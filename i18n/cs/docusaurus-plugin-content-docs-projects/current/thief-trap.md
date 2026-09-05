@@ -36,11 +36,11 @@ Pokud máš Starter Set, budeš k němu potřebovat ještě [**PIR Module**](htt
 
 Krabička se propojí s tvým smartphonem díky aplikaci **Blynk IoT**, kde ti alarm přijde jako push notifikace. 📱
 
-1. Pokud ještě žádný nemáš, vytvoř si účet v [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). V [tomhle návodu](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) zjistíš, jak si nastavit účet, šablonu zařízení (device template) a zařízení (device) — budeš potřebovat všechny tři. Klidně můžeš použít i šablonu z některého z předchozích projektů.
+1. Pokud ještě žádný nemáš, vytvoř si účet v [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). V [tomhle návodu](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) zjistíš, jak si nastavit účet, šablonu zařízení (device template) a zařízení (device). Budeš potřebovat všechny tři. Klidně můžeš použít i šablonu z některého z předchozích projektů.
 
-2. V Blynk IoT se push notifikace neumisťuje na plochu telefonu jako widget — posílá se jako **Event** definovaný na tvé šabloně. V detailu šablony otevři záložku **Events** a přidej nový event (například ho pojmenuj `thief` a dej mu zprávu, kterou chceš dostat, třeba "Someone's in your room"). Pak pro tenhle event zapni **Notifications**, aby ti ho Blynk doručil na mobil. [Návod](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) tě nastavením šablony provede.
+2. V Blynk IoT se push notifikace neumisťuje na plochu telefonu jako widget. Posílá se jako **Event** definovaný na tvé šabloně. V detailu šablony otevři záložku **Events** a přidej nový event (například ho pojmenuj `thief` a dej mu zprávu, kterou chceš dostat, třeba "Someone's in your room"). Pak pro tenhle event zapni **Notifications**, aby ti ho Blynk doručil na mobil. [Návod](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) tě nastavením šablony provede.
 
-3. Alarm chceš taky zapínat a vypínat z mobilu, aby nepípal, když jsi doma. 🔕 Na stejnou šablonu přidej **Datastream** (virtuální pin) a v aplikaci na něj umísti widget **switch** (přepínač) — přepínač posílá `1` (zapnuto) nebo `0` (vypnuto). Tuhle hodnotu si za chvíli načteš zpátky v Node-RED.
+3. Alarm chceš taky zapínat a vypínat z mobilu, aby nepípal, když jsi doma. 🔕 Na stejnou šablonu přidej **Datastream** (virtuální pin) a v aplikaci na něj umísti widget **switch** (přepínač). Přepínač posílá `1` (zapnuto) nebo `0` (vypnuto). Tuhle hodnotu si za chvíli načteš zpátky v Node-RED.
 
 4. Stáhni si do mobilu aplikaci **Blynk IoT** z [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) nebo [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk) a přihlas se stejným účtem. Zkontroluj, že má aplikace povolené notifikace, aby ti mohl alarm naskočit. 🚨
 
@@ -89,7 +89,7 @@ Potvrď tlačítkem **Done**.
 
 6. Dvakrát na něj klikni, ať ho otevřeš. Vpravo uvidíš **malou tužtičku**. Klikni na ni a otevře se ti nové okno. Do pole **Url** napiš `blynk.cloud` a do polí **Auth Token** a **Template ID** zkopíruj hodnoty z detailu zařízení ve webové aplikaci Blynk IoT na svém počítači. Potvrď tlačítkem **Add**. (Tohle samé propojení použiješ pro každý Blynk IoT node v tomhle projektu.)
 
-7. Za Dashboard switch i za Blynk IoT read node postav javascriptí **node Function**. Díky němu si projekt pamatuje, jestli je zrovna alarm zapnutý — ať už ho nastavíš z počítače (Dashboard) nebo z mobilu (Blynk IoT).
+7. Za Dashboard switch i za Blynk IoT read node postav javascriptí **node Function**. Díky němu si projekt pamatuje, jestli je zrovna alarm zapnutý, ať už ho nastavíš z počítače (Dashboard) nebo z mobilu (Blynk IoT).
 
 V řádku **Name** vyplň Stav nastavení upozornění a do pole **Function** zkopíruj tento kódík:
 
@@ -116,7 +116,7 @@ return msg;
 
 ## Naprogramuj hlavní senzor
 
-1. Celý projekt funguje na principu pohybového čidla – když ti do pokoje vnikne zloděj, krabička si ho všimne a alarm aktivuje.
+1. Celý projekt funguje na principu pohybového čidla: když ti do pokoje vnikne zloděj, krabička si ho všimne a alarm aktivuje.
 
 A díky měření okolní teploty může alarm měnit svůj stav tak, aby se udržel v low power módu – prostě aby moc neždímal baterky v krabičce. 🔋
 

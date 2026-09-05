@@ -58,7 +58,7 @@ As part of the experiment, we will transmit the number of pulses using an **LED*
 2. Open the **Playground application** and go to the **Devices** tab.
 3. Select your Radio Dongle from the list of USB devices and click **Connect**.
 4. Click **Start pairing**.
-5. Insert the batteries into the Sensor set – successful pairing will be indicated by the appearance of a device named `wireless-pulse-counter:0`.
+5. Insert the batteries into the Sensor set: successful pairing will be indicated by the appearance of a device named `wireless-pulse-counter:0`.
 
 ---
 
@@ -76,8 +76,8 @@ As part of the experiment, we will transmit the number of pulses using an **LED*
   </div>
 </div>
 
-3. Switch to the **Messages** tab - if everything went correctly, you will see incoming messages from the Sensor set.
-4. Switch to the **Dashboard** tab – a graph displaying the pulse count will appear.
+3. Switch to the **Messages** tab: if everything went correctly, you will see incoming messages from the Sensor set.
+4. Switch to the **Dashboard** tab: a graph displaying the pulse count will appear.
 
 :::info
 

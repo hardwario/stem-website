@@ -36,7 +36,7 @@ Different light frequencies are perceived as different [colors](https://en.wikip
 </div>
 
 On the shortwave side beyond visible light lies **[UV radiation](https://en.wikipedia.org/wiki/Ultraviolet)**, which affects human skin and causes **[tanning](https://en.wikipedia.org/wiki/Sun_tanning)**.
-On the opposite side is **[IR radiation](https://en.wikipedia.org/wiki/Infrared)** – invisible to the human eye, but we feel its **[heat](https://en.wikipedia.org/wiki/Heat)** through skin receptors.
+On the opposite side is **[IR radiation](https://en.wikipedia.org/wiki/Infrared)**, invisible to the human eye, but we feel its **[heat](https://en.wikipedia.org/wiki/Heat)** through skin receptors.
 
 ---
 
@@ -47,16 +47,16 @@ Adequate lighting positively affects our **mood, productivity, and health**. It 
 
 Besides the amount of light, the **color of light** is also important. There are various shades even within “white” light:
 
-* **Warm white** – resembles incandescent light, is cozy, and is used in living rooms, bedrooms, and children’s rooms. Less suitable for detailed visibility.
-* **Cool white** – more neutral light that enhances contrast; ideal for kitchens, bathrooms, or toilets.
-* **Daylight white** – bright with a slightly bluish tint, similar to daylight. Commonly used in **well-lit workspaces**.
+* **Warm white**: resembles incandescent light, is cozy, and is used in living rooms, bedrooms, and children’s rooms. Less suitable for detailed visibility.
+* **Cool white**: more neutral light that enhances contrast; ideal for kitchens, bathrooms, or toilets.
+* **Daylight white**: bright with a slightly bluish tint, similar to daylight. Commonly used in **well-lit workspaces**.
 
 ---
 
 ## RGB
 
 **[RGB](https://en.wikipedia.org/wiki/RGB_color_model)** is a color model that uses three primary colors: **red, green, and blue**.
-For example, it is used for **emissive color mixing** in monitors and projectors. Unlike the **[CMYK](https://en.wikipedia.org/wiki/CMYK_color_model)** model, RGB does not require external light – the device emits light on its own.
+For example, it is used for **emissive color mixing** in monitors and projectors. Unlike the **[CMYK](https://en.wikipedia.org/wiki/CMYK_color_model)** model, RGB does not require external light, because the device emits light on its own.
 
 Typical wavelengths:
 
@@ -81,6 +81,6 @@ Colors are created by mixing the intensity of these components:
 
 ### Sources
 
-- [Wikipedia – Light](https://en.wikipedia.org/wiki/Light)  
-- [Wikipedia – RGB](https://en.wikipedia.org/wiki/RGB_color_model)  
-- [ASB Portal – Lighting Comfort](https://www.asb-portal.cz/stavebnictvi/technicka-zarizeni-budov/osvetleni-a-elektroinstalace/svetelna-pohoda-ve-vnitrnim-prostredi)
+- [Wikipedia: Light](https://en.wikipedia.org/wiki/Light)  
+- [Wikipedia: RGB](https://en.wikipedia.org/wiki/RGB_color_model)  
+- [ASB Portal: Lighting Comfort](https://www.asb-portal.cz/stavebnictvi/technicka-zarizeni-budov/osvetleni-a-elektroinstalace/svetelna-pohoda-ve-vnitrnim-prostredi)

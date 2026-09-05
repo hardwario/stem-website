@@ -47,9 +47,9 @@ Na krátkovlnné straně za viditelným spektrem leží **[UV záření](https:/
 
 Vedle množství světla je důležitá i **barva světla**. Existují různé varianty i v rámci „bílé“:
 
-- **Teplá bílá** – připomíná žárovkové světlo. Působí útulně a využívá se hlavně v obývacích pokojích, ložnicích a dětských pokojích. Nevýhodou je horší vykreslení detailů.
-- **Studená bílá** – neutrálnější světlo, které zřetelněji vykresluje kontrasty. Vhodná do kuchyně, koupelny nebo na toaletu.
-- **Denní bílá** – má jasný až lehce namodralý odstín, blíží se dennímu světlu. Často se používá ve **vhodně nasvícených pracovních prostorech**.
+- **Teplá bílá**: připomíná žárovkové světlo. Působí útulně a využívá se hlavně v obývacích pokojích, ložnicích a dětských pokojích. Nevýhodou je horší vykreslení detailů.
+- **Studená bílá**: neutrálnější světlo, které zřetelněji vykresluje kontrasty. Vhodná do kuchyně, koupelny nebo na toaletu.
+- **Denní bílá**: má jasný až lehce namodralý odstín, blíží se dennímu světlu. Často se používá ve **vhodně nasvícených pracovních prostorech**.
 
 ---
 
@@ -81,6 +81,6 @@ Barvy vznikají kombinací intenzity těchto složek:
 
 ### Zdroje
 
-- [Wikipedia – Světlo](https://cs.wikipedia.org/wiki/Světlo)  
-- [Wikipedia – RGB](https://cs.wikipedia.org/wiki/RGB)  
-- [ASB Portal – Světelná pohoda](https://www.asb-portal.cz/stavebnictvi/technicka-zarizeni-budov/osvetleni-a-elektroinstalace/svetelna-pohoda-ve-vnitrnim-prostredi)
+- [Wikipedia: Světlo](https://cs.wikipedia.org/wiki/Světlo)  
+- [Wikipedia: RGB](https://cs.wikipedia.org/wiki/RGB)  
+- [ASB Portal: Světelná pohoda](https://www.asb-portal.cz/stavebnictvi/technicka-zarizeni-budov/osvetleni-a-elektroinstalace/svetelna-pohoda-ve-vnitrnim-prostredi)

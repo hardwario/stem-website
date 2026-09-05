@@ -50,11 +50,11 @@ return msg;
 
 Potvrď to tlačítkem **Done**.
 
-3. Přidej vedle uzlu Náhodná volba ještě jeden uzel – **Delay** (najdeš ho také v sekci Function). Díky tomuto uzlu se odpověď trochu zpozdí a vytvoří se napínavá atmosféra. Baf! 😲
+3. Přidej vedle uzlu Náhodná volba ještě jeden uzel: **Delay** (najdeš ho také v sekci Function). Díky tomuto uzlu se odpověď trochu zpozdí a vytvoří se napínavá atmosféra. Baf! 😲
 
 <div class="container"> <div class="row"> <Image img={require('./img/bottle-party-game/bottle-party-game-4.webp')} alt="Delay uzel zvýrazněný v paletě, uzel delay 5s je umístěný za funkcí Random pick"/> </div> </div>
 
-4. Uvnitř uzlu nastav, aby bylo zpoždění náhodné – klikni na **random delay** a zvol čas v rozmezí **2 až 4 sekundy**. To bude tak akorát na udržení napětí ve vzduchu.
+4. Uvnitř uzlu nastav, aby bylo zpoždění náhodné: klikni na **random delay** a zvol čas v rozmezí **2 až 4 sekundy**. To bude tak akorát na udržení napětí ve vzduchu.
 
 <div class="container"> <div class="row"> <Image img={require('./img/bottle-party-game/bottle-party-game-5.webp')} alt="Dialog Edit delay node nastavený na náhodné zpoždění mezi 2 a 4 sekundami"/> </div> </div>
 
@@ -64,13 +64,13 @@ Potvrď to tlačítkem **Done**.
 
 <div class="container"> <div class="row"> <Image img={require('./img/bottle-party-game/bottle-party-game-6.webp')} alt="Change uzel zvýrazněný v paletě, uzel set msg.payload je umístěný nad losovacím flow"/> </div> </div>
 
-6. Otevři uzel dvojklikem a napiš svou zprávu – například: *Probíhá výběr…*
+6. Otevři uzel dvojklikem a napiš svou zprávu: například: *Probíhá výběr…*
 
 <div class="container"> <div class="row"> <Image img={require('./img/bottle-party-game/bottle-party-game-7.webp')} alt="Dialog Edit change node nastavující msg.payload na text Picking..."/> </div> </div>
 
 ## Nastav účastníky
 
-1. Tvoje loterie se neobejde bez tlačítka pro resetování tabulky – díky němu můžeš pokračovat ve hře. Pod uzel **MQTT** umísti **Button node**, tentokrát ze sekce **Dashboard**.
+1. Tvoje loterie se neobejde bez tlačítka pro resetování tabulky: díky němu můžeš pokračovat ve hře. Pod uzel **MQTT** umísti **Button node**, tentokrát ze sekce **Dashboard**.
 
 <div class="container"> <div class="row"> <Image img={require('./img/bottle-party-game/bottle-party-game-8.webp')} alt="Uzel button zvýrazněný v paletě dashboard a umístěný pod MQTT uzlem"/> </div> </div>
 
@@ -87,7 +87,7 @@ Potvrď to tlačítkem **Done**.
 4. V každém uzlu proveď následující nastavení:
    * Do pole **Label** napiš Účastník 1, Účastník 2, atd. podle počtu hráčů.
    * Do pole **Delay** zadej hodnotu 0.
-   * **Odškrtni** políčko hned pod ním – tím zajistíš, že se pole skutečně vymažou po stisknutí resetu.
+   * **Odškrtni** políčko hned pod ním: tím zajistíš, že se pole skutečně vymažou po stisknutí resetu.
 
 Opakuj tohle nastavení pro každý uzel s účastníkem.
 

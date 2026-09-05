@@ -15,16 +15,16 @@ Kurz je navržen tak, aby účastníky vedl od prvního zapojení modulu až po 
 
 Během kurzu projdete pět výukových lekcí, které kombinují teorii, praktické ukázky a vlastní experimenty:
 
-* Začínáme s TOWER – instalace prostředí, nahrání firmware, připojení senzoru.
-* Měření a vizualizace dat – práce s teplotou, vlhkostí, světlem a dalšími senzory.
-* Podmíněné reakce – logické uzly, reakce na vstupy, automatizace.
-* Ovládání výstupů – LED pásky, barevné efekty a interaktivní prvky.
+* Začínáme s TOWER: instalace prostředí, nahrání firmware, připojení senzoru.
+* Měření a vizualizace dat: práce s teplotou, vlhkostí, světlem a dalšími senzory.
+* Podmíněné reakce: logické uzly, reakce na vstupy, automatizace.
+* Ovládání výstupů: LED pásky, barevné efekty a interaktivní prvky.
 
 ## Co budete potřebovat
 
 * Počítač s **Windows 10 nebo novějším**, **macOS 15 nebo novějším**, nebo s **linuxovým desktopem** (podporováno je Ubuntu 24.04 / Fedora 42 nebo novější), jeden volný USB port a oprávnění instalovat software a USB ovladače.
-* **HARDWARIO Playground** — ke stažení zdarma; instalací vás provede Lekce 1.
-* Hardware HARDWARIO TOWER používaný v lekcích: **Radio Dongle, Core Module, Battery Module, Mini Battery Module, PIR Module, Climate Module, Button Module, LCD Module, Power Module, Cover Module**, USB kabel, LED pásek, DC adaptér a 3D tištěné kryty — a k tomu **šest baterií AAA** (čtyři do Battery Module, dvě do Mini Battery Module).
+* **HARDWARIO Playground**: ke stažení zdarma; instalací vás provede Lekce 1.
+* Hardware HARDWARIO TOWER používaný v lekcích: **Radio Dongle, Core Module, Battery Module, Mini Battery Module, PIR Module, Climate Module, Button Module, LCD Module, Power Module, Cover Module**, USB kabel, LED pásek, DC adaptér a 3D tištěné kryty a k tomu **šest baterií AAA** (čtyři do Battery Module, dvě do Mini Battery Module).
 * Připojení k internetu pro stažení softwaru. **Nejsou potřeba žádné účty ani cloudové služby.**
 
 ## Přínosy kurzu

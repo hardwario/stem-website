@@ -54,9 +54,9 @@ Hold onto your hat and let's move on. 🎩
 
 The temperature alert is delivered to your phone through the **Blynk IoT** app as a push notification. And that's exactly what makes the box smart. 😎
 
-1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device — you'll need all three. You can also reuse a template from a previous project.
+1. If you don't have one yet, create an account in [Blynk IoT](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). See [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) for how to set up your account, a device template, and a device. You'll need all three. You can also reuse a template from a previous project.
 
-2. In Blynk IoT, the alert isn't placed on the phone screen like a widget — it's sent as an **Event** defined on your template. On the template detail, open the **Events** tab and add a new event (for example, name it `kennel_temp` and give it the message you want to receive, such as _It is too cold in the kennel_). Then turn on **Notifications** for that event so Blynk delivers it to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
+2. In Blynk IoT, the alert isn't placed on the phone screen like a widget. It's sent as an **Event** defined on your template. On the template detail, open the **Events** tab and add a new event (for example, name it `kennel_temp` and give it the message you want to receive, such as _It is too cold in the kennel_). Then turn on **Notifications** for that event so Blynk delivers it to your phone. The [guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/) walks through the template settings.
 
 3. Download the **Blynk IoT app** on your phone from the [App Store](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [Google Play](https://play.google.com/store/apps/details?id=cloud.blynk) and sign in with the same account. Make sure notifications are allowed for the app so the alert can pop up. 📱 You first have to upgrade your Node-RED before it does anything, though.
 
@@ -163,4 +163,4 @@ In the node, set the **unit of measure** (°C), the **temperature range** (−15
   </div>
 </div>
 
-3. Above all, you get a **notification** on your mobile if your dog is too hot or cold — so you can check on the kennel anywhere, anytime. 🕵️ Happy dog = good dog! 🐕
+3. Above all, you get a **notification** on your mobile if your dog is too hot or cold, so you can check on the kennel anywhere, anytime. 🕵️ Happy dog = good dog! 🐕

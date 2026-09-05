@@ -93,4 +93,4 @@ Otočte **PIR Module** na bok. V sekci **Messages** by se měla objevit položka
 
 ## 7. Shrnutí
 
-✅ Modul je připojený, prostředí připravené — můžete začít měřit.
+✅ Modul je připojený, prostředí připravené. Můžete začít měřit.

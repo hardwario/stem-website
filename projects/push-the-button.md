@@ -106,7 +106,7 @@ In this step you set up **Blynk IoT** so your phone can receive notifications fr
 
 #### Step 1: Create a Blynk IoT account, template, and device
 
-If you don't have one yet, create an account in **Blynk IoT** and set up a device. The whole process — account, **template**, **datastreams**, and **device** — is described in [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). You can reuse a template from a previous project if you have one.
+If you don't have one yet, create an account in **Blynk IoT** and set up a device. The whole process (account, **template**, **datastreams**, and **device**) is described in [this guide](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). You can reuse a template from a previous project if you have one.
 
 Then download the **Blynk IoT** app to your phone from the [**App Store**](https://apps.apple.com/us/app/blynk-iot/id1559317868) or [**Google Play**](https://play.google.com/store/apps/details?id=cloud.blynk) and sign in with the same credentials.
 

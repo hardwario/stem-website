@@ -103,7 +103,7 @@ V tomto kroku nastavíte **Blynk IoT**, aby váš telefon mohl přijímat oznám
 
 #### Krok 1: Vytvořte účet, šablonu a zařízení v Blynk IoT
 
-Pokud ještě účet nemáte, vytvořte si ho v **Blynk IoT** a nastavte zařízení. Celý postup — účet, **šablona** (template), **datastreamy** a **zařízení** — je popsán v [této příručce](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). Pokud již máte šablonu z předchozího projektu, můžete ji znovu použít.
+Pokud ještě účet nemáte, vytvořte si ho v **Blynk IoT** a nastavte zařízení. Celý postup, tedy účet, **šablona** (template), **datastreamy** a **zařízení**, je popsán v [této příručce](https://docs.hardwario.com/tower/platform-integrations/blynk-app/). Pokud již máte šablonu z předchozího projektu, můžete ji znovu použít.
 
 Poté si do telefonu stáhněte aplikaci **Blynk IoT** z [**App Store**](https://apps.apple.com/us/app/blynk-iot/id1559317868) nebo [**Google Play**](https://play.google.com/store/apps/details?id=cloud.blynk) a přihlaste se stejnými údaji.
 

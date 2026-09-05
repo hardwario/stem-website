@@ -45,7 +45,7 @@ Formát Tag modulů stavebnice TOWER je určen pro I²C periferie typu senzor, p
 </div>
 *Zapojení signálů na 5pinovém konektoru*
 
-**Humidity Tag** používá velmi přesný digitální senzor vlhkosti a teploty SHT20 s přesností měření ±3 % u relativní vlhkosti (v rozmezí od 20 % do 80 %) a ±0,3 °C u teploty (rozmezí 5 - 60 °C).
+**Humidity Tag** používá velmi přesný digitální senzor vlhkosti a teploty SHT20 s přesností měření ±3 % u relativní vlhkosti (v rozmezí od 20 % do 80 %) a ±0,3 °C u teploty (rozmezí 5–60 °C).
 
 ##### Moduly v sestavě:
 
@@ -98,7 +98,7 @@ Stáhněte si aplikaci [HARDWARIO Playground](https://github.com/hardwario/hardw
 
 * Do nabízeného pole vložte nakopírovaný flow z Clipboardu a zvolte Import
 * Změny potvrďte stiskem Deploy
-* Přepněte se na záložku Dashboard, pokud vše proběhlo správně, tak byste měli vidět v menu dvě tabulky - Charts, resp. Gauges. A v tabulkách pak vidět teplotu a vlhkost jako budíky a grafy. 
+* Přepněte se na záložku Dashboard, pokud vše proběhlo správně, tak byste měli vidět v menu dvě tabulky: Charts, resp. Gauges. A v tabulkách pak vidět teplotu a vlhkost jako budíky a grafy. 
 
 <div class="container">
   <div class="row">

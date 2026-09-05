@@ -299,7 +299,7 @@
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}",
+    "message": "{authorName} ({nPosts})",
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
@@ -352,7 +352,7 @@
     "message": "Vzdělávací platforma pro výuku STEM ve školách"
   },
   "homepage.metaDescription": {
-    "message": "Vzdělávací platforma STEM pro školy — praktické lekce a projekty IoT se stavebnicí HARDWARIO TOWER."
+    "message": "Vzdělávací platforma STEM pro školy: praktické lekce a projekty IoT se stavebnicí HARDWARIO TOWER."
   },
   "Projects and Tutorials": {
     "message": "Projekty a návody"
@@ -363,7 +363,7 @@
   "TOWER Mini Course": {
     "message": "TOWER Mini kurz"
   },
-  "Discover the Internet of Things with the HARDWARIO TOWER. We’ll guide you through programming and communication protocols—with solder-free, low-voltage assembly.": {
+  "Discover the Internet of Things with the HARDWARIO TOWER. We’ll guide you through programming and communication protocols, with solder-free, low-voltage assembly.": {
     "message": "Pojďte pochopit internet věcí se stavebnicí HARDWARIO TOWER. Programování vás naučíme, komunikační protokoly také. Stavebnici sestavíte bez pájení, jen s nízkým napětím."
   },
   "Co-financed by the Liberec Region": {

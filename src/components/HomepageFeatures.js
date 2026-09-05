@@ -14,7 +14,7 @@ const FeatureList = [
     height: 200,
     description: (
       <Translate>
-        Discover the Internet of Things with the HARDWARIO TOWER. We’ll guide you through programming and communication protocols—with solder-free, low-voltage assembly.
+        Discover the Internet of Things with the HARDWARIO TOWER. We’ll guide you through programming and communication protocols, with solder-free, low-voltage assembly.
       </Translate>
     ),
   },

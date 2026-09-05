@@ -34,8 +34,8 @@ V aplikaci Playground si vytvoříme vzorový flow zobrazující váhu studentů
     c. propojte bubliny provázkem
 
     d. potvrďte Deploy
-3. V záložce Messages se přihlaste k odběru zpráv cesko/# (pozor - nejdříve smažte křížkem bridge/#)
-4. Pošlete zprávu s vaším tokenem a payloadem - váhou v kg
+3. V záložce Messages se přihlaste k odběru zpráv cesko/# (pozor: nejdříve smažte křížkem bridge/#)
+4. Pošlete zprávu s vaším tokenem a payloadem: váhou v kg
 5. Přejděte na záložku Dashboard a měli byste vidět vaší váhu
 
 <div class="container">

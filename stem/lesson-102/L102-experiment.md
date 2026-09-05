@@ -30,8 +30,8 @@ In Playground, we will create a flow pattern showing the weight of the students.
     b. insert dashboard text (double click on the bubble to change Label to weight + confirm Done)
     c. connect the bubbles with a string
     d. confirm Deploy
-3. In the Messages tab, subscribe to messages cesko/# (note - first delete the bridge/# cross)
-4. Send a message with your token and payload - weight in kg
+3. In the Messages tab, subscribe to messages cesko/# (note: first delete the bridge/# cross)
+4. Send a message with your token and payload: weight in kg
 5. Go to the Dashboard tab and you should see your weight
 
 <div class="container">

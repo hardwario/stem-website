@@ -42,7 +42,7 @@ Studenti si zkoušejí další projekty, které jsou svázány s daným tématem
   >
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <div>
-        <strong>HARDWARIO Non-Invasive Monitoring - Climate Monitor</strong>
+        <strong>HARDWARIO Non-Invasive Monitoring – Climate Monitor</strong>
         <br />
         <small>Hackster.io</small>
       </div>

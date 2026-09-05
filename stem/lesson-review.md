@@ -11,7 +11,7 @@ title: Time Allocation
 
 Welcome students and presentation of the lesson. Introduction to individual phases of the lesson according to the pedagogical framework. Mutual introduction of students and their expectations and needs.
 
-**Time allocation:** 0 - 5 mins. 
+**Time allocation:** 0–5 mins. 
 
 ## Theoretical Preparation
 
@@ -51,5 +51,5 @@ Students present their IoT projects or ideas to others. The lecturer and other s
 
 Verbal evaluation of the presented projects by the group. Recapitulation of the fulfilment of teaching objectives by the lecturer Knowledge test and 3-2-1 assessment.
 
-**Time allocation: All modules:** 0 - 5 mins.
+**Time allocation: All modules:** 0–5 mins.
 
