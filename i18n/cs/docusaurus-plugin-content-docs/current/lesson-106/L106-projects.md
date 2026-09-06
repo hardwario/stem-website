@@ -1,6 +1,7 @@
 ---
 slug: iot-vibration-monitor-projects
 title: Projekty
+title_meta: "Projekty (L106: IoT monitor vibrací)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: iot-temperature-and-humidity-monitor-presentation
 title: Prezentace
+title_meta: "Prezentace (L104: IoT teploměr a vlhkoměr)"
 ---
 import Image from '@theme/IdealImage';
 

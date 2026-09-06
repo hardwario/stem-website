@@ -1,6 +1,7 @@
 ---
 slug: iot-vibration-monitor-experiment
 title: Experiment
+title_meta: "Experiment (L106: IoT monitor vibrací)"
 ---
 import Image from '@theme/IdealImage';
 

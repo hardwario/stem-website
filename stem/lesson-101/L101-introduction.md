@@ -1,6 +1,7 @@
 ---
 slug: what-is-iot-introduction
 title: Introduction
+title_meta: "Introduction (L101: What is the Internet of Things - IoT)"
 ---
 import Image from '@theme/IdealImage';
 

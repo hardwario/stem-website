@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-experiment
 title: Experiment
+title_meta: "Experiment (L108: IoT Pulse Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

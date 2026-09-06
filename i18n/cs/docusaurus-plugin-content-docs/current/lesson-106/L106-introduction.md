@@ -1,6 +1,7 @@
 ---
 slug: iot-vibration-monitor-introduction
 title: Úvod
+title_meta: "Úvod (L106: IoT monitor vibrací)"
 ---
 import Image from '@theme/IdealImage';
 

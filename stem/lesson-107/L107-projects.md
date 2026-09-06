@@ -1,6 +1,7 @@
 ---
 slug: iot-light-monitor-projects
 title: Projects
+title_meta: "Projects (L107: IoT Light Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

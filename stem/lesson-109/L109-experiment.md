@@ -1,6 +1,7 @@
 ---
 slug: iot-soil-monitor-experiment
 title: Experiment
+title_meta: "Experiment (L109: IoT Soil Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

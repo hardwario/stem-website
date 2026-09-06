@@ -1,6 +1,7 @@
 ---
 slug: hardwario-tower-iot-kit-presentation
 title: Presentation
+title_meta: "Presentation (L102: IoT kits HARDWARIO TOWER)"
 ---
 import Image from '@theme/IdealImage';
 

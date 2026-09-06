@@ -1,6 +1,7 @@
 ---
 slug: hardwario-tower-iot-kit-theory
 title: Theory
+title_meta: "Theory (L102: IoT kits HARDWARIO TOWER)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: hardwario-tower-iot-kit-application
 title: Projects
+title_meta: "Projects (L102: IoT kits HARDWARIO TOWER)"
 ---
 import Image from '@theme/IdealImage';
 

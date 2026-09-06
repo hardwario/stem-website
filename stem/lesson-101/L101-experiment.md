@@ -1,6 +1,7 @@
 ---
 slug: what-is-iot-experiment
 title: Experiment
+title_meta: "Experiment (L101: What is the Internet of Things - IoT)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: iot-light-monitor-introduction
 title: Úvod
+title_meta: "Úvod (L107: IoT osvětlení)"
 ---
 import Image from '@theme/IdealImage';
 

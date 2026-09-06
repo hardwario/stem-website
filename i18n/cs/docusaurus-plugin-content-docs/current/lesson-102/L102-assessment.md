@@ -1,6 +1,7 @@
 ---
 slug: hardwario-tower-iot-kit-assessment
 title: Hodnocení
+title_meta: "Hodnocení (L102: IoT stavebnice HARDWARIO TOWER)"
 ---
 import Image from '@theme/IdealImage';
 

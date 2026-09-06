@@ -1,6 +1,7 @@
 ---
 slug: iot-light-monitor-presentation
 title: Presentation
+title_meta: "Presentation (L107: IoT Light Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

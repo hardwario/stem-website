@@ -1,6 +1,7 @@
 ---
 slug: what-is-iot-application
 title: Projects
+title_meta: "Projects (L101: What is the Internet of Things - IoT)"
 ---
 import Image from '@theme/IdealImage';
 

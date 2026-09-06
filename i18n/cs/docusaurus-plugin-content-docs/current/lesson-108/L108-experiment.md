@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-experiment
 title: Experiment
+title_meta: "Experiment (L108: IoT čítač impulzů)"
 ---
 import Image from '@theme/IdealImage';
 

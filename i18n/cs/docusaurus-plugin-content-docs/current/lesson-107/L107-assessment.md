@@ -1,6 +1,7 @@
 ---
 slug: iot-light-monitor-assessment
 title: Hodnocení
+title_meta: "Hodnocení (L107: IoT osvětlení)"
 ---
 import Image from '@theme/IdealImage';
 

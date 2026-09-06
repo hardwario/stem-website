@@ -1,6 +1,7 @@
 ---
 slug: iot-indoor-air-quality-monitor-assessment
 title: Assessment
+title_meta: "Assessment (L105: IoT Indoor Air Quality Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: iot-indoor-air-quality-monitor-theory
 title: Theory
+title_meta: "Theory (L105: IoT Indoor Air Quality Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-presentation
 title: Prezentace
+title_meta: "Prezentace (L108: IoT čítač impulzů)"
 ---
 import Image from '@theme/IdealImage';
 

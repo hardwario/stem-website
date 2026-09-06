@@ -1,6 +1,7 @@
 ---
 slug: iot-soil-monitor-introduction
 title: Úvod
+title_meta: "Úvod (L109: IoT monitor půdy)"
 ---
 import Image from '@theme/IdealImage';
 

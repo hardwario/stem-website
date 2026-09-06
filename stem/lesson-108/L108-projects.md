@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-projects
 title: Projects
+title_meta: "Projects (L108: IoT Pulse Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

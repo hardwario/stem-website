@@ -1,6 +1,7 @@
 ---
 slug: hardwario-tower-iot-kit-introduction
 title: Úvod
+title_meta: "Úvod (L102: IoT stavebnice HARDWARIO TOWER)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-projects
 title: Projekty
+title_meta: "Projekty (L108: IoT čítač impulzů)"
 ---
 import Image from '@theme/IdealImage';
 

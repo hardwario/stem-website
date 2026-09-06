@@ -1,6 +1,7 @@
 ---
 slug: iot-temperature-and-humidity-monitor-theory
 title: Teorie
+title_meta: "Teorie (L104: IoT teploměr a vlhkoměr)"
 ---
 import Image from '@theme/IdealImage';
 

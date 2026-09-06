@@ -1,6 +1,7 @@
 ---
 slug: iot-soil-monitor-theory
 title: Teorie
+title_meta: "Teorie (L109: IoT monitor půdy)"
 ---
 import Image from '@theme/IdealImage';
 

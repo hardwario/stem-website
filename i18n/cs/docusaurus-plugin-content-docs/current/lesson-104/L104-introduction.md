@@ -1,6 +1,7 @@
 ---
 slug: iot-temperature-and-humidity-monitor-introduction
 title: Úvod
+title_meta: "Úvod (L104: IoT teploměr a vlhkoměr)"
 ---
 import Image from '@theme/IdealImage';
 

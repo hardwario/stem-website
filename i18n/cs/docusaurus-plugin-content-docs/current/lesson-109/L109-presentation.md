@@ -1,6 +1,7 @@
 ---
 slug: iot-soil-monitor-presentation
 title: Prezentace
+title_meta: "Prezentace (L109: IoT monitor půdy)"
 ---
 import Image from '@theme/IdealImage';
 

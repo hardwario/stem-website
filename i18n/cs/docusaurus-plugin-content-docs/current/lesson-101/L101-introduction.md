@@ -1,6 +1,7 @@
 ---
 slug: what-is-iot-introduction
 title: Úvod
+title_meta: "Úvod (L101: Co je to Internet věcí - IoT)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-assessment
 title: Assessment
+title_meta: "Assessment (L108: IoT Pulse Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

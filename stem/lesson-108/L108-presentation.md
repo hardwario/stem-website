@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-presentation
 title: Presentation
+title_meta: "Presentation (L108: IoT Pulse Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

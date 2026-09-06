@@ -1,6 +1,7 @@
 ---
 slug: iot-soil-monitor-assessment
 title: Assessment
+title_meta: "Assessment (L109: IoT Soil Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

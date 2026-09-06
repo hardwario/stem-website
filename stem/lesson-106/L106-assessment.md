@@ -1,6 +1,7 @@
 ---
 slug: iot-vibration-monitor-assessment
 title: Assessment
+title_meta: "Assessment (L106: IoT Vibration Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

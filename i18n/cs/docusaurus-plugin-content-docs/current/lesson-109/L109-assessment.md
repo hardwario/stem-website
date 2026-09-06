@@ -1,6 +1,7 @@
 ---
 slug: iot-soil-monitor-assessment
 title: Hodnocení
+title_meta: "Hodnocení (L109: IoT monitor půdy)"
 ---
 import Image from '@theme/IdealImage';
 

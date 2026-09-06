@@ -1,6 +1,7 @@
 ---
 slug: iot-temperature-and-humidity-monitor-application
 title: Projects
+title_meta: "Projects (L104: IoT Thermometer and Hygrometer)"
 ---
 import Image from '@theme/IdealImage';
 

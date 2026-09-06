@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-theory
 title: Teorie
+title_meta: "Teorie (L108: IoT čítač impulzů)"
 ---
 import Image from '@theme/IdealImage';
 

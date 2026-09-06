@@ -1,6 +1,7 @@
 ---
 slug: iot-vibration-monitor-theory
 title: Theory
+title_meta: "Theory (L106: IoT Vibration Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

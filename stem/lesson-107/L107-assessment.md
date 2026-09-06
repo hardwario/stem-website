@@ -1,6 +1,7 @@
 ---
 slug: iot-light-monitor-assessment
 title: Assessment
+title_meta: "Assessment (L107: IoT Light Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

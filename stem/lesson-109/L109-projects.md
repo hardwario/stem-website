@@ -1,6 +1,7 @@
 ---
 slug: iot-soil-monitor-projects
 title: Projects
+title_meta: "Projects (L109: IoT Soil Monitor)"
 ---
 import Image from '@theme/IdealImage';
 import React from 'react';

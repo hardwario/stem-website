@@ -1,6 +1,7 @@
 ---
 slug: hardwario-tower-iot-kit-experiment
 title: Experiment
+title_meta: "Experiment (L102: IoT kits HARDWARIO TOWER)"
 ---
 import Image from '@theme/IdealImage';
 

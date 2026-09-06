@@ -1,6 +1,7 @@
 ---
 slug: iot-push-button-assessment
 title: Hodnocení
+title_meta: "Hodnocení (L103: IoT tlačítko)"
 ---
 import Image from '@theme/IdealImage';
 

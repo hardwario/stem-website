@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-theory
-title: Teorie
+title: Theory
+title_meta: "Theory (L108: IoT Pulse Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

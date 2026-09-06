@@ -1,6 +1,7 @@
 ---
 slug: iot-pulse-monitor-assessment
 title: Hodnocení
+title_meta: "Hodnocení (L108: IoT čítač impulzů)"
 ---
 import Image from '@theme/IdealImage';
 

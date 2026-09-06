@@ -1,6 +1,7 @@
 ---
 slug: iot-temperature-and-humidity-monitor-introduction
 title: Introduction
+title_meta: "Introduction (L104: IoT Thermometer and Hygrometer)"
 ---
 import Image from '@theme/IdealImage';
 

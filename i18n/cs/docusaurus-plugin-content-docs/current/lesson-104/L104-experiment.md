@@ -1,6 +1,7 @@
 ---
 slug: iot-temperature-and-humidity-monitor-experiment
 title: Experiment
+title_meta: "Experiment (L104: IoT teploměr a vlhkoměr)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: iot-temperature-and-humidity-monitor-assessment
 title: Hodnocení
+title_meta: "Hodnocení (L104: IoT teploměr a vlhkoměr)"
 ---
 import Image from '@theme/IdealImage';
 

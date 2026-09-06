@@ -1,6 +1,7 @@
 ---
 slug: iot-indoor-air-quality-monitor-application
 title: Projekty
+title_meta: "Projekty (L105: IoT monitor kvality vnitřního klimatu)"
 ---
 import Image from '@theme/IdealImage';
 

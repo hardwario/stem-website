@@ -1,6 +1,7 @@
 ---
 slug: what-is-iot-assessment
 title: Assessment
+title_meta: "Assessment (L101: What is the Internet of Things - IoT)"
 ---
 import Image from '@theme/IdealImage';
 

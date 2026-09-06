@@ -1,6 +1,7 @@
 ---
 slug: iot-soil-monitor-presentation
 title: Presentation
+title_meta: "Presentation (L109: IoT Soil Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: iot-light-monitor-theory
 title: Teorie
+title_meta: "Teorie (L107: IoT osvětlení)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: what-is-iot-theory
 title: Theory
+title_meta: "Theory (L101: What is the Internet of Things - IoT)"
 ---
 import Image from '@theme/IdealImage';
 

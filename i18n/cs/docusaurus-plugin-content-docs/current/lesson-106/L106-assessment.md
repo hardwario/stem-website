@@ -1,6 +1,7 @@
 ---
 slug: iot-vibration-monitor-assessment
 title: Hodnocení
+title_meta: "Hodnocení (L106: IoT monitor vibrací)"
 ---
 import Image from '@theme/IdealImage';
 

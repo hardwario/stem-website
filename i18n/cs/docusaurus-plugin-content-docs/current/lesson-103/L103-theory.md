@@ -1,6 +1,7 @@
 ---
 slug: iot-push-button-theory
 title: Teorie
+title_meta: "Teorie (L103: IoT tlačítko)"
 ---
 import Image from '@theme/IdealImage';
 

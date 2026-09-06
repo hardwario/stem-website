@@ -1,6 +1,7 @@
 ---
 slug: iot-indoor-air-quality-monitor-presentation
 title: Prezentace
+title_meta: "Prezentace (L105: IoT monitor kvality vnitřního klimatu)"
 ---
 import Image from '@theme/IdealImage';
 

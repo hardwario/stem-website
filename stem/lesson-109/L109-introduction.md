@@ -1,6 +1,7 @@
 ---
 slug: iot-soil-monitor-introduction
 title: Introduction
+title_meta: "Introduction (L109: IoT Soil Monitor)"
 ---
 import Image from '@theme/IdealImage';
 

@@ -1,6 +1,7 @@
 ---
 slug: iot-push-button-application
 title: Projects
+title_meta: "Projects (L103: IoT button)"
 ---
 import Image from '@theme/IdealImage';
 
