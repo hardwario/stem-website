@@ -202,7 +202,7 @@ const config = {
               },
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/hardwario',
+                href: 'https://www.linkedin.com/company/hardwario/',
               },
               {
                 label: 'X (Twitter) (EN)',
